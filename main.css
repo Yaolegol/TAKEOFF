@@ -843,12 +843,9 @@ li:nth-child(even) .third-block-content {
 
 .fourth-block__content {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    top: 50%;    
+    left: 50%;    
+    transform: translate(-50%, -50%);
     width: 1170px;
-    height: 215px;
-    margin: auto;
+    height: 215px;    
 }
-  
