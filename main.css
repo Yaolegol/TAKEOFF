@@ -978,12 +978,15 @@ li:nth-child(even) .third-block-content {
     vertical-align: top;
     border: 1px solid #eeeeee;
     font-size: 0;
+    box-shadow: 0 5px 5px 0px #f4f4f4;
 }
 .fifth-block-conteiner__item:first-child {
     margin-left: 0;
+    box-shadow: none;
 }
 .fifth-block-conteiner__item:last-child {
     margin-right: 0;
+    box-shadow: none;
 }
 .fifth-block-conteiner__img{
     width: 100%;
@@ -1021,7 +1024,7 @@ li:nth-child(even) .third-block-content {
     color: #474747;
 }
 .fifth-block-conteiner__p {
-    padding: 0 0 15px 0;
+    padding: 0 35px 15px;
     margin: 0;
 }
 .fifth-block-conteiner__a {
