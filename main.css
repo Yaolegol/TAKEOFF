@@ -1110,6 +1110,7 @@ li:nth-child(even) .third-block-content {
     width: 371px;
     height: 255px;
     margin: 0 15px;
+    display: inline-block;
 }
 .logo {
     font-size: 0;    
