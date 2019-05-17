@@ -111,9 +111,6 @@ html, body {
     color: hsl(0, 0%, 47%);
     overflow: hidden;    
 }
-.header-top-nav-item-a_activ {
-    
-}
 .nav-1 {
     width: 80px;
 }
@@ -137,7 +134,6 @@ html, body {
     color: hsl(0, 0%, 15%);
     text-decoration-line: underline;
 }
-
 
 
 
