@@ -102,13 +102,17 @@ html, body {
     overflow: hidden;    
 }
 .header-top-nav-item-a {
-    text-decoration: none;    
+    text-decoration: none;   
+    text-transform: uppercase; 
     font-family: 'Lato', sans-serif;    
     letter-spacing: 0.14px;
     font-size: 14px;
     font-weight: bold;      
-    color: #797979;
+    color: hsl(0, 0%, 47%);
     overflow: hidden;    
+}
+.header-top-nav-item-a_activ {
+    color: hsl(0, 0%, 20%);
 }
 .nav-1 {
     width: 80px;
@@ -129,9 +133,8 @@ html, body {
     width: 69px;
     margin-left: 30px;
 }
-.header-top-nav-item-a:hover {
-    font-size: 14.5px;
-    color: #505050;
+.header-top-nav-item-a:hover {    
+    color: hsl(0, 0%, 20%);
 }
 
 
