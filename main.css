@@ -112,7 +112,7 @@ html, body {
     overflow: hidden;    
 }
 .header-top-nav-item-a_activ {
-    color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 15%);     
 }
 .nav-1 {
     width: 80px;
@@ -134,7 +134,8 @@ html, body {
     margin-left: 30px;
 }
 .header-top-nav-item-a:hover {    
-    color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 15%);
+    text-decoration-line: underline;
 }
 
 
@@ -171,7 +172,7 @@ html, body {
     box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
 }
 .header-top-bts-1:hover {
-    background-color: hsl(39, 94%, 69%);
+    background-color: hsl(39, 100%, 55%);
 }
 .header-top-bts-1:focus, .header-top-bts-1:active {
     outline: none;
@@ -283,7 +284,7 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 .header-top-bts-3:hover {
-    background-color: hsl(39, 94%, 69%);
+    background-color: hsl(39, 100%, 50%);
 }
 .header-top-bts-3:focus, .header-top-bts-3:active {
     outline: none;
@@ -642,7 +643,7 @@ html, body {
     box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
 }
 .header-top-bts-5:hover {
-    background-color: hsl(39, 94%, 69%);
+    background-color: hsl(39, 100%, 50%);
 }
 .header-top-bts-5:focus, .header-top-bts-5:active {
     outline: none;
@@ -1065,10 +1066,13 @@ li:nth-child(even) .third-block-content {
     align-items: center;
     margin: 0 auto;   
 }
-.fifth-block-container__a_activ{
+.fifth-block-container__a_activ {
     color: #f9ba48;
 }
-.fifth-block-container__a p{
+.fifth-block-container__a_activ .fifth-block-container__read-more {      
+    background-image: url(src/img/fifth-block-read-more-arrow.png);
+}
+.fifth-block-container__a p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px; 
     font-weight: 700;     
@@ -1078,6 +1082,18 @@ li:nth-child(even) .third-block-content {
     margin-right: 15px;  
 }
 
+.fifth-block-container__read-more {  
+    height: 15px;
+    width: 10px;  
+    background-image: url(src/img/fifth-block-read-more-arrow-not-activ.png);
+    background-repeat: no-repeat;    
+}
+.fifth-block-container__a:hover .fifth-block-container__read-more {      
+    background-image: url(src/img/fifth-block-read-more-arrow.png);    
+}
+.fifth-block-container__a:hover p {      
+    color: #f9ba48;    
+}
 
 
 
@@ -1338,7 +1354,7 @@ li:nth-child(even) .third-block-content {
     box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
 }
 .buttons-block__apple-btn:hover {
-    background-color: hsl(39, 94%, 69%);
+    background-color: hsl(39, 100%, 50%);
 }
 .buttons-block__apple-btn:focus, .buttons-block__apple-btn:active {
     outline: none;
