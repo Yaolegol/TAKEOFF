@@ -715,7 +715,7 @@ html, body {
     width: 470px;    
     text-align: right; 
     font-size: 0;   
-    vertical-align: top;
+    vertical-align: top;    
 }
 .third-block__main-img {
     position: absolute; 
@@ -724,7 +724,8 @@ html, body {
     height: 100%;
     width: 341px;
     z-index: 1;
-    vertical-align: top;    
+    vertical-align: top;
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.15)    
 }
 li:nth-child(even) .third-block__main-img {
     left: 0px;
@@ -737,6 +738,7 @@ li:nth-child(even) .third-block__main-img {
     width: 257px;
     z-index: 0;
     vertical-align: top;
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.15)
 }
 li:nth-child(even) .third-block__second-img {
     left: 216px;
