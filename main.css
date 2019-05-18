@@ -1065,7 +1065,16 @@ li:nth-child(even) .third-block-content {
     margin: 0;
     margin-top: 35px;
 }
-.fifth-block-container__h4_activ{
+.fifth-block-container__h4:hover {
+    color: #f9ba48;
+}
+.fifth-block-container__h4:hover ~.fifth-block-container__a p {
+    color: #f9ba48;    
+}
+.fifth-block-container__h4:hover ~.fifth-block-container__a div {      
+    background-image: url(src/img/fifth-block-read-more-arrow.png);
+}
+.fifth-block-container__h4_activ {
     color: #f9ba48;
 }
 .fifth-block-container__admin-p {
@@ -1119,6 +1128,7 @@ li:nth-child(even) .third-block-content {
 .fifth-block-container__a:hover p {      
     color: #f9ba48;    
 }
+
 
 
 
