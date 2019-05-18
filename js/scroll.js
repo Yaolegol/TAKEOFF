@@ -24,4 +24,10 @@ $(document).ready(function() {
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000, "easeInCirc");
         e.preventDefault();
       });
+
+
+    
+
+
+
  });
