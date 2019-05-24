@@ -117,16 +117,15 @@ html, body {
 
 
 .header-bottom {    
-    margin: 0 auto;       
+    margin: 0 auto;  
+    padding-left: 130px;     
     height: 910px;
     width: 1920px;
 }
-
 .header-bottom-wrap {
     position: relative;    
     height: 100%;
-    width: 100%;
-    margin-left: 130px;
+    width: 100%;    
     background-color: #ffffff;    
 }
 .header-bottom-wrap__overlay {
@@ -146,18 +145,15 @@ html, body {
 .header-bottom-wrap__second-img-wrap {
     position: absolute;
     top: 111px;
-    left: 1045px;    
-    width: 371px;
-    height: 656px;
+    left: 1045px; 
     z-index: 100;
 }
 .second-img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 370px;
+    height: 655px;
 }
-
-.second-img img {    
+.second-img__main-img {    
     position: absolute;
     left: 0;
     top: 0;
@@ -165,52 +161,48 @@ html, body {
     height: 100%;
     z-index: 110;
 }
-.Rectangle_1_copy {
+.second-img__first-el {    
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 350px;
+    height: 655px;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 11px;
-    top: 44px;
-    width: 350px;
-    height: 622px;
     z-index: 109;
   }
-  .Rectangle_2_copy {
+  .second-img__second-el {    
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 330px;
+    height: 655px;
     background-color: rgb(255, 255, 255);
     opacity: 0.6;
     box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 20px;
-    top: 90px;
-    width: 330px;
-    height: 586px;
     z-index: 108;
   }
-  .Rectangle_3_copy {
+  .second-img__third-el {    
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 310px;
+    height: 655px;
     background-color: rgb(255, 255, 255);
     opacity: 0.4;
     box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 30px;
-    top: 137px;
-    width: 310px;
-    height: 549px;
     z-index: 107;
   }  
 
-
-
-
-
-.header-bottom-wrap__text {
+.header-bottom-wrap__text-wrap {
     position: absolute;    
     top: 306px;
     left: 245px;
     text-align: left;    
     z-index: 11;    
 }
-.header-bottom-text-primery {
+.header-bottom-wrap__text-primery {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 46px;
@@ -218,7 +210,7 @@ html, body {
     color: #ffffff;
     font-weight: 800;
 }
-.header-bottom-text-parag {
+.header-bottom-wrap__text-secondary {
     font-family: 'Lato', sans-serif;
     font-size: 16px;  
     font-style: italic;
@@ -226,60 +218,71 @@ html, body {
     line-height: 26px;
     letter-spacing: 0.16px;
 }
-
-.header-top-bts-3 {
+.header-bottom-wrap__btns-wrap {
     margin-top: 32px;
+}
+.header-bottom-btns {
+    display: inline-block;    
+}
+.header-bottom-btns__wrap {
+    display: flex;    
+    justify-content: center;
+}
+.header-bottom-btns__apple-btn {    
     margin-right: 30px;
+    padding: 0;
     width: 170px;
     height: 60px;
-    background-color: hsl(39, 94%, 63%);
     border: none;
-    border-radius: 5px;
+    border-radius: 5px;    
     color: #ffffff;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    background-color: hsl(39, 94%, 63%);        
+    display: flex;    
+    justify-content: center;
+    align-items: center;
 }
-.header-top-bts-3:hover {
+.header-bottom-btns__apple-btn:hover {
     background-color: hsl(39, 100%, 50%);
 }
-.header-top-bts-3:focus, .header-top-bts-3:active {
+.header-bottom-btns__apple-btn:focus, .header-bottom-btns__apple-btn:active {
     outline: none;
 }
-.header-top-bts-3-appleLogo {
-    height: 25px;
-    width: 20px;
-    float: left;
-    margin-top: 1%;
-    margin-left: 22px;    
+.header-bottom-btns__apple-logo {
+    margin-right: 9px;
+    height: 24px;
+    width: 20px;              
 }
-.header-top-bts-3-text {
-    margin-top: 1%;
-    width: 100px;
+.header-bottom-btns__apple-text {    
+    width: 99px;
     height: 27px;
 }
-.header-top-bts-4 {
-    margin-top: 32px;    
+.header-bottom-btns__gplay-btn {     
     width: 170px;
     height: 60px;
     background-color: hsl(190, 81%, 19%);
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 0;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
-.header-top-bts-4:hover {
+.header-bottom-btns__gplay-logo {
+    margin-right: 11px;
+    height: 24px;
+    width: 22px;   
+}
+.header-bottom-btns__gplay-text {    
+    width: 85px;
+    height: 27px;
+}
+.header-bottom-btns__gplay-btn:hover {
     background-color: hsl(190, 81%, 25%);
 }
-.header-top-bts-4:focus, .header-top-bts-4:active {
+.header-bottom-btns__gplay-btn:focus, .header-bottom-btns__gplay-btn:active {
     outline: none;
 }
 
