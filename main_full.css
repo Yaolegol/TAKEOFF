@@ -117,49 +117,98 @@ html, body {
 
 
 .header-bottom {    
-    margin: 0 auto;
-    width: 1920px;   
-    height: 910px;    
-    text-align: center;
-    overflow: hidden;        
+    margin: 0 auto;       
+    height: 910px;
+    width: 1920px;
 }
 
 .header-bottom-wrap {
-    position: relative;
-    margin: 0 auto;
+    position: relative;    
     height: 100%;
-    width: 1920px;
+    width: 100%;
+    margin-left: 130px;
     background-color: #ffffff;    
 }
-.header-bottom-img-wrap {
-    position: relative;
-    width: 1790px;
+.header-bottom-wrap__overlay {
+    position: absolute;
+    background-color: rgb(18, 11, 51);
+    opacity: 0.702;
+    left: 0px;
+    top: 0px;
+    width: 100%;
     height: 100%;
-    margin-left: 130px;
-}
-.header-bottom-img {
+    z-index: 10;
+  }
+.header-bottom-wrap__img {
     height: 100%;    
     width: 100%;    
 }
-.main-img {  
-    position: absolute; 
-    top: 0px;
-    left: 0px;        
-    z-index: 1;       
+.header-bottom-wrap__second-img-wrap {
+    position: absolute;
+    top: 111px;
+    left: 1045px;    
+    width: 371px;
+    height: 656px;
+    z-index: 100;
 }
-.overflow-img {   
-    position: absolute; 
-    top: 0px;
-    left: 0px;
-    z-index: 2;       
+.second-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.header-bottom-text-wrap {
+.second-img img {    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 110;
+}
+.Rectangle_1_copy {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: 11px;
+    top: 44px;
+    width: 350px;
+    height: 622px;
+    z-index: 109;
+  }
+  .Rectangle_2_copy {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 330px;
+    height: 586px;
+    z-index: 108;
+  }
+  .Rectangle_3_copy {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.4;
+    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: 30px;
+    top: 137px;
+    width: 310px;
+    height: 549px;
+    z-index: 107;
+  }  
+
+
+
+
+
+.header-bottom-wrap__text {
     position: absolute;    
     top: 306px;
     left: 245px;
     text-align: left;    
-    z-index: 3;    
+    z-index: 11;    
 }
 .header-bottom-text-primery {
     text-transform: uppercase;
@@ -233,63 +282,6 @@ html, body {
 .header-top-bts-4:focus, .header-top-bts-4:active {
     outline: none;
 }
-
-.header-bottom-img-second-wrap {
-    position: absolute;
-    top: 111px;
-    left: 1045px;    
-    width: 371px;
-    height: 656px;
-    z-index: 100;
-}
-.header-bottom-img-second-wrap img {    
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 371px;
-    height: 656px;
-    z-index: 110;
-}
-.Rectangle_1_copy {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.8;
-    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 11px;
-    top: 44px;
-    width: 350px;
-    height: 622px;
-    z-index: 109;
-  }
-  .Rectangle_2_copy {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.6;
-    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 20px;
-    top: 90px;
-    width: 330px;
-    height: 586px;
-    z-index: 108;
-  }
-  .Rectangle_3_copy {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.4;
-    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    left: 30px;
-    top: 137px;
-    width: 310px;
-    height: 549px;
-    z-index: 107;
-  }  
-  
-  
-  
-
-
-
-
 
 
 
