@@ -678,7 +678,7 @@ li:nth-child(even) .third-block-content {
 }
 .fifth-block-container {
     height: 762px;
-    width: 1190px;
+    width: 1170px;
     margin: 0 auto;
     font-size: 0;
 }
@@ -758,19 +758,21 @@ li:nth-child(even) .third-block-content {
 .shadow{
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2); 
 }
+.shadow-middle-el {
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.05);
+}
 
 .owl-item {
-    margin: 0 15px 10px !important; 
-    /* margin-bottom: 10px; */
-       
+    margin-bottom: 100px ;
 }
 .owl-item:first-child {
-    margin-left: 10px !important;
+    margin-left: 10px;
+}
+.owl-item:last-child {
+    margin-right: 20px !important;
 }
 
-.active:first-child {
-    margin-left: 0;    
-}
+
 /* .active {     */
     /* box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.05); */
     /* box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);    
