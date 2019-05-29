@@ -14,6 +14,7 @@
     <script src="js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/carousel-toggle-class.js"></script>
     <link rel="stylesheet" href="main.css">
     <title>TAKEOFF</title>
 </head>
@@ -395,24 +396,24 @@
 
             <div class="fifth-block-container">
 
-                <div class="fifth-block-container__top">
+                <div class="fifth-block-container-top">
                     <div class="fifth-block-container__text">
                         <h2 class="fifth-block-container__h2">Resent News</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui optio error eligendi.<br>
+                        <p class="fifth-block-container__text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui optio error eligendi.<br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
 
                     </div>
 
-                    <div class="fifth-block-container__buttons">
-                        <button class="fifth-block-container__btn fifth-block-container__btn_disabled prev"
+                    <div class="fifth-block-container-buttons">
+                        <button class="fifth-block-container-buttons__btn fifth-block-container-buttons__btn_disabled prev"
                             type="button">
                             <img src="src/img/fifth-block-btn-left-img.png" alt="Left arrow"
-                                class="fifth-block-container__arrow">
+                                class="fifth-block-container-buttons__arrow">
                         </button>
-                        <button class="fifth-block-container__btn next" type="button">
+                        <button class="fifth-block-container-buttons__btn next" type="button">
                             <img src="src/img/fifth-block-btn-right-img.png" alt="Left arrow"
-                                class="fifth-block-container__arrow">
+                                class="fifth-block-container-buttons__arrow">
                         </button>
 
                     </div>
@@ -420,255 +421,147 @@
 
 
 
-                <!-- <div class="fifth-block-container__bottom owl-carousel">
+                <div class="fifth-block-container-bottom owl-carousel">
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img1.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4 fifth-block-container__h4_activ">20 Most Beatiful
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img1.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4 fifth-block-container-bottom-item__h4_activ">20 Most Beatiful
                                 Places</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a fifth-block-container__a_activ">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more fifth-block-container-bottom-item-read-more_activ">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img2.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Theme Parks in Dubai</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img2.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Theme Parks in Dubai</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-
-
-                </div> -->
-
-
-
-
-
-                <div class="fifth-block-container__bottom owl-carousel">
-
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img1.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4 fifth-block-container__h4_activ">20 Most Beatiful
-                                Places</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
-                            </a>
-                        </div>
-
-
-                    </div>
-
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img2.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Theme Parks in Dubai</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
-                                <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
 
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="fifth-block-container-bottom-item">
+                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container-bottom-item__img">
+                        <div class="fifth-block-container-bottom-item__content">
+                            <h4 class="fifth-block-container-bottom-item__h4">Getting Drencd in Rain</h4>
+                            <p class="fifth-block-container-bottom-item__posted-by">Posted By: Admin | 07 Sep, 2018 </p>
+                            <p class="fifth-block-container-bottom-item__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
+                            <a href="#" class="fifth-block-container-bottom-item-read-more">
                                 <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
+                                <div class="fifth-block-container-bottom-item-read-more__arrow"></div>
                             </a>
                         </div>
 
                     </div>
-
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
-                                <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="fifth-block-container__item">
-                        <img src="src/img/fifth-block-content-img3.jpg" alt="Img" class="fifth-block-container__img">
-                        <div class="fifth-block-container__content">
-                            <h4 class="fifth-block-container__h4">Getting Drencd in Rain</h4>
-                            <p class="fifth-block-container__admin-p">Posted By: Admin | 07 Sep, 2018 </p>
-                            <p class="fifth-block-container__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Totam, rem eius? Reiciendis voluptatum aliquam atque</p>
-                            <a href="#" class="fifth-block-container__a">
-                                <p>Read More</p>
-                                <div class="fifth-block-container__read-more"></div>
-                            </a>
-                        </div>
-
-                    </div>
-
 
 
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
             </div>
@@ -676,6 +569,13 @@
         </div>
 
     </main>
+
+
+
+
+
+
+
 
     <footer class="footer">
 
@@ -702,10 +602,6 @@
                     </div>
 
                 </div>
-
-
-
-
 
             </div>
 
@@ -795,23 +691,10 @@
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="footer-bottom">
             <div class="footer-bottom-text">
                 <p class="footer-bottom-text__p">&copy; 2017 <span>EAQUALIZZER</span> | all rights reserved by
                     <span>abdullax al mamun</span> | <span>envato marketplace</span>
-
                 </p>
             </div>
         </div>
