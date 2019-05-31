@@ -15,9 +15,19 @@ $(document).ready(function () {
 
     //обработчик на свайп
     owl.on('translated.owl.carousel', function (e) {
-        $('.owl-stage').children(':not([active])').removeClass('shadow shadow-middle-el');
-        $('.owl-stage').children(':not([active])').find('.fifth-block-container-bottom-item__h4').removeClass('fifth-block-container-bottom-item__h4_activ');
-        $('.owl-stage').children(':not([active])').find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
+        let notActive = $('.owl-stage').children(':not([active])');
+        let h4 = $(notActive).find('.fifth-block-container-bottom-item__h4');
+        let readMore = $(notActive).find('.fifth-block-container-bottom-item-read-more');
+
+        $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+        $(notActive).hasClass("shadow-middle-el") ? $(notActive).removeClass('shadow-middle-el') : null;
+        
+        
+        $(h4).hasClass("fifth-block-container-bottom-item__h4_activ") ?
+        $(h4).removeClass('fifth-block-container-bottom-item__h4_activ'): null;
+        
+        $(readMore).hasClass("fifth-block-container-bottom-item-read-more_activ") ?
+        $(readMore).removeClass('fifth-block-container-bottom-item-read-more_activ'): null;        
 
         $('.owl-stage').children('.active').eq(0).addClass('shadow');
         $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
