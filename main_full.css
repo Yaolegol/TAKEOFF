@@ -677,7 +677,7 @@ li:nth-child(even) .third-block-content {
     margin: 0 auto;
 }
 .fifth-block-container {
-    height: 762px;
+    height: auto;
     width: 1190px;
     margin: 0 auto;
     font-size: 0;
@@ -763,7 +763,7 @@ li:nth-child(even) .third-block-content {
 }
 
 .owl-item {
-    margin-bottom: 100px ;
+    margin-bottom: 130px ;
 }
 .owl-item:first-child {
     margin-left: 10px;
