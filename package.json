@@ -1,0 +1,24 @@
+{
+  "name": "takeoff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaolegol/TAKEOFF.git"
+  },
+  "author": "Oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yaolegol/TAKEOFF/issues"
+  },
+  "homepage": "https://github.com/Yaolegol/TAKEOFF#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
