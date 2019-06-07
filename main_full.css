@@ -1,16 +1,32 @@
 html, body {
     margin: 0;
-    padding: 0;    
+    padding: 0;   
+    overflow-x: hidden; 
 }
 
 * {
     box-sizing: border-box;
 }
 
+.header {
+    margin: 0 auto;
+    width: 1920px;
+    overflow: hidden;
+    
+    
+    
+}
+
+@media screen and (max-width: 1800px) {
+    html, body {
+        overflow-x: visible; 
+    }
+}
+
 .header-top { 
     margin: 0 auto;        
     height: 130px;   
-    width: 100%;
+    width: 1920px;
     max-width: 1920px;
     background-color: #ffffff; 
     white-space: nowrap;
