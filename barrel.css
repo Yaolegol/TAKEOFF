@@ -91,13 +91,13 @@
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/fifth-block-container-bottom.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/owl-item.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item.css";
-@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__h4.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__img.css";
+@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item__content.css";
+@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__h4.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__p.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__posted-by.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/shadow-middle-el.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/shadow.css";
-@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item__content.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item-read-more/read-more.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item-read-more/read-more__arrow.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item-read-more/read-more_activ.css";

@@ -15,7 +15,7 @@
     color: #f9ba48;    
 }
 .fifth-block-container-bottom-item__h4:hover ~.fifth-block-container-bottom-item-read-more div {      
-    background-image: url(src/img/fifth-block-read-more-arrow.png);
+    background-image: url(arrow.png);
 }
 .fifth-block-container-bottom-item__h4_activ {
     color: #f9ba48;
