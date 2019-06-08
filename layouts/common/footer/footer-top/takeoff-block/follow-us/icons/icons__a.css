@@ -1,0 +1,6 @@
+.icons__a {        
+    margin-left: 10px;
+}
+.icons__a:first-child {
+    margin-left: 0;
+}

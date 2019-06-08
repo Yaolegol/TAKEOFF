@@ -1,0 +1,57 @@
+.buttons-block__apple-btn {
+    margin-top: 0px;    
+    margin-right: 25px;
+    width: 170px;
+    height: 60px;
+    background-color: hsl(39, 94%, 63%);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
+}
+.buttons-block__apple-btn:hover {
+    background-color: hsl(39, 100%, 50%);
+}
+.buttons-block__apple-btn:focus, .buttons-block__apple-btn:active {
+    outline: none;
+}
+.header-top-bts-5-appleLogo {
+    height: 25px;
+    width: 20px;
+    float: left;
+    margin-top: 1%;
+    margin-left: 22px;    
+}
+.header-top-bts-5-text {
+    margin-top: 1%;
+    width: 100px;
+    height: 27px;
+}
+.buttons-block__google-btn {
+    margin-top: 0;    
+    width: 170px;
+    height: 60px;
+    background-color: hsl(190, 81%, 19%);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
+}
+.buttons-block__google-btn:hover {
+    background-color: hsl(190, 81%, 25%);
+}
+.buttons-block__google-btn:focus, .buttons-block__google-btn:active {
+    outline: none;
+}

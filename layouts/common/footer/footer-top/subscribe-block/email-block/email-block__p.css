@@ -1,0 +1,8 @@
+.email-block__p {
+    margin: 0;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;      
+    color: #797979;
+}

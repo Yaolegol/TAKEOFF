@@ -1,0 +1,6 @@
+.first-block-cart {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}

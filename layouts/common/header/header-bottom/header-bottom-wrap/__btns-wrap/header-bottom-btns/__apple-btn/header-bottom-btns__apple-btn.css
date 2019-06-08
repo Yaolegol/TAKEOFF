@@ -1,0 +1,19 @@
+.header-bottom-btns__apple-btn {    
+    margin-right: 30px;
+    padding: 0;
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;    
+    color: #ffffff;
+    background-color: hsl(39, 94%, 63%);        
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom-btns__apple-btn:hover {
+    background-color: hsl(39, 100%, 50%);
+}
+.header-bottom-btns__apple-btn:focus, .header-bottom-btns__apple-btn:active {
+    outline: none;
+}
