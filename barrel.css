@@ -56,6 +56,11 @@
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__h2_span.css";
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__p.css";
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__btns.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__btns/second-block-content-container__btns.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__text.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__logo.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__google-btn.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__apple-btn.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__overlay.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__circle.css";
@@ -116,7 +121,6 @@
 @import "layouts/common/footer/footer-top/recomended-block/recomended-block__title.css";
 @import "layouts/common/footer/footer-top/subscribe-block/subscribe-block.css";
 @import "layouts/common/footer/footer-top/subscribe-block/subscribe-block__title.css";
-@import "layouts/common/footer/footer-top/subscribe-block/buttons-block/buttons-block.css";
 @import "layouts/common/footer/footer-top/subscribe-block/email-block/email-block.css";
 @import "layouts/common/footer/footer-top/subscribe-block/email-block/email-block__p.css";
 @import "layouts/common/footer/footer-top/subscribe-block/email-block/input-block/input-block__button.css";
@@ -128,6 +132,7 @@
 @import "layouts/common/footer/footer-top/takeoff-block/follow-us/icons/icons__a.css";
 @import "layouts/common/footer/footer-top/takeoff-block/slogan/slogan.css";
 @import "layouts/common/footer/footer-top/takeoff-block/slogan/slogan__p.css";
+
 @import "layouts/common/footer/footer-bottom/footer-bottom.css";
 @import "layouts/common/footer/footer-bottom/footer-bottom__p.css";
 @import "layouts/common/footer/footer-bottom/footer-bottom-text/footer-bottom-text.css";
