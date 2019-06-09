@@ -56,11 +56,6 @@
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__h2_span.css";
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__p.css";
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__btns.css";
-@import "layouts/common/main/second-block/second-block-content-container/e__btns/second-block-content-container__btns.css";
-@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__text.css";
-@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__logo.css";
-@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__google-btn.css";
-@import "layouts/common/main/second-block/second-block-content-container/e__btns/buttons-block__apple-btn.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__overlay.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__circle.css";
@@ -98,6 +93,7 @@
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__img.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__content/fifth-block-container-bottom-item__content.css";
+@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__a.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__h4.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__p.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__posted-by.css";

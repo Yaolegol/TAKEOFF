@@ -17,6 +17,6 @@
 .fifth-block-container-bottom-item__h4:hover ~.fifth-block-container-bottom-item-read-more div {      
     background-image: url(arrow.png);
 }
-.fifth-block-container-bottom-item__h4_activ {
+.fifth-block-container-bottom-item__a_activ .fifth-block-container-bottom-item__h4 {
     color: #f9ba48;
 }

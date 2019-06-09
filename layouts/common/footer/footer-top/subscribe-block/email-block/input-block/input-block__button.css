@@ -13,3 +13,6 @@
 .input-block__button:hover {
     background-color: hsl(39, 94%, 50%);
 }
+.input-block__button:active {
+    background-color: hsl(39, 94%, 55%);
+}

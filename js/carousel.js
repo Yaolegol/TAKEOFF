@@ -16,15 +16,15 @@ $(document).ready(function () {
     //обработчик на свайп
     owl.on('translated.owl.carousel', function (e) {
         let notActive = $('.owl-stage').children(':not([active])');
-        let h4 = $(notActive).find('.fifth-block-container-bottom-item__h4');
+        let a = $(notActive).find('.fifth-block-container-bottom-item__a');
         let readMore = $(notActive).find('.fifth-block-container-bottom-item-read-more');
 
         $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
         $(notActive).hasClass("shadow-middle-el") ? $(notActive).removeClass('shadow-middle-el') : null;
         
         
-        $(h4).hasClass("fifth-block-container-bottom-item__h4_activ") ?
-        $(h4).removeClass('fifth-block-container-bottom-item__h4_activ'): null;
+        $(a).hasClass("fifth-block-container-bottom-item__a_activ") ?
+        $(a).removeClass('fifth-block-container-bottom-item__a_activ'): null;
         
         $(readMore).hasClass("fifth-block-container-bottom-item-read-more_activ") ?
         $(readMore).removeClass('fifth-block-container-bottom-item-read-more_activ'): null;        
@@ -33,7 +33,7 @@ $(document).ready(function () {
         $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
         $('.owl-stage').children('.active').eq(2).addClass('shadow');
 
-        $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__h4').addClass('fifth-block-container-bottom-item__h4_activ');
+        $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
         $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
     });
 

@@ -20,3 +20,6 @@
 .btn-sing-in:focus, .btn-sing-in:active {
     outline: none;
 }
+.btn-sing-in:active {
+    background-color: hsl(39, 100%, 50%);
+}

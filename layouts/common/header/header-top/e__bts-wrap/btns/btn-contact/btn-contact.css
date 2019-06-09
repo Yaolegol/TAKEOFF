@@ -21,3 +21,6 @@
 .btn-contact:focus, .btn-contact:active {
     outline: none;
 }
+.btn-contact:active {
+    background-color: hsl(190, 81%, 22%);
+}

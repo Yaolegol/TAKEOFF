@@ -20,3 +20,6 @@
 .fifth-block-container-buttons__btn:not(.fifth-block-container-buttons__btn_disabled):hover {
     background-color: hsl(39, 94%, 50%);
 }
+.fifth-block-container-buttons__btn:not(.fifth-block-container-buttons__btn_disabled):active {
+    background-color: hsl(39, 94%, 55%);
+}
