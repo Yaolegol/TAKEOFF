@@ -2,3 +2,10 @@
     padding-left: 84px;
     display: inline-block;
 }
+
+@media all and (max-width: 1600px) {
+    .nav {
+        padding-left: 50px;
+           
+    }    
+}

@@ -23,3 +23,11 @@
 .btn-sing-in:active {
     background-color: hsl(39, 100%, 50%);
 }
+
+@media all and (max-width: 1600px) {
+    .btn-sing-in {
+        width: 150px;
+        height: 50px;
+           
+    }    
+}

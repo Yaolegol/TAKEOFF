@@ -2,4 +2,14 @@
     margin: 0 auto;
     width: 1920px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 1600px) {
+    .header {
+        width: 1500px;
+        
+    }    
 }

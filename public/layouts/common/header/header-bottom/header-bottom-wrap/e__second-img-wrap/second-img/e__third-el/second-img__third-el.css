@@ -9,3 +9,11 @@
     box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
     z-index: 107;
   }  
+
+  @media all and (max-width: 1600px) {
+    .second-img__third-el {
+        width: 260px;
+        height: 605px;
+        
+    }
+  }   

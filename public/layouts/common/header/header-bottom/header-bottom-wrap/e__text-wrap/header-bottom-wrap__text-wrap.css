@@ -5,3 +5,12 @@
     text-align: left;    
     z-index: 11;    
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-wrap__text-wrap {
+        top: 200px;
+        left: 200px;
+        
+        
+    }    
+}

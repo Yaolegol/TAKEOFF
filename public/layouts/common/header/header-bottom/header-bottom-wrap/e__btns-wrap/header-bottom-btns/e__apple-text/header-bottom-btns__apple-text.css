@@ -2,3 +2,11 @@
     width: 99px;
     height: 27px;
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-btns__apple-text {
+        width: 75px;
+        height: 25px;
+        
+    }    
+}

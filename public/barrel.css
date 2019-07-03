@@ -34,6 +34,7 @@
 @import "layouts/common/header/header-bottom/header-bottom-wrap/e__text-secondary/header-bottom-wrap__text-secondary.css";
 @import "layouts/common/header/header-bottom/header-bottom-wrap/e__text-wrap/header-bottom-wrap__text-wrap.css";
 
+@import "layouts/common/main/main.css";
 @import "layouts/common/main/first-block/first-block.css";
 @import "layouts/common/main/first-block/first-block__header.css";
 @import "layouts/common/main/first-block/first-block__h.css";

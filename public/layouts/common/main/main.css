@@ -1,0 +1,11 @@
+.main {
+    margin: 0 auto;
+    width: 1920px;
+    overflow: hidden;
+}
+
+@media all and (max-width: 1199px) {
+    .main {
+        width: 800px;        
+    }    
+}

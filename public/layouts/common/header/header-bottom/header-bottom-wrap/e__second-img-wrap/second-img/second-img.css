@@ -3,3 +3,11 @@
     width: 370px;
     height: 655px;
 }
+
+@media all and (max-width: 1600px) {
+    .second-img {
+        width: 320px;
+        height: 605px;
+        
+    }    
+}

@@ -6,3 +6,11 @@
     color: #ffffff;
     font-weight: 800;
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-wrap__text-primery {
+        font-size: 35px;
+        line-height: 50px;
+        
+    }    
+}

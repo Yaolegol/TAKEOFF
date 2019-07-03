@@ -1,0 +1,12 @@
+.header {
+    margin: 0 auto;
+    width: 1920px;
+    overflow: hidden;
+}
+
+/* @media all and (max-width: 1900px) {
+    .header {
+        width: 1200px;
+        overflow: visible;       
+    }    
+} */

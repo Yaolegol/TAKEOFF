@@ -21,3 +21,11 @@
 .header-bottom-btns__apple-btn:active {
     background-color: hsl(39, 100%, 55%);
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-btns__apple-btn {
+        width: 150px;
+        height: 45px;
+        
+    }    
+}

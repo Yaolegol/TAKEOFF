@@ -24,3 +24,11 @@
 .btn-contact:active {
     background-color: hsl(190, 81%, 22%);
 }
+
+@media all and (max-width: 1600px) {
+    .btn-contact {
+        width: 150px;
+        height: 50px;
+           
+    }    
+}

@@ -4,3 +4,10 @@
     left: 1045px; 
     z-index: 100;
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-wrap__second-img-wrap {
+        left: 850px;
+        
+    }    
+}

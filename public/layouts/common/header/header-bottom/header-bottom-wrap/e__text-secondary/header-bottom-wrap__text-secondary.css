@@ -6,3 +6,10 @@
     line-height: 26px;
     letter-spacing: 0.16px;
 }
+
+@media all and (max-width: 1600px) {
+    .header-bottom-wrap__text-secondary {
+        font-size: 14px;
+        line-height: 20px;
+    }    
+}
