@@ -3,3 +3,11 @@
     height: 831px;
     width: 1920px;        
 }
+
+@media all and (max-width: 1600px) {
+    .first-block {        
+        width: 100%; 
+        height: auto;    
+        margin-bottom: 80px;   
+    }    
+}

@@ -5,3 +5,10 @@
     height: 100%;
     width: 470px;        
 }
+
+@media all and (max-width: 1600px) {
+    .third-block-img {
+        
+           
+    }    
+}

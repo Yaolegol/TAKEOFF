@@ -1,0 +1,11 @@
+.second-block-content-container__wrap {
+    padding-top: 155px;
+    padding-left: 375px;
+}
+
+@media all and (max-width: 1600px) {
+    .second-block-content-container__wrap {
+        padding-top: 100px;
+        padding-left: 200px;        
+    }    
+}

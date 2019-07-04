@@ -5,4 +5,12 @@
     margin-left: 130px;
     background-color: #094b58;
     text-align: center;
+    white-space: nowrap;
 }
+
+@media all and (max-width: 1600px) {
+    .footer-bottom {        
+        width: 1500px;
+    }    
+}
+

@@ -53,10 +53,11 @@
 @import "layouts/common/main/second-block/second-block.css";
 @import "layouts/common/main/second-block/second-block__container.css";
 @import "layouts/common/main/second-block/second-block-content-container/second-block-content-container.css";
-@import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__h2.css";
-@import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__h2_span.css";
-@import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__p.css";
-@import "layouts/common/main/second-block/second-block-content-container/second-block-content-container__btns.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__wrap/second-block-content-container__wrap.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__wrap/second-block-content-container__h2.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__wrap/second-block-content-container__h2_span.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__wrap/second-block-content-container__p.css";
+@import "layouts/common/main/second-block/second-block-content-container/e__wrap/second-block-content-container__btns.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__overlay.css";
 @import "layouts/common/main/second-block/second-block-img-container/second-block-img-container__circle.css";

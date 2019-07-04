@@ -4,3 +4,9 @@
     margin: 0 auto;
     background-color: #fbfbfb;    
 }
+
+@media all and (max-width: 1600px) {
+    .footer {        
+        width: 1500px;
+    }    
+}

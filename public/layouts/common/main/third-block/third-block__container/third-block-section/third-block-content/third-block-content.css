@@ -15,3 +15,12 @@ li:nth-child(odd) .third-block-content {
 li:nth-child(even) .third-block-content {
     margin-right: 230px;
 }
+
+@media all and (max-width: 1600px) {
+    li:nth-child(odd) .third-block-content {
+        margin-left: 180px;
+    }
+    li:nth-child(even) .third-block-content {
+        margin-right: 180px;
+    }
+}

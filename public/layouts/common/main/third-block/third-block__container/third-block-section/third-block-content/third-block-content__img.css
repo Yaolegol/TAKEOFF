@@ -2,3 +2,10 @@
     padding-top: 112px;
     margin-bottom: 59px;
  }
+
+ @media all and (max-width: 1600px) {
+    .third-block-content__img {
+        padding-top: 80px; 
+           
+    }    
+}

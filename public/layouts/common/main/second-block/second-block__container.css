@@ -3,3 +3,10 @@
     height: 542px;    
     font-size: 0;    
 }
+
+@media all and (max-width: 1600px) {
+    .second-block__container {
+        height: 450px;
+           
+    }    
+}

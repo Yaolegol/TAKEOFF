@@ -4,8 +4,8 @@
     overflow: hidden;
 }
 
-@media all and (max-width: 1199px) {
+@media all and (max-width: 1600px) {
     .main {
-        width: 800px;        
+        width: 1500px;        
     }    
 }

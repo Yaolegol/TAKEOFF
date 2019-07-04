@@ -1,5 +1,6 @@
 .second-block-img-container__text {
     background-image: url(Y!.png);
+    background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;
@@ -9,3 +10,11 @@
     height: 60px;
     z-index: 2;
   }  
+
+  @media all and (max-width: 1600px) {
+    .second-block-img-container__text {
+      width: 45px;
+      height: 40px;
+           
+    }    
+}

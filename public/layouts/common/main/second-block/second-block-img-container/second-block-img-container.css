@@ -4,5 +4,12 @@
     height: 100%;
     display: inline-block;    
     background-image: url(second-block-img.jpg);
+    background-size: contain;
     background-repeat: no-repeat;        
+}
+
+@media all and (max-width: 1600px) {
+    .second-block-img-container {
+        width: 600px; 
+    }    
 }

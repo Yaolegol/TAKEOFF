@@ -3,3 +3,10 @@
     width: 1920px;
     height: 607px;            
 }
+
+@media all and (max-width: 1600px) {
+    .second-block {
+        width: 100%;
+           
+    }    
+}

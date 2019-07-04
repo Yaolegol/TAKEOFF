@@ -3,3 +3,10 @@
     width: 1920px;
     margin: 0 auto;
 }
+
+@media all and (max-width: 1600px) {
+    .fourth-block {
+        width: 1500px;
+        height: 695px;
+    }    
+}

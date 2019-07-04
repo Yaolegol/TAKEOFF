@@ -1,7 +1,15 @@
 .fourth-block__container { 
     padding: 179px 130px 130px 0;    
-    height: 100%;
+    height: 100%;    
     background-image: url(fourth-block-img.jpg); 
     background-origin: content-box;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
+@media all and (max-width: 1600px) {
+    .fourth-block__container {
+        width: 100%;
+        padding: 179px 0px 130px 0;
+    }    
 }

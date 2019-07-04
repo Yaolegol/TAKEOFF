@@ -6,3 +6,9 @@
     vertical-align: top;
     background-color: #f9f8f8; 
 }
+
+@media all and (max-width: 1600px) {
+    .second-block-content-container {
+        width: 800px;        
+    }    
+}
