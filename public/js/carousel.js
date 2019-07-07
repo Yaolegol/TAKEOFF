@@ -28,6 +28,7 @@ $(document).ready(function () {
 
     let nextButtonEnabled = true;
     let prevButtonEnabled = false;
+    let buttonsControl = false;
 
     const removeAndAddActiveClass = function (action) {
         if (action === 'next') {
@@ -185,7 +186,7 @@ $(document).ready(function () {
             currentNextIndex = $('.owl-stage').children('.active').eq(1).index();
             currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
 
-            if (currentNextIndex != lastElementIndex) {
+            if (currentNextIndex != lastElementIndex || currentActiveIndex != lastElementIndex) {
                 $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
                 nextButtonEnabled = true;                       
             } else {
@@ -200,11 +201,21 @@ $(document).ready(function () {
                 $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
                 prevButtonEnabled = false;   
             }
+
+            if (!buttonsControl) {
+                removeActiveClass();
+                addActiveClass();
+                currentActiveIndex = currentPrevIndex;
+            }
+
+            buttonsControl = false;
+
              
          });
 
 
         owl.on('next.owl.carousel', function () {
+            buttonsControl = true;
             currentNextIndex = $('.owl-stage').children('.active').eq(1).index();
 
             let notActive = $('.owl-stage').children(':not([active])');
@@ -224,7 +235,8 @@ $(document).ready(function () {
             }
         });
 
-        owl.on('prev.owl.carousel', function () {            
+        owl.on('prev.owl.carousel', function () { 
+            buttonsControl = true;       
             currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
 
             let notActive = $('.owl-stage').children(':not([active])');
