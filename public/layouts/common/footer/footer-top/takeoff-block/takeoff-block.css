@@ -4,3 +4,12 @@
     margin: 0 15px;
     display: inline-block;
 }
+
+@media all and (max-width: 1024px) {
+    .takeoff-block {
+        margin-right: 100px;
+        margin-bottom: 100px;
+               
+    
+    }
+}

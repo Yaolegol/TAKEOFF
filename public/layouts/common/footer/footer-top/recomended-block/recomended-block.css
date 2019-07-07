@@ -3,3 +3,11 @@
     height: 269px;
     margin: 0 15px;
 }
+
+@media all and (max-width: 1024px) {
+    .recomended-block {
+      
+               
+    
+    }
+}

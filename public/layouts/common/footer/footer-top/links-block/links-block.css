@@ -3,3 +3,11 @@
     height: 268px;
     margin: 0 15px;
 }
+
+@media all and (max-width: 1024px) {
+    .links-block {
+        order: 2;
+               
+    
+    }
+}
