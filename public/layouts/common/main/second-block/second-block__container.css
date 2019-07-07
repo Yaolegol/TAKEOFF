@@ -10,3 +10,9 @@
            
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .second-block__container {
+        height: 303px;        
+    }    
+}

@@ -5,3 +5,9 @@
     background-color: #ffffff; 
     white-space: nowrap;
 }
+
+@media all and (max-width: 1024px) {
+    .header-top {
+        height: 120px;
+    }    
+}

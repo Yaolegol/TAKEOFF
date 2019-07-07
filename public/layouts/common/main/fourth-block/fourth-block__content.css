@@ -8,3 +8,9 @@
     justify-content: center;
     align-items: center;    
 }
+
+@media all and (max-width: 1024px) {
+    .fourth-block__content {
+        padding-left: 0; 
+    }    
+}

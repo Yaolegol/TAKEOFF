@@ -11,3 +11,10 @@
         margin-bottom: 80px;   
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .first-block {
+        width: 1000px;
+        margin: 0 0 100px;
+    }    
+}

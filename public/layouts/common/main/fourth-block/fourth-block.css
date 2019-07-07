@@ -10,3 +10,9 @@
         height: 695px;
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .fourth-block {
+        height: 324px; 
+    }    
+}

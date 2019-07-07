@@ -2,3 +2,10 @@
     font-size: 0;    
     display: inline-block;    
 }
+
+@media all and (max-width: 1024px) {
+    .logo {
+        margin-right: 20px;
+        
+    }    
+}

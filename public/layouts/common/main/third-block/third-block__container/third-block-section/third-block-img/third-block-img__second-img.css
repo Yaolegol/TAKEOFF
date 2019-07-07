@@ -10,3 +10,12 @@
 li:nth-child(even) .third-block-img__second-img {
     left: 216px;
 }
+
+@media all and (max-width: 1024px) {
+    .third-block-img__second-img {
+        height: 350px;
+        width: 250px;
+        
+             
+    }    
+}

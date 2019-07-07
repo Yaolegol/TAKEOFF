@@ -13,3 +13,10 @@
         padding: 179px 0px 130px 0;
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .fourth-block__container {
+        height: 80%; 
+        padding: 0;
+    }    
+}

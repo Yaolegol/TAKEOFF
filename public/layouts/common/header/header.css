@@ -5,11 +5,19 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 @media all and (max-width: 1600px) {
     .header {
         width: 1500px;
         
+    }    
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        width: 1000px;
+        margin: 0;
     }    
 }

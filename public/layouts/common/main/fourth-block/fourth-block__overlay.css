@@ -5,3 +5,9 @@
     background-color: rgb(37, 30, 67);
     opacity: 0.702;        
 }
+
+@media all and (max-width: 1024px) {
+    .fourth-block__overlay {
+        width: 73%; 
+    }    
+}

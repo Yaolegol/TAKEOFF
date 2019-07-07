@@ -10,3 +10,12 @@
            
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .second-block {
+        width: 1000px;  
+        margin: 0; 
+        height: 400px;
+             
+    }    
+}

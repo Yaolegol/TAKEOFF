@@ -10,3 +10,11 @@
     line-height: 36px;    
   }
 
+  @media all and (max-width: 1024px) {
+    .second-block-content-container__h2 {
+      font-size: 20px;
+      line-height: 20px;
+
+    }    
+}
+

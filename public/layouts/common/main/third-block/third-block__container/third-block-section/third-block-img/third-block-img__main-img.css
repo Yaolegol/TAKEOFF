@@ -10,3 +10,14 @@
 li:nth-child(even) .third-block-img__main-img {
     left: 0px;
 }
+
+@media all and (max-width: 1024px) {
+    .third-block-img__main-img {
+        height: 80%;
+        width: 280px;
+             
+    }    
+    li:nth-child(even) .third-block-img__main-img {
+        left: 70px;
+    }
+}

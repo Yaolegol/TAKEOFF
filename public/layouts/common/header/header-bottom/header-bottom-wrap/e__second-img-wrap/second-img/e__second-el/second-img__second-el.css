@@ -17,3 +17,11 @@
         
     }
   }   
+
+  @media all and (max-width: 1024px) {
+    .second-img__second-el {
+      width: 245px;
+      height: 480px;
+      
+    }
+  }

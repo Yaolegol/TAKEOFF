@@ -12,3 +12,12 @@
         margin-bottom: 50px;
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .third-block-section {
+        padding-left: 100px; 
+        height: 590px;
+        margin-bottom: 50px;
+             
+    }    
+}

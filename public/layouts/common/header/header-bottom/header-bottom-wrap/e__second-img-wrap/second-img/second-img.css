@@ -11,3 +11,13 @@
         
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .second-img {
+        /* width: 320px; 35
+        height: 605px; 25  */
+        width: 285px;
+        height: 480px;
+        
+    }    
+}

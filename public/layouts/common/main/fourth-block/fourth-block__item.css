@@ -10,3 +10,9 @@
 .fourth-block__item img {
     display: block;
 }
+
+@media all and (max-width: 1024px) {
+    .fourth-block__item:nth-child(odd) img {
+        height: 50px; 
+    }    
+}

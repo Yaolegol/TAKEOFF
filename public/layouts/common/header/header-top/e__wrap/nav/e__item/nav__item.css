@@ -5,3 +5,9 @@
 .nav__item:first-child {
     margin-left: 0;
 }
+
+@media all and (max-width: 1024px) {
+    .nav__item {
+        margin-left: 15px;
+    }    
+}

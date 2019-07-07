@@ -91,6 +91,8 @@
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-top/fifth-block-container-buttons/fifth-block-container-buttons__btn.css";
 
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/fifth-block-container-bottom.css";
+@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/fifth-block-container-bottom-carousel.css";
+@import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/carousel.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/owl-item.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item.css";
 @import "layouts/common/main/fifth-block/fifth-block-container/fifth-block-container-bottom/owl-item/fifth-block-container-bottom-item/fifth-block-container-bottom-item__img.css";

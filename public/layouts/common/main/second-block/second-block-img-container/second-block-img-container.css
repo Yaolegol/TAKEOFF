@@ -13,3 +13,9 @@
         width: 600px; 
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .second-block-img-container {
+        width: 40%;        
+    }    
+}

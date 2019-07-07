@@ -9,3 +9,9 @@
         
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .header-top__bts-wrap {
+        padding-left: 40px;
+    }    
+}

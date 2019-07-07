@@ -11,3 +11,9 @@
         
     }    
 }
+
+@media all and (max-width: 1024px) {
+    .header-bottom-wrap__second-img-wrap {
+        left: 680px;        
+    }    
+}

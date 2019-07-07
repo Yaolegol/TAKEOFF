@@ -24,3 +24,14 @@ li:nth-child(even) .third-block-content {
         margin-right: 180px;
     }
 }
+
+@media all and (max-width: 1024px) {
+    li:nth-child(odd) .third-block-content {
+        margin-left: 0px;
+        width: 400px;
+    }
+    li:nth-child(even) .third-block-content {
+        margin-right: 0px;
+        width: 400px;
+    }
+}

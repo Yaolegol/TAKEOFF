@@ -1,63 +1,230 @@
 $(document).ready(function () {
     var owl = $('.owl-carousel');
-    owl.owlCarousel(
-        {
-            margin: 30,
-            nav: true,
-            autoWidth: true
+    owl.owlCarousel({
+        margin: 30,
+        nav: true,
+        autoWidth: true,
+        responsive: {
+            0: {
+                items: 2,
+            },
+            1025: {
+                items: 3
+            }
         }
-    );
+    });
 
-    $('.owl-stage').children('.active').eq(0).addClass('shadow');
-    $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
-    $('.owl-stage').children('.active').eq(2).addClass('shadow');
-    
+    let currentPrevIndex = 0;
+    let currentActiveIndex = 0;
+    let currentNextIndex = 1;
+    let lastElementIndex = $('.owl-stage').children().length - 1;
+    let firstElementIndex = 0;
+    let activeArray = [];
+    let nextButtonEnabled = true;
+    let prevButtonEnabled = false;
 
-    //обработчик на свайп
-    owl.on('translated.owl.carousel', function (e) {
+    const removeAndAddActiveClass = function (action) {
+        if (action === 'next') {
+            let index = $('.owl-stage').children('.active').eq(0).index();
+            
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a').removeClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
+
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
+
+            currentActiveIndex = currentNextIndex;
+
+        } else {
+            let index = $('.owl-stage').children('.active').eq(0).index();
+            
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').removeClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
+
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
+
+            currentActiveIndex = currentPrevIndex;
+        }
+
+    };
+
+    const addActiveClass = function () {
+        let currentActive_a = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a');
+        let currentActive_readMore = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more');
+
+        activeArray[0] = currentActive_a;
+        activeArray[1] = currentActive_readMore;
+
+        currentActive_a.addClass('fifth-block-container-bottom-item__a_activ');
+        currentActive_readMore.addClass('fifth-block-container-bottom-item-read-more_activ');
+
+
+    };
+
+    const removeActiveClass = function () {
+        if (activeArray[0]) {
+            activeArray[0].removeClass('fifth-block-container-bottom-item__a_activ');
+            activeArray[1].removeClass('fifth-block-container-bottom-item-read-more_activ');
+        } else {
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a').removeClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
+        }
+    };
+
+
+    const clearAndAddShadow = function () {
         let notActive = $('.owl-stage').children(':not([active])');
-        let a = $(notActive).find('.fifth-block-container-bottom-item__a');
-        let readMore = $(notActive).find('.fifth-block-container-bottom-item-read-more');
 
         $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
-        $(notActive).hasClass("shadow-middle-el") ? $(notActive).removeClass('shadow-middle-el') : null;
-        
-        
-        $(a).hasClass("fifth-block-container-bottom-item__a_activ") ?
-        $(a).removeClass('fifth-block-container-bottom-item__a_activ'): null;
-        
-        $(readMore).hasClass("fifth-block-container-bottom-item-read-more_activ") ?
-        $(readMore).removeClass('fifth-block-container-bottom-item-read-more_activ'): null;        
 
+        $(readMore_notActive).hasClass("fifth-block-container-bottom-item-read-more_activ") ?
+            $(readMore_notActive).removeClass('fifth-block-container-bottom-item-read-more_activ') : null;
+
+    };
+
+    //обработчик на свайп
+    if ($(window).width() > 1025) {
+        $('.fifth-block-container-bottom-item__a').eq(1).addClass('fifth-block-container-bottom-item__a_activ');
+        $('.fifth-block-container-bottom-item-read-more').eq(1).addClass('fifth-block-container-bottom-item-read-more_activ');
         $('.owl-stage').children('.active').eq(0).addClass('shadow');
         $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
         $('.owl-stage').children('.active').eq(2).addClass('shadow');
 
-        $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
-        $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
-    });
+        owl.on('translated.owl.carousel', function (e) {
+            let notActive = $('.owl-stage').children(':not([active])');
+            let a_notActive = $(notActive).find('.fifth-block-container-bottom-item__a');
+            let readMore_notActive = $(notActive).find('.fifth-block-container-bottom-item-read-more');
+
+            $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+            $(notActive).hasClass("shadow-middle-el") ? $(notActive).removeClass('shadow-middle-el') : null;
 
 
-    //обработчики на кнопки
-    let count = 0;
-    let maxCount = $('.owl-stage').children().length - 3; 
-    
-    $('.next').on('click', function () {
-        owl.trigger('next.owl.carousel');
+            $(a_notActive).hasClass("fifth-block-container-bottom-item__a_activ") ?
+                $(a_notActive).removeClass('fifth-block-container-bottom-item__a_activ') : null;
 
-        count === maxCount - 1 ? $('.next').addClass('fifth-block-container-buttons__btn_disabled') :
-        $('.prev').hasClass('fifth-block-container-buttons__btn_disabled') ? $('.prev').removeClass('fifth-block-container-buttons__btn_disabled') : null;
-        
-        count < maxCount ? count++ : null;
-    });
-        
-    
-    $('.prev').on('click', function (event) {
-        owl.trigger('prev.owl.carousel');
-   
-        count === 1 ? $('.prev').addClass('fifth-block-container-buttons__btn_disabled') :
-        $('.next').hasClass('fifth-block-container-buttons__btn_disabled') ? $('.next').removeClass('fifth-block-container-buttons__btn_disabled') : null;
+            $(readMore_notActive).hasClass("fifth-block-container-bottom-item-read-more_activ") ?
+                $(readMore_notActive).removeClass('fifth-block-container-bottom-item-read-more_activ') : null;
 
-        count > 0 ? count-- : null;
-    });
+            $('.owl-stage').children('.active').eq(0).addClass('shadow');
+            $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
+            $('.owl-stage').children('.active').eq(2).addClass('shadow');
+
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
+        });
+
+
+        //обработчики на кнопки
+        let currentActiveIndex = 0;
+        let lastElementIndex = $('.owl-stage').children().length - 3;
+
+        $('.next').on('click', function () {
+            owl.trigger('next.owl.carousel');
+
+            currentActiveIndex === lastElementIndex - 1 ? $('.next').addClass('fifth-block-container-buttons__btn_disabled') :
+                $('.prev').hasClass('fifth-block-container-buttons__btn_disabled') ? $('.prev').removeClass('fifth-block-container-buttons__btn_disabled') : null;
+
+            currentActiveIndex < lastElementIndex ? currentActiveIndex++ : null;
+        });
+
+
+        $('.prev').on('click', function (event) {
+            owl.trigger('prev.owl.carousel');
+
+            currentActiveIndex === 1 ? $('.prev').addClass('fifth-block-container-buttons__btn_disabled') :
+                $('.next').hasClass('fifth-block-container-buttons__btn_disabled') ? $('.next').removeClass('fifth-block-container-buttons__btn_disabled') : null;
+
+            currentActiveIndex > 0 ? currentActiveIndex-- : null;
+        });
+
+    } else {
+
+        $('.fifth-block-container-bottom-item__a').eq(0).addClass('fifth-block-container-bottom-item__a_activ');
+        $('.fifth-block-container-bottom-item-read-more').eq(0).addClass('fifth-block-container-bottom-item-read-more_activ');
+
+        $('.owl-stage').children('.active').eq(0).addClass('shadow');
+        $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+        // обработчик на событие 'translated.owl.carousel'
+
+        owl.on('next.owl.carousel', function (e) {
+
+            let notActive = $('.owl-stage').children(':not([active])');
+            $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+
+            $('.owl-stage').children('.active').eq(0).addClass('shadow');
+            $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+            addActiveClass();
+            currentActiveIndex = currentNextIndex;
+        });
+
+        owl.on('prev.owl.carousel', function (e) {
+
+            let notActive = $('.owl-stage').children(':not([active])');
+
+            $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+
+            $('.owl-stage').children('.active').eq(0).addClass('shadow');
+            $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+            addActiveClass();
+            currentActiveIndex = currentPrevIndex;
+        });
+
+
+
+
+
+        //обработчики на кнопки            
+
+        $('.next').on('click', function () {
+
+            if (nextButtonEnabled) {
+                currentNextIndex = $('.owl-stage').children('.active').eq(1).index();
+
+                if (currentActiveIndex === lastElementIndex - 1) {
+                    $('.next').addClass('fifth-block-container-buttons__btn_disabled');
+                    nextButtonEnabled = false;
+                    removeAndAddActiveClass('next');
+                } else {
+                    if (!prevButtonEnabled) {
+                        $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
+                        prevButtonEnabled = true;
+                    }
+                    removeActiveClass();
+                    owl.trigger('next.owl.carousel');
+                }
+            }
+
+        });
+
+
+        $('.prev').on('click', function () {
+
+            if (prevButtonEnabled) {
+                currentPrevIndex = $('.owl-stage').children('.active').eq(0).index() - 1;
+
+                if (currentActiveIndex >= firstElementIndex) {
+                    if (currentActiveIndex === lastElementIndex) {
+                        removeAndAddActiveClass('prev');
+                    } else {
+                        removeActiveClass();
+                        owl.trigger('prev.owl.carousel');
+                    }
+
+                    if (currentActiveIndex != firstElementIndex) {
+                        if (!nextButtonEnabled) {
+                            $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
+                            nextButtonEnabled = true;
+                        }
+                    } else {
+                        $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                        prevButtonEnabled = false;
+                    }
+                }
+            }
+        });
+    }
 });

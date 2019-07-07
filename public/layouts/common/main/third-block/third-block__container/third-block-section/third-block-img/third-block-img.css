@@ -6,9 +6,10 @@
     width: 470px;        
 }
 
-@media all and (max-width: 1600px) {
+@media all and (max-width: 1024px) {
     .third-block-img {
         
-           
+        
+             
     }    
 }
