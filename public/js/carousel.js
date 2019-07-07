@@ -17,16 +17,22 @@ $(document).ready(function () {
     let currentPrevIndex = 0;
     let currentActiveIndex = 0;
     let currentNextIndex = 1;
-    let lastElementIndex = $('.owl-stage').children().length - 1;
+    let lastElementIndex = $('.owl-stage').children().length - 1;    
     let firstElementIndex = 0;
+
     let activeArray = [];
+    let currentActive_a = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a');
+    let currentActive_readMore = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more');
+    activeArray[0] = currentActive_a;
+    activeArray[1] = currentActive_readMore;
+
     let nextButtonEnabled = true;
     let prevButtonEnabled = false;
 
     const removeAndAddActiveClass = function (action) {
         if (action === 'next') {
             let index = $('.owl-stage').children('.active').eq(0).index();
-            
+
             $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a').removeClass('fifth-block-container-bottom-item__a_activ');
             $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
 
@@ -37,14 +43,14 @@ $(document).ready(function () {
 
         } else {
             let index = $('.owl-stage').children('.active').eq(0).index();
-            
+
             $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a').removeClass('fifth-block-container-bottom-item__a_activ');
             $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more').removeClass('fifth-block-container-bottom-item-read-more_activ');
 
             $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a').addClass('fifth-block-container-bottom-item__a_activ');
             $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more').addClass('fifth-block-container-bottom-item-read-more_activ');
 
-            currentActiveIndex = currentPrevIndex;
+            currentActiveIndex = currentPrevIndex + 1;
         }
 
     };
@@ -148,7 +154,13 @@ $(document).ready(function () {
 
         // обработчик на событие 'translated.owl.carousel'
 
-        owl.on('next.owl.carousel', function (e) {
+
+        // owl.on('translated.owl.carousel', function () {
+        //     currentActiveIndex = currentNextIndex - 1;
+        // });
+
+
+        owl.on('next.owl.carousel', function () {
 
             let notActive = $('.owl-stage').children(':not([active])');
             $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
@@ -157,10 +169,15 @@ $(document).ready(function () {
             $('.owl-stage').children('.active').eq(1).addClass('shadow');
 
             addActiveClass();
-            currentActiveIndex = currentNextIndex;
+
+            if(currentNextIndex === lastElementIndex) {
+                currentActiveIndex = currentNextIndex - 1;
+            } else {
+                currentActiveIndex = currentNextIndex;
+            }  
         });
 
-        owl.on('prev.owl.carousel', function (e) {
+        owl.on('prev.owl.carousel', function () {
 
             let notActive = $('.owl-stage').children(':not([active])');
 
@@ -170,7 +187,13 @@ $(document).ready(function () {
             $('.owl-stage').children('.active').eq(1).addClass('shadow');
 
             addActiveClass();
-            currentActiveIndex = currentPrevIndex;
+            
+            if(currentPrevIndex < firstElementIndex) {
+                currentActiveIndex = currentPrevIndex + 1;
+            } else {
+                currentActiveIndex = currentPrevIndex;
+            }  
+
         });
 
 
@@ -179,22 +202,21 @@ $(document).ready(function () {
 
         //обработчики на кнопки            
 
-        $('.next').on('click', function () {
-
+        $('.next').on('click', function () { 
             if (nextButtonEnabled) {
                 currentNextIndex = $('.owl-stage').children('.active').eq(1).index();
 
                 if (currentActiveIndex === lastElementIndex - 1) {
                     $('.next').addClass('fifth-block-container-buttons__btn_disabled');
                     nextButtonEnabled = false;
-                    removeAndAddActiveClass('next');
+                    removeAndAddActiveClass('next');                    
                 } else {
                     if (!prevButtonEnabled) {
                         $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
                         prevButtonEnabled = true;
                     }
                     removeActiveClass();
-                    owl.trigger('next.owl.carousel');
+                    owl.trigger('next.owl.carousel'); 
                 }
             }
 
@@ -206,24 +228,24 @@ $(document).ready(function () {
             if (prevButtonEnabled) {
                 currentPrevIndex = $('.owl-stage').children('.active').eq(0).index() - 1;
 
-                if (currentActiveIndex >= firstElementIndex) {
-                    if (currentActiveIndex === lastElementIndex) {
-                        removeAndAddActiveClass('prev');
-                    } else {
-                        removeActiveClass();
-                        owl.trigger('prev.owl.carousel');
-                    }
 
-                    if (currentActiveIndex != firstElementIndex) {
-                        if (!nextButtonEnabled) {
-                            $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
-                            nextButtonEnabled = true;
-                        }
-                    } else {
-                        $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                        prevButtonEnabled = false;
-                    }
+                if (currentActiveIndex === lastElementIndex) {
+                    removeAndAddActiveClass('prev');
+                } else {
+                    removeActiveClass();
+                    owl.trigger('prev.owl.carousel');
                 }
+
+                if (currentActiveIndex != firstElementIndex) {
+                    if (!nextButtonEnabled) {
+                        $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
+                        nextButtonEnabled = true;
+                    }
+                } else {
+                    $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                    prevButtonEnabled = false;
+                }
+
             }
         });
     }
