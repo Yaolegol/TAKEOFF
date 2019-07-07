@@ -1,4 +1,5 @@
 .header-top__wrap { 
+    position: relative;
     margin-left: 375px;    
     width: 100%;     
     height: 100%;
@@ -18,5 +19,11 @@
     .header-top__wrap {
         margin-left: 100px;
         
+    }    
+}
+
+@media all and (max-width: 768px) {
+    .header-top__wrap {
+        margin-left: 20px;
     }    
 }
