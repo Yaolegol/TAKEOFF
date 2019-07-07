@@ -2,5 +2,17 @@
     min-height: 544px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+@media all and (max-width: 1024px) {
+    .footer-top {
+        padding-top: 50px;
+        margin-bottom: 100px;
+        
+        align-items: flex-start;
+               
+    
+    }
 }

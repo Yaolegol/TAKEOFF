@@ -4,3 +4,15 @@
     padding-top: 63px;
     padding-bottom: 34px;
 }
+
+
+@media all and (max-width: 1024px) {
+    .slogan {
+        
+        height: 130px;
+        padding-top: 26px;
+        padding-bottom: 0px;
+               
+    
+    }
+}

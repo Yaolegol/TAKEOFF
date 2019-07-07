@@ -14,3 +14,12 @@
     }    
 }
 
+@media all and (max-width: 1024px) {
+    .footer-bottom {
+        width: 1000px;
+        margin-left: 0;
+               
+    
+    }
+}
+

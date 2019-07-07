@@ -22,3 +22,12 @@
     opacity: 0;
     transition: opacity 0s ease;
 }
+
+
+@media all and (max-width: 1024px) {
+    .input-block__input {        
+        width: 236px;
+               
+    
+    }
+}
