@@ -8,4 +8,4 @@ app.use(express.static('./public'));
 app.use(router);
 
 
-app.listen(3000 || process.env.PORT, () => console.log('Server start'));
+app.listen(process.env.PORT, () => console.log('Server start'));
