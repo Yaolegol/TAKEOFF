@@ -18,3 +18,10 @@
         margin: 0 0 100px;
     }    
 }
+
+@media all and (max-width: 768px) {
+    .first-block {
+        width: 768px;
+        margin: 0 0 100px;
+    }    
+}

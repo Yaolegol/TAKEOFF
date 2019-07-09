@@ -3,3 +3,10 @@
     justify-content: center;
     align-items: center;        
 }
+
+@media all and (max-width: 768px) {
+    .first-block-cart {
+        flex-wrap: wrap;
+        padding: 0 300px;
+    }    
+}

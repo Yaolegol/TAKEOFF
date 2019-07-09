@@ -10,3 +10,11 @@
            
     }    
 }
+
+@media all and (max-width: 768px) {
+    .third-block {
+        width: 768px;
+        margin: 0;
+        
+    }    
+}

@@ -6,7 +6,16 @@
 
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom {
-        width: 66%;
+        width: 66%;        
+        
+    
+    }
+}
+
+@media all and (max-width: 768px) {
+    .fifth-block-container-bottom {
+        width: 370px;
+        margin: 0 auto;   
         
     
     }

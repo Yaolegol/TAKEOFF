@@ -7,6 +7,13 @@
 @media all and (max-width: 1024px) {
     .fifth-block-container-top {
         
-        width: 66%;
+        
+    }    
+}
+
+@media all and (max-width: 768px) {
+    .fifth-block-container-top {
+        padding: 0 20px;
+        
     }    
 }

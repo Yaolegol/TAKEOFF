@@ -16,3 +16,9 @@
         height: 324px; 
     }    
 }
+
+@media all and (max-width: 768px) {
+    .fourth-block {
+        height: 324px; 
+    }      
+}

@@ -17,3 +17,9 @@
 
     }    
 }
+
+@media all and (max-width: 768px) {
+    .second-block-content-container__wrap {
+        padding-left: 0;
+    }    
+}

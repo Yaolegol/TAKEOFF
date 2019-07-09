@@ -19,3 +19,11 @@
              
     }    
 }
+
+@media all and (max-width: 768px) {
+    .second-block {
+        width: 768px;        
+        height: 700px;
+        
+    }    
+}

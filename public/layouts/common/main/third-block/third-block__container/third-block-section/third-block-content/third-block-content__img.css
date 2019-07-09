@@ -9,3 +9,9 @@
            
     }    
 }
+
+@media all and (max-width: 768px) {
+    .third-block-content__img {
+        padding-top: 0;
+    }    
+}

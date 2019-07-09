@@ -18,3 +18,14 @@
         width: 60%;        
     }    
 }
+
+@media all and (max-width: 768px) {
+    .second-block-content-container {
+        text-align: center;
+        width: 100%;
+        order: 2;
+        
+    }    
+}
+
+

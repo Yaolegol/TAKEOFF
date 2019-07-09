@@ -35,3 +35,23 @@ li:nth-child(even) .third-block-content {
         width: 400px;
     }
 }
+
+@media all and (max-width: 768px) {
+    .third-block-content {
+        height: auto;               
+    }
+    li:nth-child(odd) .third-block-content {
+        margin-left: 0px;
+        width: 400px;                
+    }    
+    li:nth-child(even) .third-block-content {
+        margin-right: 0px;
+        width: 400px;
+        order: 2;
+    }
+    li:nth-child(even) .third-block-img {
+        margin-left: 0px;
+        width: 400px;
+        order: 1;        
+    }
+}

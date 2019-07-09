@@ -11,3 +11,9 @@
         width: 73%; 
     }    
 }
+
+@media all and (max-width: 768px) {
+    .fourth-block__overlay {
+        width: 50%; 
+    }    
+}

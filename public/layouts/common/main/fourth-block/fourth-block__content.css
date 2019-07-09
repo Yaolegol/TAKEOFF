@@ -14,3 +14,9 @@
         padding-left: 0; 
     }    
 }
+
+@media all and (max-width: 768px) {
+    .fourth-block__content {
+        padding-left: 70px; 
+    }    
+}

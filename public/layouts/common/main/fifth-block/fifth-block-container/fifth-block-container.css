@@ -5,9 +5,9 @@
     font-size: 0;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
     .fifth-block-container {
-        
+        width: 100%;
                
     
     }

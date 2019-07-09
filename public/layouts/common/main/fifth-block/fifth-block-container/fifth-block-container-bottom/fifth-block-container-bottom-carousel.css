@@ -13,3 +13,12 @@
                 
     }    
 }
+
+@media all and (max-width: 768px) {
+    .fifth-block-container-bottom-carousel {
+        width: 100%;
+        height: auto;
+        
+                
+    }    
+}

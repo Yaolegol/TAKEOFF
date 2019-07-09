@@ -6,6 +6,9 @@ $(document).ready(function () {
         autoWidth: true,
         responsive: {
             0: {
+                items: 1,
+            },
+            769: {
                 items: 2,
             },
             1025: {
@@ -117,7 +120,7 @@ $(document).ready(function () {
     };
 
     //обработчик на свайп
-    if ($(window).width() > 1025) {
+    if ($(window).width() > 1024) {
         $('.fifth-block-container-bottom-item__a').eq(1).addClass('fifth-block-container-bottom-item__a_activ');
         $('.fifth-block-container-bottom-item-read-more').eq(1).addClass('fifth-block-container-bottom-item-read-more_activ');
         $('.owl-stage').children('.active').eq(0).addClass('shadow');
@@ -171,7 +174,7 @@ $(document).ready(function () {
             currentActiveIndex > 0 ? currentActiveIndex-- : null;
         });
 
-    } else {
+    } else if ($(window).width() > 768) {
 
         $('.fifth-block-container-bottom-item__a').eq(0).addClass('fifth-block-container-bottom-item__a_activ');
         $('.fifth-block-container-bottom-item-read-more').eq(0).addClass('fifth-block-container-bottom-item-read-more_activ');
@@ -179,27 +182,27 @@ $(document).ready(function () {
         $('.owl-stage').children('.active').eq(0).addClass('shadow');
         $('.owl-stage').children('.active').eq(1).addClass('shadow');
 
-        
-        
+
+
         // обработчик на событие 'translated.owl.carousel'
-         owl.on('translated.owl.carousel', function () {
+        owl.on('translated.owl.carousel', function () {
             currentNextIndex = $('.owl-stage').children('.active').eq(1).index();
             currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
 
             if (currentNextIndex != lastElementIndex || currentActiveIndex != lastElementIndex) {
                 $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
-                nextButtonEnabled = true;                       
+                nextButtonEnabled = true;
             } else {
                 $('.next').addClass('fifth-block-container-buttons__btn_disabled');
-                nextButtonEnabled = false;      
+                nextButtonEnabled = false;
             }
 
             if (currentPrevIndex != firstElementIndex) {
                 $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
-                prevButtonEnabled = true;                
+                prevButtonEnabled = true;
             } else {
                 $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                prevButtonEnabled = false;   
+                prevButtonEnabled = false;
             }
 
             if (!buttonsControl) {
@@ -210,8 +213,8 @@ $(document).ready(function () {
 
             buttonsControl = false;
 
-             
-         });
+
+        });
 
 
         owl.on('next.owl.carousel', function () {
@@ -227,16 +230,16 @@ $(document).ready(function () {
             addActiveClass('next');
 
             currentActiveIndex = currentNextIndex;
-            currentPrevIndex = currentActiveIndex - 1;            
+            currentPrevIndex = currentActiveIndex - 1;
 
             if (currentActiveIndex === lastElementIndex) {
                 $('.next').addClass('fifth-block-container-buttons__btn_disabled');
-                nextButtonEnabled = false;               
+                nextButtonEnabled = false;
             }
         });
 
-        owl.on('prev.owl.carousel', function () { 
-            buttonsControl = true;       
+        owl.on('prev.owl.carousel', function () {
+            buttonsControl = true;
             currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
 
             let notActive = $('.owl-stage').children(':not([active])');
@@ -248,14 +251,14 @@ $(document).ready(function () {
 
             addActiveClass();
 
-            
+
             currentActiveIndex = currentPrevIndex;
             currentNextIndex = currentActiveIndex + 1;
-            
+
 
             if (currentActiveIndex === firstElementIndex) {
                 $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                prevButtonEnabled = false;                
+                prevButtonEnabled = false;
             }
 
 
@@ -330,11 +333,6 @@ $(document).ready(function () {
                 if (!prevButtonEnabled) {
                     $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
                     prevButtonEnabled = true;
-                }                
-
-                if (!prevButtonEnabled) {
-                    $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
-                    prevButtonEnabled = true;
                 }
 
                 if (currentActiveIndex != currentNextIndex) {
@@ -343,12 +341,12 @@ $(document).ready(function () {
                     addActiveClass('next');
                     if (currentActiveIndex === lastElementIndex) {
                         $('.next').addClass('fifth-block-container-buttons__btn_disabled');
-                        nextButtonEnabled = false;                       
+                        nextButtonEnabled = false;
                     }
-                   
+
                 } else {
                     removeActiveClass();
-                    owl.trigger('next.owl.carousel');                   
+                    owl.trigger('next.owl.carousel');
                 }
 
 
@@ -373,12 +371,12 @@ $(document).ready(function () {
                     addActiveClass();
                     if (currentActiveIndex === firstElementIndex) {
                         $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                        prevButtonEnabled = false;                       
+                        prevButtonEnabled = false;
                     }
-                    
+
                 } else {
                     removeActiveClass();
-                    owl.trigger('prev.owl.carousel');                    
+                    owl.trigger('prev.owl.carousel');
                 }
 
 
@@ -403,5 +401,206 @@ $(document).ready(function () {
 
             }
         });
+
+
+    } else {
+
+        const addActiveClass = function () {
+
+            let currentActive_a = $('.owl-stage').children('.active').find('.fifth-block-container-bottom-item__a');
+            let currentActive_readMore = $('.owl-stage').children('.active').find('.fifth-block-container-bottom-item-read-more');
+
+            activeArray[0] = currentActive_a;
+            activeArray[1] = currentActive_readMore;
+
+            currentActive_a.addClass('fifth-block-container-bottom-item__a_activ');
+            currentActive_readMore.addClass('fifth-block-container-bottom-item-read-more_activ');
+
+        };
+
+        const removeActiveClass = function () {
+            if (activeArray[0]) {
+                activeArray[0].removeClass('fifth-block-container-bottom-item__a_activ');
+                activeArray[1].removeClass('fifth-block-container-bottom-item-read-more_activ');
+            }
+        };
+
+
+        $('.fifth-block-container-bottom-item__a').eq(0).addClass('fifth-block-container-bottom-item__a_activ');
+        $('.fifth-block-container-bottom-item-read-more').eq(0).addClass('fifth-block-container-bottom-item-read-more_activ');
+
+        $('.owl-stage').children('.active').eq(0).addClass('shadow');
+        $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+
+
+        // обработчик на событие 'translated.owl.carousel'
+        owl.on('translated.owl.carousel', function () {
+            currentNextIndex = $('.owl-stage').children('.active').index() + 1;
+            currentActiveIndex = $('.owl-stage').children('.active').index();
+            currentPrevIndex = $('.owl-stage').children('.active').index() - 1;
+            
+            console.log(currentActiveIndex);
+            console.log(lastElementIndex);
+
+            if (currentActiveIndex != lastElementIndex) {
+                $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
+                nextButtonEnabled = true;
+            } else {
+                $('.next').addClass('fifth-block-container-buttons__btn_disabled');
+                nextButtonEnabled = false;
+            }
+
+            if (currentPrevIndex != firstElementIndex) {
+                $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
+                prevButtonEnabled = true;
+            } else {
+                $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                prevButtonEnabled = false;
+            }
+
+            if (!buttonsControl) {
+                removeActiveClass();
+                addActiveClass();
+                
+            }
+
+            buttonsControl = false;
+
+
+        });
+
+
+        owl.on('next.owl.carousel', function () {
+            buttonsControl = true;
+            currentNextIndex = $('.owl-stage').children('.active').index() + 1;
+
+            let notActive = $('.owl-stage').children(':not([active])');
+            $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+
+            $('.owl-stage').children('.active').eq(0).addClass('shadow');
+            $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+            addActiveClass();
+
+            currentActiveIndex = currentNextIndex;
+            currentPrevIndex = currentActiveIndex - 1;
+
+            if (currentActiveIndex === lastElementIndex) {
+                $('.next').addClass('fifth-block-container-buttons__btn_disabled');
+                nextButtonEnabled = false;
+            }
+        });
+
+        owl.on('prev.owl.carousel', function () {
+            buttonsControl = true;
+            currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
+
+            let notActive = $('.owl-stage').children(':not([active])');
+
+            $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
+
+            $('.owl-stage').children('.active').eq(0).addClass('shadow');
+            $('.owl-stage').children('.active').eq(1).addClass('shadow');
+
+            addActiveClass();
+
+
+            currentActiveIndex = currentPrevIndex;
+            currentNextIndex = currentActiveIndex + 1;
+
+
+            if (currentActiveIndex === firstElementIndex) {
+                $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                prevButtonEnabled = false;
+            }
+
+
+
+        });
+
+
+
+
+        $('.next').on('click', function () {
+
+            if (nextButtonEnabled) {
+                currentNextIndex = $('.owl-stage').children('.active').index() + 1;
+
+                if (!prevButtonEnabled) {
+                    $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
+                    prevButtonEnabled = true;
+                }
+
+
+                if (currentActiveIndex === lastElementIndex) {
+                    $('.next').addClass('fifth-block-container-buttons__btn_disabled');
+                    nextButtonEnabled = false;
+                }
+
+
+                
+
+                removeActiveClass();
+                owl.trigger('next.owl.carousel');
+
+
+
+            }
+
+        });
+
+
+        $('.prev').on('click', function () {
+
+            if (prevButtonEnabled) {                
+
+                if (!nextButtonEnabled) {
+                    $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
+                    nextButtonEnabled = true;
+                }
+
+
+                if (currentActiveIndex === firstElementIndex) {
+                    $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                    prevButtonEnabled = false;
+                }
+
+
+                removeActiveClass();
+                owl.trigger('prev.owl.carousel');
+
+
+
+
+
+                // if (currentActiveIndex === lastElementIndex) {
+                //     removeAndAddActiveClass('prev');
+                // } else {
+                //     removeActiveClass();
+                //     owl.trigger('prev.owl.carousel');
+                // }
+
+                // if (currentActiveIndex != firstElementIndex) {
+                //     if (!nextButtonEnabled) {
+                //         $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
+                //         nextButtonEnabled = true;
+                //     }
+                // } else {
+                //     $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
+                //     prevButtonEnabled = false;
+                // }
+
+            }
+        });
+
+
+
+
+
+
+
+
+
     }
 });

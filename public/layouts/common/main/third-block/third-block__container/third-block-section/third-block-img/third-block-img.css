@@ -13,3 +13,9 @@
              
     }    
 }
+
+@media all and (max-width: 768px) {
+    .third-block-img {
+        height: 590px;
+    }    
+}

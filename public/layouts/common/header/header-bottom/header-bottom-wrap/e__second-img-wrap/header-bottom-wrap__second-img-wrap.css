@@ -17,3 +17,9 @@
         left: 680px;        
     }    
 }
+
+@media all and (max-width: 768px) {
+    .header-bottom-wrap__second-img-wrap {
+       display: none;
+    }    
+}

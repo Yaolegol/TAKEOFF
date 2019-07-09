@@ -19,3 +19,13 @@
         width: 40%;        
     }    
 }
+
+@media all and (max-width: 768px) {
+    .second-block-img-container {
+        width: 400px;
+        order: 1;
+        
+        
+        
+    }    
+}

@@ -3,3 +3,9 @@
     height: auto;   
     align-self: flex-start;
 }
+
+@media all and (max-width: 768px) {
+    .first-block__second-element_up {
+        display: none;
+    }    
+}

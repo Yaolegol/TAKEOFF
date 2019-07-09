@@ -11,10 +11,9 @@
     }    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 768px) {
     .fifth-block {
-        
-               
-    
-    }
+        width: 768px;
+        margin: 0;
+    }    
 }
