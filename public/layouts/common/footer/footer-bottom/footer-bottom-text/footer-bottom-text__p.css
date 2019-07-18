@@ -12,3 +12,10 @@
         font-size: 14px;
     }    
 }
+
+@media all and (max-width: 320px) {
+    .footer-bottom-text__p {
+        font-size: 8px; 
+               
+    }    
+}

@@ -17,3 +17,10 @@
         margin: 0;
     }    
 }
+
+@media all and (max-width: 320px) {
+    .fifth-block {
+        width: 100%;
+               
+    }    
+}

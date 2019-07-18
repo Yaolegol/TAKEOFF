@@ -19,3 +19,16 @@ li:nth-child(even) .third-block-img__second-img {
              
     }    
 }
+
+@media all and (max-width: 320px) {
+    .third-block-img__second-img {         
+        height: 150px;
+        width: 100px;  
+        top: 23px;
+        left: 79px;     
+    }    
+
+    li:nth-child(even) .third-block-img__second-img {
+        left: 150px;
+    }
+}

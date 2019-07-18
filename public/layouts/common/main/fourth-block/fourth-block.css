@@ -22,3 +22,9 @@
         height: 324px; 
     }      
 }
+
+@media all and (max-width: 320px) {
+    .fourth-block {         
+        display: none;       
+    }    
+}

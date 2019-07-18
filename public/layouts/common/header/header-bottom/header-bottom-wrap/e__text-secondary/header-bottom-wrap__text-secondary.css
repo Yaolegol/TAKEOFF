@@ -13,3 +13,10 @@
         line-height: 20px;
     }    
 }
+
+@media all and (max-width: 320px) {
+    .header-bottom-wrap__text-secondary {
+        font-size: 9px;
+        line-height: 12px;       
+    }    
+}

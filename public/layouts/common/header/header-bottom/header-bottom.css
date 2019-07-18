@@ -18,3 +18,9 @@
                 
     }    
 }
+
+@media all and (max-width: 320px) {
+    .header-bottom {
+        height: 90%;        
+    }    
+}

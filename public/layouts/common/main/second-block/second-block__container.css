@@ -25,3 +25,9 @@
         flex-wrap: wrap;        
     }    
 }
+
+@media all and (max-width: 320px) {
+    .second-block__container {        
+        height: 100%;       
+    }    
+}

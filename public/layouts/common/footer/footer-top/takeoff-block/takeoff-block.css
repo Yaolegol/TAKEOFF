@@ -13,3 +13,13 @@
     
     }
 }
+
+@media all and (max-width: 320px) {
+    .takeoff-block {
+        order: 10;     
+        margin: 0; 
+        margin-top: 50px;
+        height: auto;
+        width: 100%; 
+    }    
+}

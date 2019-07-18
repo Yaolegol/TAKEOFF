@@ -27,3 +27,10 @@
         
     }    
 }
+
+@media all and (max-width: 320px) {
+    .second-block {
+        width: 100%;     
+        margin-bottom: 50px;   
+    }    
+}

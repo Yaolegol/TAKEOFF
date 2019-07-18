@@ -4,10 +4,10 @@
     margin: 0 15px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 320px) {
     .recomended-block {
-      
-               
-    
-    }
+        order: 1;     
+        margin: 10px 0; 
+        height: auto; 
+    }    
 }

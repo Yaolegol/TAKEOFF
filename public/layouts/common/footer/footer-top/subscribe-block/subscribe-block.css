@@ -9,8 +9,13 @@
         order: 1;
         margin-right: 100px;
         
-        
-               
-    
     }
+}
+
+@media all and (max-width: 320px) {
+    .subscribe-block {
+        order: 9;     
+        margin: 10px 0;         
+        height: auto; 
+    }    
 }

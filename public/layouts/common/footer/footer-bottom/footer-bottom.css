@@ -29,3 +29,10 @@
     }    
 }
 
+@media all and (max-width: 320px) {
+    .footer-bottom {
+        width: 100%; 
+        white-space: normal;
+    }    
+}
+

@@ -21,3 +21,9 @@ li:nth-child(even) .third-block-img__main-img {
         left: 70px;
     }
 }
+
+@media all and (max-width: 320px) {
+    .third-block-img__main-img {         
+        width: 130px;       
+    }    
+}

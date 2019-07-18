@@ -14,32 +14,6 @@ html, body {
     }
 }
 
-@media screen and (max-width: 320px) {
-    body {       
-        zoom: 42%;                
-    }
-    
-    html, body {        
-        overflow-x: hidden;    
-    }
-}
 
-@media screen and (max-width: 375px) {
-    body {       
-        zoom: 49%;                
-    }
-    
-    html, body {        
-        overflow-x: hidden;    
-    }
-}
 
-@media screen and (max-width: 425px) {
-    body {       
-        zoom: 56%;                
-    }
-    
-    html, body {        
-        overflow-x: hidden;    
-    }
-}
+

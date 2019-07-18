@@ -10,3 +10,9 @@
         padding: 0 300px;
     }    
 }
+
+@media all and (max-width: 320px) {
+    .first-block-cart {
+        padding: 0 70px;      
+    }    
+}

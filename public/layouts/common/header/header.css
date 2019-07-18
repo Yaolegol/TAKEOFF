@@ -28,3 +28,10 @@
         margin: 0;
     }    
 }
+
+@media all and (max-width: 320px) {
+    .header {
+        width: 100%; 
+        height: 480px;       
+    }    
+}

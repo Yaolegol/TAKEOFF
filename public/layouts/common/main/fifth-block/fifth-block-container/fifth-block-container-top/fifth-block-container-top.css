@@ -17,3 +17,10 @@
         
     }    
 }
+
+@media all and (max-width: 320px) {
+    .fifth-block-container-top {
+        height: 220px;
+               
+    }    
+}

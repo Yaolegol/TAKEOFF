@@ -2,3 +2,10 @@
     display: flex;    
     justify-content: center;
 }
+
+@media all and (max-width: 320px) {
+    .header-bottom-btns__wrap {
+        flex-wrap: wrap;  
+        padding: 10px;      
+    }    
+}

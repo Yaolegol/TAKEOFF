@@ -29,3 +29,10 @@
         
     }    
 }
+
+@media all and (max-width: 320px) {
+    .second-block-img-container {
+        height: 33%;        
+    }    
+}
+

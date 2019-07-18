@@ -11,3 +11,11 @@
     
     }
 }
+
+@media all and (max-width: 320px) {
+    .links-block {
+        order: 2;     
+        margin: 10px 0; 
+        height: auto; 
+    }    
+}

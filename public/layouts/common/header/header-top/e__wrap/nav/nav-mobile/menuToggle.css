@@ -34,6 +34,10 @@
     -o-transition: all .5s cubic-bezier(.08,.81,.87,.71);
     transition: all .5s cubic-bezier(.08,.81,.87,.71);
   }
+
+  .menuToggle span:last-child {
+    margin-bottom: 0;
+  }
   
   .span1 {
     transform-origin: 4px 0px;
@@ -56,3 +60,33 @@
     transform: rotate(45deg);
     opacity: 0;
   }
+
+  @media all and (max-width: 320px) {
+    .menuToggle {      
+      position: relative;
+      top: 0;
+      left: 0;
+      overflow: hidden;      
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;           
+    }    
+
+    .menuToggle span { 
+      height: 2px;
+     
+    }
+
+    .menuToggle input {      
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+    }
+
+}
