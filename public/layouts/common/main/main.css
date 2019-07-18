@@ -9,3 +9,10 @@
         width: 1500px;        
     }    
 }
+
+@media all and (max-width: 768px) {
+    .main {
+        width: 768px;
+        margin: 0;
+    }    
+}

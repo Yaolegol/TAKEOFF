@@ -1,4 +1,5 @@
 .menuToggle {
+    display: none;
     overflow: hidden;
     position: absolute;
     right: 50px;

@@ -6,3 +6,9 @@
     font-weight: 400;    
     color: #ffffff;    
 }
+
+@media all and (max-width: 768px) {
+    .footer-bottom-text__p {
+        font-size: 14px;
+    }    
+}

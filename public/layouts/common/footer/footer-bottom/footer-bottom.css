@@ -23,3 +23,9 @@
     }
 }
 
+@media all and (max-width: 768px) {
+    .footer-bottom {
+        width: 768px;
+    }    
+}
+

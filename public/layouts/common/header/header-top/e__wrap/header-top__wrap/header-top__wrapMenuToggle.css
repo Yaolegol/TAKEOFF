@@ -1,0 +1,9 @@
+.header-top__wrapMenuToggle {
+    display: none;
+}
+
+@media all and (max-width: 768px) {
+    .header-top__wrapMenuToggle {
+        display: initial;
+    }    
+}
