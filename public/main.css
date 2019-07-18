@@ -16,6 +16,6 @@ html, body {
 
 @media screen and (max-width: 380px) {
     html, body {       
-        zoom: 64.5%;
+        zoom: 100%;
     }
 }
