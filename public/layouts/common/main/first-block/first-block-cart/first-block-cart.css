@@ -11,7 +11,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .first-block-cart {
         padding: 0 70px;      
     }    

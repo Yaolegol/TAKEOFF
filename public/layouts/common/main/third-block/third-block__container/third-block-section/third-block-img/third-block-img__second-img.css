@@ -20,7 +20,7 @@ li:nth-child(even) .third-block-img__second-img {
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .third-block-img__second-img {         
         height: 150px;
         width: 100px;  

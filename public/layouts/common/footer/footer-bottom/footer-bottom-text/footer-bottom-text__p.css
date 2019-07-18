@@ -13,7 +13,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .footer-bottom-text__p {
         font-size: 8px; 
                

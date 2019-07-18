@@ -21,7 +21,7 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .fifth-block-container-bottom {
         width: 280px;
                

@@ -4,7 +4,7 @@
     height: 70px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .fifth-block-container-buttons {
         display: none;       
     }    

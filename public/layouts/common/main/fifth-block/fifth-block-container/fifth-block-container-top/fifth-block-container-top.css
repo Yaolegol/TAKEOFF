@@ -18,7 +18,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .fifth-block-container-top {
         height: 220px;
                

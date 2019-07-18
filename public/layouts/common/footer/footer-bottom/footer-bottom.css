@@ -29,7 +29,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .footer-bottom {
         width: 100%; 
         white-space: normal;

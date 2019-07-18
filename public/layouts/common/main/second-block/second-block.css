@@ -28,7 +28,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .second-block {
         width: 100%;     
         margin-bottom: 50px;   

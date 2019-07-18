@@ -4,7 +4,7 @@
     margin: 0 15px;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .recomended-block {
         order: 1;     
         margin: 10px 0; 

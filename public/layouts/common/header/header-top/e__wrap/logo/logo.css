@@ -9,3 +9,10 @@
         
     }    
 }
+
+@media all and (max-width: 425px) {
+    .logo {
+        width: 50%; 
+               
+    }    
+}

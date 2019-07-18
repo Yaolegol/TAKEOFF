@@ -22,7 +22,7 @@ li:nth-child(even) .third-block-img__main-img {
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .third-block-img__main-img {         
         width: 130px;       
     }    

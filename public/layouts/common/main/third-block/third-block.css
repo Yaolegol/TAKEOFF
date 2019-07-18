@@ -19,7 +19,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .third-block {
         width: 100%;        
     }    

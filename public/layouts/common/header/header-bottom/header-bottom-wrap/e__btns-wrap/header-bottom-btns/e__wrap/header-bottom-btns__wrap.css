@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .header-bottom-btns__wrap {
         flex-wrap: wrap;  
         padding: 10px;      

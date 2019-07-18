@@ -8,10 +8,10 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .header-top__wrapMenuToggle {
         display: inline-block;
-        margin-left: 25%;
+        margin-right: 40px;
         width: 30px;
         height: 36px;        
     }    

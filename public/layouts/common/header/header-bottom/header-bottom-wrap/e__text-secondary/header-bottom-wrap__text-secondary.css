@@ -14,7 +14,7 @@
     }    
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 425px) {
     .header-bottom-wrap__text-secondary {
         font-size: 9px;
         line-height: 12px;       
