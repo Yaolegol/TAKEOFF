@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;   
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 * {
@@ -11,5 +11,11 @@ html, body {
 @media screen and (max-width: 1800px) {
     html, body {
         overflow-x: visible; 
+    }
+}
+
+@media screen and (max-width: 380px) {
+    html, body {       
+        zoom: 64.5%;
     }
 }
