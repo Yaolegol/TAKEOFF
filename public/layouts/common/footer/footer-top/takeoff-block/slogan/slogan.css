@@ -16,3 +16,9 @@
     
     }
 }
+
+@media all and (max-width: 425px) {
+    .slogan {
+        width: 100%;       
+    }    
+}
