@@ -1,3 +1,11 @@
 .header-bottom-btns {
     display: inline-block; 
 }
+
+@media all and (max-width: 386px) {
+    .header-bottom-btns {
+        padding: 0 40px;
+          
+             
+    }    
+}

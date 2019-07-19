@@ -13,13 +13,3 @@ html, body {
         overflow-x: visible; 
     }
 }
-
-@media all and (max-width: 425px) {
-    html, body {
-        overflow-x: hidden;       
-    }    
-}
-
-
-
-

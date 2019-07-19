@@ -32,7 +32,11 @@
 
 @media all and (max-width: 425px) {
     .second-block-img-container {
-        height: 33%;        
+        height: 33%;     
+        text-align: center; 
+        display: none;  
     }    
 }
+
+
 

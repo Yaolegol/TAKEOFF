@@ -1,4 +1,7 @@
 .second-block-img-container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: rgb(37, 30, 67);
     opacity: 0.702;
     width: 100%;

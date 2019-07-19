@@ -38,3 +38,10 @@
         width: 200px;
     }    
 }
+
+@media all and (max-width: 351px) {
+    .input-block__input {
+             
+        width: 168px;
+    }    
+}

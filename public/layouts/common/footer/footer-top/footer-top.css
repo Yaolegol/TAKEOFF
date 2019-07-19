@@ -16,3 +16,9 @@
     
     }
 }
+
+@media all and (max-width: 425px) {
+    .footer-top {        
+        padding: 0 20px;    
+    }    
+}

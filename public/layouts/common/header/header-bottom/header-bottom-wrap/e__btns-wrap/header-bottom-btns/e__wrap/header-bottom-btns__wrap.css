@@ -6,6 +6,6 @@
 @media all and (max-width: 425px) {
     .header-bottom-btns__wrap {
         flex-wrap: wrap;  
-        padding: 10px;      
+           
     }    
 }

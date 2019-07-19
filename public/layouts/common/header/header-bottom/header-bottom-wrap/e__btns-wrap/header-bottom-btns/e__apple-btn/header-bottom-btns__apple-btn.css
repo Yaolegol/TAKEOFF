@@ -30,8 +30,10 @@
     }    
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 386px) {
     .header-bottom-btns__apple-btn {
-        margin: 0 0 10px;        
+        margin: 0 0 10px;
+          
+             
     }    
 }
