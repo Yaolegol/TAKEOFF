@@ -32,7 +32,7 @@
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 702px) {
     .input-block__input {
              
         width: 200px;

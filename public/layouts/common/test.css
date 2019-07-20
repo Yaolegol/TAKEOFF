@@ -12,9 +12,23 @@
     height: 100%;
 }
 
-@media all and (min-width: 426px) {
+@media all and (min-width: 769px) {
     .test {
         
         display: none;  
+    }    
+}
+
+@media all and (max-width: 768px) {
+    .test {
+        
+        height: 60%;
+    }    
+}
+
+@media all and (max-width: 480px) {
+    .test {
+        
+        height: 45%;  
     }    
 }

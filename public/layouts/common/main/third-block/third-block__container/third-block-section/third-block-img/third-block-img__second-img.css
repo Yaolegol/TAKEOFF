@@ -20,6 +20,18 @@ li:nth-child(even) .third-block-img__second-img {
     }    
 }
 
+@media all and (max-width: 535px) {
+    .third-block-img__second-img {         
+        height: 150px;
+        width: 100px;  
+        top: 53px;
+        left: 78px;      
+    }    
+    li:nth-child(even) .third-block-img__second-img {
+        left: 185px;
+    }
+}
+
 @media all and (max-width: 425px) {
     .third-block-img__second-img {         
         height: 150px;

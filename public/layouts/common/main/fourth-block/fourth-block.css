@@ -19,11 +19,20 @@
 
 @media all and (max-width: 768px) {
     .fourth-block {
-        height: 324px; 
+        height: 200px;
+        width: 100%; 
+        margin-bottom: 100px;
     }      
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 615px) {
+    .fourth-block {         
+        height: 150px;       
+    }    
+}
+
+
+@media all and (max-width: 520px) {
     .fourth-block {         
         display: none;       
     }    

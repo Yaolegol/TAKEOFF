@@ -42,16 +42,16 @@ li:nth-child(even) .third-block-content {
     }
     li:nth-child(odd) .third-block-content {
         margin-left: 0px;
-        width: 400px;                
+        width: 100%;                
     }    
     li:nth-child(even) .third-block-content {
         margin-right: 0px;
-        width: 400px;
+        width: 100%;
         order: 2;
     }
     li:nth-child(even) .third-block-img {
         margin-left: 0px;
-        width: 400px;
+        width: 100%;
         order: 1;        
     }
 }

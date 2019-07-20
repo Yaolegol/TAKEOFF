@@ -13,8 +13,9 @@
 
 @media all and (max-width: 768px) {
     .fifth-block {
-        width: 768px;
-        margin: 0;
+        width: 100%;
+        height: auto;
+        margin: 0 0 100px;
     }    
 }
 

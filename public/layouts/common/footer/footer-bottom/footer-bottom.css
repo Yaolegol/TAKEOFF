@@ -25,11 +25,11 @@
 
 @media all and (max-width: 768px) {
     .footer-bottom {
-        width: 768px;
+        width: 100%;
     }    
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 702px) {
     .footer-bottom {
         width: 100%; 
         white-space: normal;

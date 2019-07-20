@@ -23,8 +23,16 @@
     .second-block-content-container {
         text-align: center;
         width: 100%;
+        height: 40%;
         order: 2;
         
+    }    
+}
+
+@media all and (max-width: 480px) {
+    .second-block-content-container {
+        
+        height: 55%;  
     }    
 }
 

@@ -12,7 +12,7 @@
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 702px) {
     .links-block {
         order: 2;     
         margin: 10px 0; 

@@ -4,8 +4,17 @@
     height: 70px;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 529px) {
     .fifth-block-container-buttons {
-        display: none;       
+        float: initial;
+        margin: 20px auto 0;
+        
+
+        
     }    
 }
+
+
+
+
+

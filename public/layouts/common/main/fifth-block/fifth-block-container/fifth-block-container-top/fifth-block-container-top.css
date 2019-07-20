@@ -4,23 +4,20 @@
     padding: 0 10px;
 }
 
-@media all and (max-width: 1024px) {
-    .fifth-block-container-top {
-        
-        
-    }    
-}
 
 @media all and (max-width: 768px) {
     .fifth-block-container-top {
         padding: 0 20px;
+        margin-bottom: 20px;
+        height: auto;
         
     }    
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 529px) {
     .fifth-block-container-top {
-        height: 220px;
-               
+        text-align: center;
+        
+        
     }    
 }

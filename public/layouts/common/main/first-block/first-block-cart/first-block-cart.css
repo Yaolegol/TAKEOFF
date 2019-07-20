@@ -6,8 +6,9 @@
 
 @media all and (max-width: 768px) {
     .first-block-cart {
+        flex-direction: column;
         flex-wrap: wrap;
-        padding: 0 300px;
+        padding: 0 30px;
     }    
 }
 

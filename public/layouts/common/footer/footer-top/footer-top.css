@@ -17,7 +17,7 @@
     }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 702px) {
     .footer-top {        
         padding: 0 20px;    
     }    

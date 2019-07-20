@@ -1,16 +1,15 @@
 $(document).ready(function () {
     var owl = $('.owl-carousel');
     owl.owlCarousel({
-        margin: 30,
-        nav: true,
-        autoWidth: true,
+        margin: 30,        
+        nav: true,        
         responsive: {
             0: {
                 items: 1,
                 margin: 5
             },
             769: {
-                items: 2,
+                items: 2
             },
             1025: {
                 items: 3
@@ -21,7 +20,7 @@ $(document).ready(function () {
     let currentPrevIndex = 0;
     let currentActiveIndex = 0;
     let currentNextIndex = 1;
-    let lastElementIndex = $('.owl-stage').children().length - 1;
+    let lastElementIndex = $('.owl-stage').children().length - 1;    
     let firstElementIndex = 0;
 
     let activeArray = [];
@@ -406,7 +405,7 @@ $(document).ready(function () {
 
     } else {
 
-        const addActiveClass = function () {
+        const addActiveClass = function () {            
 
             let currentActive_a = $('.owl-stage').children('.active').find('.fifth-block-container-bottom-item__a');
             let currentActive_readMore = $('.owl-stage').children('.active').find('.fifth-block-container-bottom-item-read-more');
@@ -437,13 +436,9 @@ $(document).ready(function () {
 
         // обработчик на событие 'translated.owl.carousel'
         owl.on('translated.owl.carousel', function () {
-            currentNextIndex = $('.owl-stage').children('.active').index() + 1;
-            currentActiveIndex = $('.owl-stage').children('.active').index();
-            currentPrevIndex = $('.owl-stage').children('.active').index() - 1;
             
-            console.log(currentActiveIndex);
-            console.log(lastElementIndex);
-
+            currentActiveIndex = $('.owl-stage').children('.active').index();
+            
             if (currentActiveIndex != lastElementIndex) {
                 $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
                 nextButtonEnabled = true;
@@ -452,7 +447,7 @@ $(document).ready(function () {
                 nextButtonEnabled = false;
             }
 
-            if (currentPrevIndex != firstElementIndex) {
+            if (currentActiveIndex != firstElementIndex) {
                 $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
                 prevButtonEnabled = true;
             } else {
@@ -463,7 +458,7 @@ $(document).ready(function () {
             if (!buttonsControl) {
                 removeActiveClass();
                 addActiveClass();
-                
+
             }
 
             buttonsControl = false;
@@ -473,8 +468,8 @@ $(document).ready(function () {
 
 
         owl.on('next.owl.carousel', function () {
-            buttonsControl = true;
-            currentNextIndex = $('.owl-stage').children('.active').index() + 1;
+            
+            buttonsControl = true;            
 
             let notActive = $('.owl-stage').children(':not([active])');
             $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
@@ -484,40 +479,19 @@ $(document).ready(function () {
 
             addActiveClass();
 
-            currentActiveIndex = currentNextIndex;
-            currentPrevIndex = currentActiveIndex - 1;
-
-            if (currentActiveIndex === lastElementIndex) {
-                $('.next').addClass('fifth-block-container-buttons__btn_disabled');
-                nextButtonEnabled = false;
-            }
+            
         });
 
         owl.on('prev.owl.carousel', function () {
-            buttonsControl = true;
-            currentPrevIndex = $('.owl-stage').children('.active').eq(0).index();
+            buttonsControl = true;            
 
             let notActive = $('.owl-stage').children(':not([active])');
-
             $(notActive).hasClass("shadow") ? $(notActive).removeClass('shadow') : null;
 
             $('.owl-stage').children('.active').eq(0).addClass('shadow');
             $('.owl-stage').children('.active').eq(1).addClass('shadow');
 
             addActiveClass();
-
-
-            currentActiveIndex = currentPrevIndex;
-            currentNextIndex = currentActiveIndex + 1;
-
-
-            if (currentActiveIndex === firstElementIndex) {
-                $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                prevButtonEnabled = false;
-            }
-
-
-
         });
 
 
@@ -526,7 +500,7 @@ $(document).ready(function () {
         $('.next').on('click', function () {
 
             if (nextButtonEnabled) {
-                currentNextIndex = $('.owl-stage').children('.active').index() + 1;
+                currentActiveIndex++;                            
 
                 if (!prevButtonEnabled) {
                     $('.prev').removeClass('fifth-block-container-buttons__btn_disabled');
@@ -540,7 +514,7 @@ $(document).ready(function () {
                 }
 
 
-                
+
 
                 removeActiveClass();
                 owl.trigger('next.owl.carousel');
@@ -554,7 +528,8 @@ $(document).ready(function () {
 
         $('.prev').on('click', function () {
 
-            if (prevButtonEnabled) {                
+            if (prevButtonEnabled) {
+                currentActiveIndex--;
 
                 if (!nextButtonEnabled) {
                     $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
@@ -575,22 +550,7 @@ $(document).ready(function () {
 
 
 
-                // if (currentActiveIndex === lastElementIndex) {
-                //     removeAndAddActiveClass('prev');
-                // } else {
-                //     removeActiveClass();
-                //     owl.trigger('prev.owl.carousel');
-                // }
-
-                // if (currentActiveIndex != firstElementIndex) {
-                //     if (!nextButtonEnabled) {
-                //         $('.next').removeClass('fifth-block-container-buttons__btn_disabled');
-                //         nextButtonEnabled = true;
-                //     }
-                // } else {
-                //     $('.prev').addClass('fifth-block-container-buttons__btn_disabled');
-                //     prevButtonEnabled = false;
-                // }
+               
 
             }
         });

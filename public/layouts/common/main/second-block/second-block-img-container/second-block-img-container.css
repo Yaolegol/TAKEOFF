@@ -21,9 +21,8 @@
 }
 
 @media all and (max-width: 768px) {
-    .second-block-img-container {
-        width: 400px;
-        order: 1;
+    .second-block-img-container {        
+        display: none; 
         
         
         
@@ -32,8 +31,8 @@
 
 @media all and (max-width: 425px) {
     .second-block-img-container {
-        height: 33%;     
-        text-align: center; 
+           
+        
         display: none;  
     }    
 }

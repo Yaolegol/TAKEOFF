@@ -18,12 +18,21 @@
 }
 
 @media all and (max-width: 768px) {
-    .fourth-block__item img {
-        height: 40px;
-    }
+    
+    .fourth-block__item:nth-child(odd) img {
+        height: 40px; 
+    } 
 
     .fourth-block__item:nth-child(even) img {
         height: 10px;
     }
 
+}
+
+@media all and (max-width: 615px) {
+    .fourth-block__item:nth-child(odd) img {
+        height: 30px; 
+    } 
+
+     
 }

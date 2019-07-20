@@ -6,3 +6,18 @@
     color: #797979;
     line-height: 26px;
 }
+
+@media all and (max-width: 768px) {
+    .fifth-block-container-top__text {
+        
+        width: 60%;
+    }    
+}
+
+@media all and (max-width: 529px) {
+    .fifth-block-container-top__text {
+        width: 100%;
+
+        
+    }    
+}
