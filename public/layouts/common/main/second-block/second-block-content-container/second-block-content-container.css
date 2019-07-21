@@ -11,12 +11,6 @@
 
 }
 
-@media all and (max-width: 1600px) {
-    .second-block-content-container {
-        width: 800px;        
-    }    
-}
-
 @media all and (max-width: 1024px) {
     .second-block-content-container {
         width: 60%;        

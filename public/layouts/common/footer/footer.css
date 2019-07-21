@@ -1,15 +1,10 @@
 .footer {
     min-height: 626px;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     background-color: #fbfbfb;    
 }
 
-@media all and (max-width: 1600px) {
-    .footer {        
-        width: 1500px;
-    }    
-}
 
 @media all and (max-width: 1024px) {
     .footer {

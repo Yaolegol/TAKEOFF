@@ -5,12 +5,6 @@
     margin: 0 auto 131px;
 }
 
-@media all and (max-width: 1600px) {
-    .fourth-block {
-        width: 1500px;
-        height: 695px;
-    }    
-}
 
 @media all and (max-width: 1024px) {
     .fourth-block {

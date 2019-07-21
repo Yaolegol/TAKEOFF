@@ -2,23 +2,3 @@
   
 }
 
-@media all and (max-width: 1600px) {
-    .second-block-content-container__wrap {
-        padding-top: 100px;
-        padding-left: 200px;        
-    }    
-}
-
-@media all and (max-width: 1024px) {
-    .second-block-content-container__wrap {
-        padding-left: 100px;
-        padding-top: 40px;
-
-    }    
-}
-
-@media all and (max-width: 975px) {
-    .second-block-content-container__wrap {
-        padding-left: 0;
-    }    
-}

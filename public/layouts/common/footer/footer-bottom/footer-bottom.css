@@ -7,11 +7,6 @@
     white-space: nowrap;
 }
 
-@media all and (max-width: 1600px) {
-    .footer-bottom {        
-        width: 1500px;
-    }    
-}
 
 
 @media all and (max-width: 1024px) {
