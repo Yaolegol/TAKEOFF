@@ -12,7 +12,14 @@
     }    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1400px) {
+    .header-bottom {
+        padding-left: 0;
+           
+    }    
+}
+
+@media all and (max-width: 1210px) {
     .header-bottom {
         padding-left: 0;
                 

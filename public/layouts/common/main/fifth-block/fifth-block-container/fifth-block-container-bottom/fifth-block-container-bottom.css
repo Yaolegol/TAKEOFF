@@ -5,6 +5,14 @@
         
 }
 
+/* @media all and (max-width: 1400px) {
+    .fifth-block-container-bottom {
+        width: 65%;        
+        margin: 0 auto; 
+    
+    }
+} */
+
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom {
         width: 66%;        

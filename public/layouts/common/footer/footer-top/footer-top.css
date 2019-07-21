@@ -6,6 +6,12 @@
     flex-wrap: wrap;    
 }
 
+@media all and (max-width: 1220px) {
+    .footer-top {
+        padding: 50px 200px;
+    }
+}
+
 @media all and (max-width: 1024px) {
     .footer-top {
         padding-top: 50px;

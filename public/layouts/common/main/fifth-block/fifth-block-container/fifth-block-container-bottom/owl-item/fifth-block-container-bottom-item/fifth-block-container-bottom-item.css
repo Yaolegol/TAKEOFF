@@ -7,6 +7,13 @@
     font-size: 0;    
 }
 
+/* @media all and (max-width: 1400px) {
+    .fifth-block-container-bottom-item {
+        max-width: 300px; 
+    
+    }
+} */
+
 @media all and (max-width: 975px) {
     .fifth-block-container-bottom-item {
         height: auto;

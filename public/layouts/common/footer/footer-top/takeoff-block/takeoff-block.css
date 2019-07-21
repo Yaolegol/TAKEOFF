@@ -5,6 +5,12 @@
     display: inline-block;
 }
 
+@media all and (max-width: 1220px) {
+    .takeoff-block {
+        order: 1;
+    }
+}
+
 @media all and (max-width: 1024px) {
     .takeoff-block {
         margin-right: 100px;

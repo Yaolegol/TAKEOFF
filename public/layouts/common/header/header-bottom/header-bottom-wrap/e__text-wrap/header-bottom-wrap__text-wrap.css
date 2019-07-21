@@ -15,7 +15,7 @@
     }    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1210px) {
     .header-bottom-wrap__text-wrap {
         top: 200px;
         left: 100px;

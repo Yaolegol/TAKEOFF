@@ -4,6 +4,12 @@
     margin: 0 15px;
 }
 
+@media all and (max-width: 1220px) {
+    .recomended-block {
+        order: 2;
+    }
+}
+
 @media all and (max-width: 702px) {
     .recomended-block {
         order: 1;     

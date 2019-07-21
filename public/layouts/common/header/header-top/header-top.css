@@ -7,7 +7,7 @@
     white-space: nowrap;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1210px) {
     .header-top {
         height: 120px;
         white-space: normal;

@@ -1,3 +1,9 @@
 .footer-bottom-wrap {
     padding-left: 130px;
 }
+
+@media all and (max-width: 1220px) {
+    .footer-bottom-wrap {
+        padding-left: 0;
+    }
+}

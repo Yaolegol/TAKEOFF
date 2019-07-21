@@ -18,7 +18,7 @@
     }    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1210px) {
   .second-img__first-el {
     width: 265px;
     height: 480px;

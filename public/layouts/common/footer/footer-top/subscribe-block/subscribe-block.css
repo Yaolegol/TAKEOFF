@@ -4,6 +4,14 @@
     margin: 0 15px;
 }
 
+@media all and (max-width: 1220px) {
+    .subscribe-block {
+        order: 3;
+        margin-top: 50px;
+        height: 300px;
+    }
+}
+
 @media all and (max-width: 1024px) {
     .subscribe-block {
         order: 3;

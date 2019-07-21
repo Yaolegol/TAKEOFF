@@ -15,7 +15,21 @@
     }    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1400px) {
+    .header-top__wrap {
+        margin-left: 150px;
+           
+    }    
+}
+
+@media all and (max-width: 1250px) {
+    .header-top__wrap {
+        margin-left: 50px;
+           
+    }    
+}
+
+@media all and (max-width: 1210px) {
     .header-top__wrap {
         margin-left: 100px;
         

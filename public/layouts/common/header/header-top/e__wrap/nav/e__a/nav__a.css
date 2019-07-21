@@ -13,7 +13,7 @@
     text-decoration-line: underline;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1210px) {
     .nav__a {
         font-size: 12px;
     }    

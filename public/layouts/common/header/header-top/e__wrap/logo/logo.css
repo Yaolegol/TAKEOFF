@@ -3,7 +3,7 @@
     display: inline-block;    
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1210px) {
     .logo {
         margin-right: 20px;
         
