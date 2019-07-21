@@ -10,18 +10,18 @@
     }
 }    
 
-
-
-
 @media all and (max-width: 1024px) {
-    .first-block {
-        
+    .first-block {        
         margin: 0 0 100px;
         padding: 0 100px;
     }    
 }
 
-
+@media all and (max-width: 975px) {
+    .first-block {        
+        height: auto;
+    }    
+}
 
 
 @media all and (max-width: 425px) {

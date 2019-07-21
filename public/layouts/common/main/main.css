@@ -5,11 +5,6 @@
     overflow: hidden;
 }
 
-@media all and (max-width: 975px) {
-    .main {
-        width: 1500px;        
-    }    
-}
 
 @media all and (max-width: 768px) {
     .main {

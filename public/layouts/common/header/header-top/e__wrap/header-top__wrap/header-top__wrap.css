@@ -36,6 +36,12 @@
     }    
 }
 
+@media all and (max-width: 975px) {
+    .header-top__wrap {
+        margin-left: 50px;
+    }    
+}
+
 
 
 @media all and (max-width: 768px) {

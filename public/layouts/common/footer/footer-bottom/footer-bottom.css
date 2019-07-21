@@ -18,6 +18,14 @@
     }
 }
 
+@media all and (max-width: 975px) {
+    .footer-bottom {
+        width: 100%;
+               
+    
+    }
+}
+
 @media all and (max-width: 702px) {
     .footer-bottom {
         width: 100%;

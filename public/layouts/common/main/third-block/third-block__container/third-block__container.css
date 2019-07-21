@@ -4,3 +4,10 @@
     list-style: none;
     width: 1170px;
 }
+
+@media all and (max-width: 975px) {
+    .third-block {
+        width: 100%;
+           
+    }    
+}
