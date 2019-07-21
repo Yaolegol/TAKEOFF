@@ -4,7 +4,7 @@
     height: 70px;
 }
 
-@media all and (max-width: 529px) {
+@media all and (max-width: 640px) {
     .fifth-block-container-buttons {
         float: initial;
         margin: 20px auto 0;

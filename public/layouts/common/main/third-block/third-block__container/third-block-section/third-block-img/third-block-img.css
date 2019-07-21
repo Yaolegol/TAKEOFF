@@ -27,6 +27,7 @@
 
 @media all and (max-width: 425px) {
     .third-block-img {         
-        height: 235px;       
+        height: 235px;  
+        width: 100%;     
     }    
 }

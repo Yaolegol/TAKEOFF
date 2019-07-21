@@ -18,10 +18,12 @@
     }
 }
 
-@media all and (max-width: 702px) {
+
+
+/* @media all and (max-width: 7.02px) {
     .recomended-block {
         order: 1;     
         margin: 10px 0; 
         height: auto; 
     }    
-}
+} */

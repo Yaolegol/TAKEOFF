@@ -14,7 +14,7 @@
     }    
 }
 
-@media all and (max-width: 529px) {
+@media all and (max-width: 640px) {
     .fifth-block-container-top__text {
         width: 100%;
 

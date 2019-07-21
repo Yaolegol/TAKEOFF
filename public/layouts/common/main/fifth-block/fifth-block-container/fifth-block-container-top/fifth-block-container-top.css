@@ -15,7 +15,7 @@
     }    
 }
 
-@media all and (max-width: 529px) {
+@media all and (max-width: 640px) {
     .fifth-block-container-top {
         text-align: center;
         

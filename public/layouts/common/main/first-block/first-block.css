@@ -23,9 +23,8 @@
     }    
 }
 
-
-@media all and (max-width: 425px) {
-    .first-block {
-        width: 100%;        
+@media all and (max-width: 500px) {
+    .first-block {        
+        padding: 0;
     }    
 }

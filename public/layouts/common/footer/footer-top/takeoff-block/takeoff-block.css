@@ -12,16 +12,23 @@
 }
 
 @media all and (max-width: 1024px) {
-    .takeoff-block {
-        margin-right: 0;
-        margin-bottom: 0;
+    .takeoff-block {        
         order: 4;
         margin: 0 25px;
     
     }
 }
 
-@media all and (max-width: 702px) {
+@media all and (max-width: 400px) {
+    .takeoff-block {
+        width: 100%;
+        margin: 0 25px;
+        height: auto;
+    
+    }
+}
+
+/* @media all and (max-width: 7.02px) {
     .takeoff-block {
         order: 10;     
         margin: 0; 
@@ -29,4 +36,4 @@
         height: auto;
         width: 100%; 
     }    
-}
+} */

@@ -20,10 +20,20 @@
     }
 }
 
-@media all and (max-width: 702px) {
+@media all and (max-width: 400px) {
+    .subscribe-block {        
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 25px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* @media all and (max-width: 7.02px) {
     .subscribe-block {
         order: 9;     
         margin: 10px 0;         
         height: auto; 
     }    
-}
+} */

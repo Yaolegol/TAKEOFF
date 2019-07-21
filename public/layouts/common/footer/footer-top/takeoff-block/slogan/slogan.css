@@ -17,8 +17,17 @@
     }
 }
 
-@media all and (max-width: 702px) {
+@media all and (max-width: 400px) {
+    .slogan {
+        width: 100%;
+        height: auto;
+               
+    
+    }
+}
+
+/* @media all and (max-width: 7.02px) {
     .slogan {
         width: 100%;       
     }    
-}
+} */

@@ -32,16 +32,16 @@
     }
 }
 
-@media all and (max-width: 702px) {
+/* @media all and (max-width: 7.02px) {
     .input-block__input {
              
         width: 200px;
     }    
-}
+} */
 
-@media all and (max-width: 351px) {
+@media all and (max-width: 400px) {
     .input-block__input {
              
-        width: 168px;
+        width: 150px;
     }    
 }

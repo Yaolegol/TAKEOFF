@@ -13,18 +13,31 @@
 }
 
 @media all and (max-width: 1024px) {
-    .footer-top {
-        padding-top: 50px;
+    .footer-top {        
         margin-bottom: 0;
-        padding: 0 200px 100px;
+        padding: 50px 200px 100px;
         align-items: flex-start;
                
     
     }
 }
 
-@media all and (max-width: 702px) {
-    .footer-top {        
-        padding: 0 20px;    
-    }    
+@media all and (max-width: 856px) {
+    .footer-top {       
+        
+        padding: 50px 0 100px;
+       
+               
+    
+    }
+}
+
+@media all and (max-width: 456px) {
+    .footer-top {       
+        
+        padding: 0 0 100px;
+       
+               
+    
+    }
 }

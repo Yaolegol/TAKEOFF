@@ -3,9 +3,10 @@
     justify-content: center;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 386px) {
     .header-bottom-btns__wrap {
         flex-wrap: wrap;  
            
     }    
 }
+

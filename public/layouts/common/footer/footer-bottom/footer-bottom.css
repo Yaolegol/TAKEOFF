@@ -26,16 +26,20 @@
     }
 }
 
-@media all and (max-width: 702px) {
-    .footer-bottom {
-        width: 100%;
-    }    
-}
 
-@media all and (max-width: 702px) {
+
+@media all and (max-width: 710px) {
     .footer-bottom {
         width: 100%; 
         white-space: normal;
+    }    
+}
+
+@media all and (max-width: 480px) {
+    .footer-bottom {
+        
+        height: 60px;
+        
     }    
 }
 

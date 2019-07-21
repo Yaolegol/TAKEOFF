@@ -16,3 +16,10 @@
 .input-block__button:active {
     background-color: hsl(39, 94%, 55%);
 }
+
+@media all and (max-width: 400px) {
+    .input-block__button {
+             
+        width: 65px;
+    }    
+}
