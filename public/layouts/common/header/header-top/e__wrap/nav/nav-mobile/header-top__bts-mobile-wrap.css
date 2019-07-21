@@ -4,3 +4,9 @@
         margin-top: 20px;
     }    
 }
+
+/* @media all and (max-width: 425px) {
+    .header-top__bts-mobile-wrap {
+        margin-left: 0px;
+    }    
+} */

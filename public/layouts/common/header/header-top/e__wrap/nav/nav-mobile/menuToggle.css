@@ -22,7 +22,7 @@
     z-index: 1; /* top of the menu */
   }
   
-  .menuToggle span{
+  .menuToggle span {
     width: 55px;
     height: 8px;
     margin-bottom: 10px;
@@ -89,4 +89,23 @@
       
     }
 
+
 }
+
+@media all and (max-width: 975px) {
+  .menuToggle {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }    
+}
+
+@media all and (max-width: 425px) {
+  .menuToggle span {
+    width: 45px;
+    height: 4px;
+      
+  }    
+}
+

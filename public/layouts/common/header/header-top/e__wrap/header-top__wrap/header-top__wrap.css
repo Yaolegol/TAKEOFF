@@ -38,11 +38,13 @@
 
 @media all and (max-width: 975px) {
     .header-top__wrap {
-        margin-left: 50px;
+        /* margin-left: 50px; */
+        justify-content: space-around;
+        margin: 0;
     }    
 }
 
-
+/* 
 
 @media all and (max-width: 768px) {
     .header-top__wrap {
@@ -57,4 +59,4 @@
         justify-content: space-around;
         
     }    
-}
+} */

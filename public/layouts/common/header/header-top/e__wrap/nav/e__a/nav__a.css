@@ -18,3 +18,10 @@
         font-size: 12px;
     }    
 }
+
+@media all and (max-width: 975px) {
+    .nav__a {
+        color: hsl(0, 0%, 100%);
+        
+    }    
+}
