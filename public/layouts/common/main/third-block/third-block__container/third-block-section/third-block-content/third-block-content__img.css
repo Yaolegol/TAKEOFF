@@ -10,7 +10,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .third-block-content__img {
         padding-top: 0;
     }    

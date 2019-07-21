@@ -9,7 +9,7 @@
     .takeoff-block {
         margin-right: 100px;
         margin-bottom: 100px;
-               
+        order: 4;
     
     }
 }

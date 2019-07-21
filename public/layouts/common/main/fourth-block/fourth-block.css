@@ -1,7 +1,8 @@
 .fourth-block {
-    height: 770px;
-    width: 1920px;
-    margin: 0 auto;
+    height: 465px;
+    
+    width: 100%;
+    margin: 0 auto 131px;
 }
 
 @media all and (max-width: 1600px) {
@@ -13,15 +14,15 @@
 
 @media all and (max-width: 1024px) {
     .fourth-block {
-        height: 324px; 
+        height: 324px;         
+        margin-bottom: 100px;
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fourth-block {
         height: 200px;
-        width: 100%; 
-        margin-bottom: 100px;
+        
     }      
 }
 

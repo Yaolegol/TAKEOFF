@@ -4,7 +4,7 @@
     align-items: center;        
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .first-block-cart {
         flex-direction: column;
         flex-wrap: wrap;

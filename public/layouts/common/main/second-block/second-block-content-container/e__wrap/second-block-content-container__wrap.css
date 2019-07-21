@@ -1,6 +1,5 @@
 .second-block-content-container__wrap {
-    padding-top: 155px;
-    padding-left: 375px;
+  
 }
 
 @media all and (max-width: 1600px) {
@@ -18,7 +17,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .second-block-content-container__wrap {
         padding-left: 0;
     }    

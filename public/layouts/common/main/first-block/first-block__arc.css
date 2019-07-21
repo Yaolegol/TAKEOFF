@@ -5,7 +5,7 @@
 
 @media all and (max-width: 1024px) {
     .first-block__arc {
-        width: 100px;
+        width: 100%;
         
     }    
 }

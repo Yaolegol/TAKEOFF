@@ -1,7 +1,6 @@
-.third-block {    
-    height: 2362px;
-    width: 1920px;
-    margin: 0 auto;
+.third-block {  
+    width: 100%;
+    margin: 243px auto 180px;
 }
 
 @media all and (max-width: 1600px) {
@@ -11,18 +10,20 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
     .third-block {
-        width: 100%;
+        
         margin: 0;
         padding: 0 50px;
         
     }    
 }
 
+
+
 @media all and (max-width: 425px) {
     .third-block {
-        width: 100%;    
+        
         padding: 0 20px;    
     }    
 }

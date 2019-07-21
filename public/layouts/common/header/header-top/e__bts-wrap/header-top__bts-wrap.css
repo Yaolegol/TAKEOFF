@@ -16,7 +16,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .header-top__bts-wrap {
         display: none;
         

@@ -6,25 +6,23 @@
 
 @media all and (max-width: 1600px) {
     .first-block {        
-        width: 100%; 
-        height: auto;    
-        margin-bottom: 80px;   
-    }    
-}
+    width: 100%;        
+    }
+}    
+
+
+
 
 @media all and (max-width: 1024px) {
     .first-block {
-        width: 1000px;
+        
         margin: 0 0 100px;
+        padding: 0 100px;
     }    
 }
 
-@media all and (max-width: 768px) {
-    .first-block {
-        width: 100%;
-        margin: 0 0 100px;
-    }    
-}
+
+
 
 @media all and (max-width: 425px) {
     .first-block {

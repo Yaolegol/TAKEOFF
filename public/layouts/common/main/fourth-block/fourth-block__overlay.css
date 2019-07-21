@@ -6,14 +6,4 @@
     opacity: 0.702;        
 }
 
-@media all and (max-width: 1024px) {
-    .fourth-block__overlay {
-        width: 73%; 
-    }    
-}
 
-@media all and (max-width: 768px) {
-    .fourth-block__overlay {
-        width: 100%; 
-    }    
-}

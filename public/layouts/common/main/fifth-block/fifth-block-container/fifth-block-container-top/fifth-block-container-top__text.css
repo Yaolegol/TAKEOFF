@@ -7,7 +7,7 @@
     line-height: 26px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container-top__text {
         
         width: 60%;

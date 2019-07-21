@@ -1,36 +1,29 @@
 .second-block {
     margin: 0 auto;    
-    width: 1920px;
-    height: 607px;            
 }
 
 @media all and (max-width: 1600px) {
     .second-block {
-        width: 100%;
-           
-    }    
-}
+    width: 100%;
+    height: 542px;            
+    }
+}    
+
 
 @media all and (max-width: 1024px) {
     .second-block {
-        width: 1000px;  
+        
         margin: 0; 
         height: 400px;
              
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .second-block {
-        width: 100%;        
+              
         height: 700px;
         margin-bottom: 50px;
     }    
 }
 
-@media all and (max-width: 425px) {
-    .second-block {
-        width: 100%;     
-        margin-bottom: 50px;   
-    }    
-}

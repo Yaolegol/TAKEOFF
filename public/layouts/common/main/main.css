@@ -1,10 +1,11 @@
 .main {
     margin: 0 auto;
-    width: 1920px;
+    
+    width: 100%;
     overflow: hidden;
 }
 
-@media all and (max-width: 1600px) {
+@media all and (max-width: 975px) {
     .main {
         width: 1500px;        
     }    
@@ -17,8 +18,3 @@
     }    
 }
 
-@media all and (max-width: 425px) {
-    .main {
-        width: 100%;        
-    }    
-}

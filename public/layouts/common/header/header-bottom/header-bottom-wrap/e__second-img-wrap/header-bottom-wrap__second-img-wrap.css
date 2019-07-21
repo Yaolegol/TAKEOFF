@@ -18,7 +18,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .header-bottom-wrap__second-img-wrap {
        display: none;
     }    

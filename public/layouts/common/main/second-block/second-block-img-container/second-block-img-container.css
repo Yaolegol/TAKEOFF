@@ -5,22 +5,20 @@
     display: inline-block;    
     background-image: url(second-block-img.jpg);
     background-size: contain;
-    background-repeat: no-repeat;        
+    background-repeat: no-repeat;
+    display: none;
+    
 }
 
-@media all and (max-width: 1600px) {
-    .second-block-img-container {
-        width: 600px; 
-    }    
-}
+
 
 @media all and (max-width: 1024px) {
     .second-block-img-container {
-        width: 40%;        
+        display: none;        
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .second-block-img-container {        
         display: none; 
         

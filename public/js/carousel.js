@@ -8,7 +8,7 @@ $(document).ready(function () {
                 items: 1,
                 margin: 5
             },
-            769: {
+            976: {
                 items: 2
             },
             1025: {

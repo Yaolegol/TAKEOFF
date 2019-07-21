@@ -1,11 +1,12 @@
 .fifth-block-container-top {
     height: 170px;
-    width: 100%;
+    width: 75%;
     padding: 0 10px;
+    margin: 0 auto;
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container-top {
         padding: 0 20px;
         margin-bottom: 20px;

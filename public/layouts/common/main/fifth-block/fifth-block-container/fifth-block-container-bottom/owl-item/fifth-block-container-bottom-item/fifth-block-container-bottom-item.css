@@ -1,13 +1,13 @@
 .fifth-block-container-bottom-item {
     display: inline-block;
     
-    width: 100%;
+    max-width: 371px;
     height: 592px;    
     vertical-align: top;    
     font-size: 0;    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container-bottom-item {
         height: auto;
                

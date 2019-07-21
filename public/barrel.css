@@ -138,6 +138,7 @@
 @import "layouts/common/footer/footer-top/takeoff-block/slogan/slogan.css";
 @import "layouts/common/footer/footer-top/takeoff-block/slogan/slogan__p.css";
 
+@import "layouts/common/footer/footer-bottom/footer-bottom-wrap.css";
 @import "layouts/common/footer/footer-bottom/footer-bottom.css";
 @import "layouts/common/footer/footer-bottom/footer-bottom__p.css";
 @import "layouts/common/footer/footer-bottom/footer-bottom-text/footer-bottom-text.css";
@@ -145,3 +146,4 @@
 
 @import "layouts/common/test.css";
 @import "layouts/common/test2.css";
+

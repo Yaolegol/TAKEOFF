@@ -1,7 +1,8 @@
 .test {
     position: relative;
-    width: 75%;
-    height: 33%;
+    width: 40%;
+    height: 100%;
+    display: inline-block;
 }
 
 .test__img {
@@ -12,23 +13,34 @@
     height: 100%;
 }
 
-@media all and (min-width: 769px) {
+
+
+@media all and (max-width: 1024px) {
     .test {
-        
-        display: none;  
+        width: 40%;
+        display: inline-block;
+        height: 100%;
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .test {
+        display: block;
+        width: 50%;
+        height: 60%;
     }    
 }
 
 @media all and (max-width: 768px) {
-    .test {
+    .test {        
+        width: 75%;
         
-        height: 60%;
     }    
 }
 
 @media all and (max-width: 480px) {
     .test {
-        
+        display: block;
         height: 45%;  
     }    
 }

@@ -1,7 +1,11 @@
 .second-block__container {
     width: 100%;
-    height: 542px;    
-    font-size: 0;    
+    height: 100%;    
+    font-size: 0; 
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
 }
 
 @media all and (max-width: 1600px) {
@@ -17,13 +21,13 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .second-block__container {
         display: flex;        
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        height: 100%;        
+               
     }    
 }
 

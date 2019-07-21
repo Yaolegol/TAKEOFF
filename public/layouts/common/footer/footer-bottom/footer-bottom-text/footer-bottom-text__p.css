@@ -7,7 +7,7 @@
     color: #ffffff;    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .footer-bottom-text__p {
         font-size: 14px;
     }    

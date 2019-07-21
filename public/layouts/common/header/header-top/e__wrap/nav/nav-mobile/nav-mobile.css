@@ -3,7 +3,7 @@
    
 }    
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .nav-mobile {
         position: absolute;
         top: 50%;

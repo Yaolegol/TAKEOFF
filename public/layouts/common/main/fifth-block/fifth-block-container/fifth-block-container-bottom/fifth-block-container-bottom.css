@@ -1,21 +1,22 @@
 .fifth-block-container-bottom {
-    width: 100%;
+    width: 75%;
     height: 100%;
+    margin: 0 auto; 
         
 }
 
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom {
         width: 66%;        
-        
+        margin: 0 auto; 
     
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container-bottom {
         width: 50%;
-        margin: 0 auto;   
+        
         
     
     }

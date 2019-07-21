@@ -1,8 +1,7 @@
 .footer-bottom {
     position: relative;
     height: 81px;
-    width: 1790px;
-    margin-left: 130px;
+    width: 100%;    
     background-color: #094b58;
     text-align: center;
     white-space: nowrap;
@@ -14,6 +13,7 @@
     }    
 }
 
+
 @media all and (max-width: 1024px) {
     .footer-bottom {
         width: 1000px;
@@ -23,7 +23,7 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 702px) {
     .footer-bottom {
         width: 100%;
     }    

@@ -4,7 +4,7 @@
     align-self: flex-start;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .first-block__second-element_down {
         display: none;
     }    

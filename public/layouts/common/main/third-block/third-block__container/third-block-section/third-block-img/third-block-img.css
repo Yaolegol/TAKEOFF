@@ -6,15 +6,14 @@
     width: 470px;        
 }
 
+
 @media all and (max-width: 1024px) {
     .third-block-img {
-        
-        
-             
+        width: 50%;
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .third-block-img {
         height: 590px;
     }    

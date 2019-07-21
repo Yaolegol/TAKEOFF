@@ -16,7 +16,7 @@
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fourth-block__content {
         padding-left: 70px; 
     }    

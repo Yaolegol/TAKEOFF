@@ -1,11 +1,11 @@
 .fifth-block-container {
     height: auto;
-    width: 1190px;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container {
         width: 100%;
                

@@ -4,27 +4,16 @@
     background-image: url(fourth-block-img.jpg); 
     background-origin: content-box;
     background-size: contain;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
+    display: none;    
 }
 
-@media all and (max-width: 1600px) {
-    .fourth-block__container {
-        width: 100%;
-        padding: 179px 0px 130px 0;
-    }    
-}
+
+
 
 @media all and (max-width: 1024px) {
     .fourth-block__container {
-        height: 80%; 
-        padding: 0;
-    }    
-}
-
-@media all and (max-width: 768px) {
-    .fourth-block__container {
-        height: 60%; 
-        padding: 0;
+        
         display: none;
     }    
 }

@@ -28,15 +28,15 @@ li:nth-child(even) .third-block-content {
 @media all and (max-width: 1024px) {
     li:nth-child(odd) .third-block-content {
         margin-left: 0px;
-        width: 400px;
+        width: 50%;
     }
     li:nth-child(even) .third-block-content {
         margin-right: 0px;
-        width: 400px;
+        width: 50%;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .third-block-content {
         height: auto;               
     }
@@ -51,7 +51,7 @@ li:nth-child(even) .third-block-content {
     }
     li:nth-child(even) .third-block-img {
         margin-left: 0px;
-        width: 100%;
+        width: 70%;
         order: 1;        
     }
 }

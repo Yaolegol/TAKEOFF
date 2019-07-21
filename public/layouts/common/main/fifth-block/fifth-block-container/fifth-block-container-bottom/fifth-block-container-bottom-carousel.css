@@ -7,14 +7,14 @@
 
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom-carousel {
-        width: 770px;
+        width: 100%;
         height: auto;
         
                 
     }    
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 975px) {
     .fifth-block-container-bottom-carousel {
         width: 100%;
         height: auto;
