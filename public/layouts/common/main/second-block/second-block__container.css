@@ -23,11 +23,8 @@
 
 @media all and (max-width: 975px) {
     .second-block__container {
-        display: flex;        
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-               
+        height: 100%;
+           
     }    
 }
 

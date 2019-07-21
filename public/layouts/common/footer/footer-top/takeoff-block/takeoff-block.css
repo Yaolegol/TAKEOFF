@@ -13,9 +13,10 @@
 
 @media all and (max-width: 1024px) {
     .takeoff-block {
-        margin-right: 100px;
-        margin-bottom: 100px;
+        margin-right: 0;
+        margin-bottom: 0;
         order: 4;
+        margin: 0 25px;
     
     }
 }

@@ -10,6 +10,14 @@
     }
 }
 
+@media all and (max-width: 1024px) {
+    .recomended-block {
+        order: 2;
+        height: 300px;
+        margin: 0 25px;
+    }
+}
+
 @media all and (max-width: 702px) {
     .recomended-block {
         order: 1;     

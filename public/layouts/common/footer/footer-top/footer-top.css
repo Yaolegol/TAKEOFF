@@ -15,8 +15,8 @@
 @media all and (max-width: 1024px) {
     .footer-top {
         padding-top: 50px;
-        margin-bottom: 100px;
-        
+        margin-bottom: 0;
+        padding: 0 200px 100px;
         align-items: flex-start;
                
     

@@ -15,7 +15,7 @@
 @media all and (max-width: 1024px) {
     .links-block {
         order: 2;
-               
+        margin: 0 25px;     
     
     }
 }

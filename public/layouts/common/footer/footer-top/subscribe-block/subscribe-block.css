@@ -15,7 +15,7 @@
 @media all and (max-width: 1024px) {
     .subscribe-block {
         order: 3;
-        margin-right: 100px;
+        margin: 50px 25px 25px;
         
     }
 }

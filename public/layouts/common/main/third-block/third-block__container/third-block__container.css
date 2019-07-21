@@ -5,8 +5,8 @@
     width: 1170px;
 }
 
-@media all and (max-width: 975px) {
-    .third-block {
+@media all and (max-width: 1024px) {
+    .third-block__container {
         width: 100%;
            
     }    
