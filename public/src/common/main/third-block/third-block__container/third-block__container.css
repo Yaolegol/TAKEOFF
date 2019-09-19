@@ -1,0 +1,13 @@
+.third-block__container {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 1170px;
+}
+
+@media all and (max-width: 1024px) {
+    .third-block__container {
+        width: 100%;
+           
+    }    
+}

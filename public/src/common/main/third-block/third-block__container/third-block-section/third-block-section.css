@@ -1,0 +1,29 @@
+.third-block-section {
+    height: 590px;
+    width: 100%;
+    margin-top: 180px;
+    font-size: 0px;  
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .third-block-section {
+        margin: 0 auto 50px;
+        height: 590px;        
+        padding: 0;  
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .third-block-section {
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: auto;         
+        padding: 0;
+        margin: 0 auto 100px;
+               
+    }    
+}

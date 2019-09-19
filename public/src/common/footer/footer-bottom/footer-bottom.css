@@ -1,0 +1,45 @@
+.footer-bottom {
+    position: relative;
+    height: 81px;
+    width: 100%;    
+    background-color: #094b58;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .footer-bottom {
+        width: 1000px;
+        margin-left: 0;
+               
+    
+    }
+}
+
+@media all and (max-width: 975px) {
+    .footer-bottom {
+        width: 100%;
+               
+    
+    }
+}
+
+
+
+@media all and (max-width: 710px) {
+    .footer-bottom {
+        width: 100%; 
+        white-space: normal;
+    }    
+}
+
+@media all and (max-width: 480px) {
+    .footer-bottom {
+        
+        height: 60px;
+        
+    }    
+}
+

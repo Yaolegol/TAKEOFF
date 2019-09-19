@@ -1,0 +1,43 @@
+.second-block-content-container {
+    width: 60%;
+    height: 100%;
+     
+    background-color: #f9f8f8;
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    
+
+}
+
+@media all and (max-width: 1024px) {
+    .second-block-content-container {
+        width: 60%;        
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .second-block-content-container {
+        text-align: center;
+        width: 100%;
+        height: 40%;
+        order: 2;
+        
+    }    
+}
+
+@media all and (max-width: 480px) {
+    .second-block-content-container {
+        
+        height: 55%;  
+    }    
+}
+
+/* @media all and (max-width: 425px) {
+    .second-block-content-container {
+        height: 67%;        
+    }    
+} */
+
+

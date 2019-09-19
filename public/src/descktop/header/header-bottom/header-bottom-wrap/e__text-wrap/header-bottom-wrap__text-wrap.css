@@ -1,0 +1,7 @@
+.header-bottom-wrap__text-wrap {
+    position: absolute;    
+    top: 306px;
+    left: 245px;
+    text-align: left;    
+    z-index: 11;    
+}

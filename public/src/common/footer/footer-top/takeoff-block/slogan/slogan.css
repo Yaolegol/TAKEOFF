@@ -1,0 +1,33 @@
+.slogan {
+    width: 371px;
+    height: 161px;
+    padding-top: 63px;
+    padding-bottom: 34px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .slogan {
+        
+        height: 130px;
+        padding-top: 26px;
+        padding-bottom: 0px;
+               
+    
+    }
+}
+
+@media all and (max-width: 400px) {
+    .slogan {
+        width: 100%;
+        height: auto;
+               
+    
+    }
+}
+
+/* @media all and (max-width: 7.02px) {
+    .slogan {
+        width: 100%;       
+    }    
+} */

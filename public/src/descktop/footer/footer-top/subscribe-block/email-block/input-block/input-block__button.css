@@ -1,0 +1,18 @@
+.input-block__button {
+    height: 55px;
+    width: 95px;
+    border: 1px solid #d8d8d8;
+    border-left: none;
+    border-radius: 0 30px 30px 0;
+    background-color: hsl(39, 94%, 63%);
+    background-image: url(input-block__button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.input-block__button:hover {
+    background-color: hsl(39, 94%, 50%);
+}
+.input-block__button:active {
+    background-color: hsl(39, 94%, 55%);
+}

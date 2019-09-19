@@ -1,0 +1,39 @@
+.takeoff-block {
+    width: 371px;
+    height: 255px;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+@media all and (max-width: 1220px) {
+    .takeoff-block {
+        order: 1;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .takeoff-block {        
+        order: 4;
+        margin: 0 25px;
+    
+    }
+}
+
+@media all and (max-width: 400px) {
+    .takeoff-block {
+        width: 100%;
+        margin: 0 25px;
+        height: auto;
+    
+    }
+}
+
+/* @media all and (max-width: 7.02px) {
+    .takeoff-block {
+        order: 10;     
+        margin: 0; 
+        margin-top: 50px;
+        height: auto;
+        width: 100%; 
+    }    
+} */

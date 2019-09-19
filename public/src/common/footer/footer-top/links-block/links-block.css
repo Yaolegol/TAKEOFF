@@ -1,0 +1,38 @@
+.links-block {
+    width: 170px;
+    height: 268px;
+    margin: 0 15px;
+}
+
+@media all and (max-width: 1220px) {
+    .links-block {
+        order: 4;
+        margin-top: 50px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .links-block {
+        order: 2;
+        margin: 0 25px;     
+    
+    }
+}
+
+@media all and (max-width: 456px) {
+    .links-block {
+        margin: 30px 25px 0;  
+    
+    }
+}
+
+
+
+/* @media all and (max-width: 7.02px) {
+    .links-block {
+        order: 2;     
+        margin: 10px 0; 
+        height: auto; 
+    }    
+} */

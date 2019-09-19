@@ -1,0 +1,24 @@
+.header-bottom-btns__gplay-btn {     
+    width: 170px;
+    height: 60px;
+    background-color: hsl(190, 81%, 19%);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 0;    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.1)
+}
+.header-bottom-btns__gplay-btn:hover {
+    background-color: hsl(190, 81%, 25%);
+}
+.header-bottom-btns__gplay-btn:focus, .header-bottom-btns__gplay-btn:active {
+    outline: none;
+}
+.header-bottom-btns__gplay-btn:active {
+    background-color: hsl(190, 81%, 30%);
+}

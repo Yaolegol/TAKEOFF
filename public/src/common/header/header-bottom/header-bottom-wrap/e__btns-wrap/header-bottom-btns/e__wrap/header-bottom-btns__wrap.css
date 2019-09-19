@@ -1,0 +1,12 @@
+.header-bottom-btns__wrap {
+    display: flex;    
+    justify-content: center;
+}
+
+@media all and (max-width: 386px) {
+    .header-bottom-btns__wrap {
+        flex-wrap: wrap;  
+           
+    }    
+}
+

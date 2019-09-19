@@ -1,0 +1,25 @@
+.nav {    
+    padding-left: 84px;
+    display: inline-block;
+}
+
+@media all and (max-width: 1600px) {
+    .nav {
+        padding-left: 50px;
+           
+    }    
+}
+
+@media all and (max-width: 1210px) {
+    .nav {
+        padding-left: 10px;
+        
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .nav {
+        display: none;        
+    } 
+    
+}

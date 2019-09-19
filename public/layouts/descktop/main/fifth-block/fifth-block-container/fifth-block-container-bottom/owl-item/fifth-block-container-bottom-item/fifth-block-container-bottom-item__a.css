@@ -1,9 +1,0 @@
-.fifth-block-container-bottom-item__a {    
-    text-decoration: none;         
-}
-.fifth-block-container-bottom-item__a:hover ~.fifth-block-container-bottom-item-read-more p {
-    color: #f9ba48;    
-}
-.fifth-block-container-bottom-item__a:hover ~.fifth-block-container-bottom-item-read-more div {      
-    background-image: url(arrow.png);
-}

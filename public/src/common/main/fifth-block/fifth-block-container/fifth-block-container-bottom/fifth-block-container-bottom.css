@@ -1,0 +1,39 @@
+.fifth-block-container-bottom {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto; 
+        
+}
+
+/* @media all and (max-width: 1400px) {
+    .fifth-block-container-bottom {
+        width: 65%;        
+        margin: 0 auto; 
+    
+    }
+} */
+
+@media all and (max-width: 1024px) {
+    .fifth-block-container-bottom {
+        width: 66%;        
+        margin: 0 auto; 
+    
+    }
+}
+
+@media all and (max-width: 975px) {
+    .fifth-block-container-bottom {
+        width: 50%;
+        
+        
+    
+    }
+}
+
+@media all and (max-width: 425px) {
+    .fifth-block-container-bottom {
+        width: 280px;
+               
+    }    
+}
+

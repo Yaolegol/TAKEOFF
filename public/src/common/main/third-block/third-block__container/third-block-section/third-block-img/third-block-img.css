@@ -1,0 +1,33 @@
+.third-block-img {    
+    display: inline-block;
+    position: relative;
+    vertical-align: top;        
+    height: 100%;
+    width: 470px;        
+}
+
+
+@media all and (max-width: 1024px) {
+    .third-block-img {
+        width: 50%;
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .third-block-img {
+        height: 590px;
+    }    
+}
+
+@media all and (max-width: 535px) {
+    .third-block-img {         
+        height: 300px;       
+    }    
+}
+
+@media all and (max-width: 425px) {
+    .third-block-img {         
+        height: 235px;  
+        width: 100%;     
+    }    
+}

@@ -1,0 +1,24 @@
+.input-block__input {
+    vertical-align: top;
+    padding-left: 28px;    
+    height: 55px;
+    width: 270px;
+    border: 1px solid #d8d8d8;
+    border-right: none;
+    border-radius: 30px 0 0 30px;   
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;    
+    color: #868686;
+    font-weight: 400;    
+}
+.input-block__input:focus, .input-block__input:active, .input-block__button:focus, .input-block__button:active {
+    outline: none;
+}
+.input-block__input::placeholder {    
+    opacity: 1;
+    transition: opacity 0.3s ease;    
+}
+.input-block__input:focus::placeholder {
+    opacity: 0;
+    transition: opacity 0s ease;
+}

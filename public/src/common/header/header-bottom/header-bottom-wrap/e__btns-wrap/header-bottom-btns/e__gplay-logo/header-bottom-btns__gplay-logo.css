@@ -1,0 +1,13 @@
+.header-bottom-btns__gplay-logo {
+    margin-right: 11px;
+    height: 24px;
+    width: 22px;   
+}
+
+@media all and (max-width: 1600px) {
+    .header-bottom-btns__gplay-logo {
+        height: 20px;
+        width: 15px;
+        
+    }    
+}

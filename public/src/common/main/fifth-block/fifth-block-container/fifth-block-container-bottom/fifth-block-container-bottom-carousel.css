@@ -1,0 +1,24 @@
+.fifth-block-container-bottom-carousel {
+    /* width: 370px;
+    height: auto;
+    margin: 0 auto; */
+    
+}   
+
+@media all and (max-width: 1024px) {
+    .fifth-block-container-bottom-carousel {
+        width: 100%;
+        height: auto;
+        
+                
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .fifth-block-container-bottom-carousel {
+        width: 100%;
+        height: auto;
+        
+                
+    }    
+}

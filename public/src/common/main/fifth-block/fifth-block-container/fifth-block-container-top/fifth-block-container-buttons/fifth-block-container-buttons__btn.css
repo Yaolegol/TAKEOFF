@@ -1,0 +1,25 @@
+.fifth-block-container-buttons__btn {
+    display: inline-block;
+    position: relative;
+    padding: 0;    
+    height: 100%;
+    width: 40%;    
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(39, 94%, 63%);    
+}
+.fifth-block-container-buttons__btn:last-child {
+    margin-left: 31px;
+}
+.fifth-block-container-buttons__btn:focus, .fifth-block-container-buttons__btn:active {
+    outline: none;
+}
+.fifth-block-container-buttons__btn_disabled {
+    background-color: #e2e2e2;
+}
+.fifth-block-container-buttons__btn:not(.fifth-block-container-buttons__btn_disabled):hover {
+    background-color: hsl(39, 94%, 50%);
+}
+.fifth-block-container-buttons__btn:not(.fifth-block-container-buttons__btn_disabled):active {
+    background-color: hsl(39, 94%, 55%);
+}

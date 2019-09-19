@@ -1,0 +1,33 @@
+.header-bottom {    
+    margin: 0 auto;  
+    padding-left: 130px;     
+    height: 910px;
+    width: 100%;
+}
+
+@media all and (max-width: 1600px) {
+    .header-bottom {
+        height: 850px;
+        
+    }    
+}
+
+@media all and (max-width: 1400px) {
+    .header-bottom {
+        padding-left: 0;
+           
+    }    
+}
+
+@media all and (max-width: 1210px) {
+    .header-bottom {
+        padding-left: 0;
+                
+    }    
+}
+
+@media all and (max-width: 425px) {
+    .header-bottom {
+        height: 90%;        
+    }    
+}

@@ -1,0 +1,34 @@
+.fourth-block {
+    height: 465px;
+    
+    width: 100%;
+    margin: 0 auto 131px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .fourth-block {
+        height: 324px;         
+        margin-bottom: 100px;
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .fourth-block {
+        height: 200px;
+        
+    }      
+}
+
+@media all and (max-width: 615px) {
+    .fourth-block {         
+        height: 150px;       
+    }    
+}
+
+
+@media all and (max-width: 520px) {
+    .fourth-block {         
+        display: none;       
+    }    
+}

@@ -1,0 +1,36 @@
+.second-block__container {
+    width: 100%;
+    height: 100%;    
+    font-size: 0; 
+    display: flex;        
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+@media all and (max-width: 1600px) {
+    .second-block__container {
+        height: 450px;
+           
+    }    
+}
+
+@media all and (max-width: 1024px) {
+    .second-block__container {
+        height: 303px;        
+    }    
+}
+
+@media all and (max-width: 975px) {
+    .second-block__container {
+        height: 100%;
+           
+    }    
+}
+
+@media all and (max-width: 425px) {
+    .second-block__container {        
+        height: 100%;   
+            
+    }    
+}

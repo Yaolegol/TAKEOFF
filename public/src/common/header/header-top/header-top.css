@@ -1,0 +1,23 @@
+.header-top { 
+    position: relative;
+    margin: 0 auto;        
+    height: 130px;   
+    width: 100%;    
+    background-color: #ffffff; 
+    white-space: nowrap;
+}
+
+@media all and (max-width: 1210px) {
+    .header-top {
+        height: 120px;
+        white-space: normal;
+    }    
+}
+
+@media all and (max-width: 425px) {
+    .header-top {
+        height: 10%;         
+    }    
+}
+
+

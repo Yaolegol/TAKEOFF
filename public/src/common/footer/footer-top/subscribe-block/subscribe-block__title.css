@@ -1,0 +1,18 @@
+.subscribe-block__title {
+    margin: 0 0 55px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px; 
+    font-weight: 700;    
+    color: #575757;
+}
+
+@media all and (max-width: 1024px) {
+    .subscribe-block__title {
+        margin: 0 0 25px;
+        
+        
+               
+    
+    }
+}

@@ -1,0 +1,14 @@
+.nav__a {
+    text-decoration: none;   
+    text-transform: uppercase; 
+    font-family: 'Lato', sans-serif;    
+    letter-spacing: 0.14px;
+    font-size: 14px;
+    font-weight: bold;      
+    color: hsl(0, 0%, 47%);
+    overflow: hidden;    
+}
+.nav__a:hover {    
+    color: hsl(0, 0%, 15%);
+    text-decoration-line: underline;
+}

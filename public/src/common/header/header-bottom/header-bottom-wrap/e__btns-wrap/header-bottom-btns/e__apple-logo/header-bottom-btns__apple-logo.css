@@ -1,0 +1,13 @@
+.header-bottom-btns__apple-logo {
+    margin-right: 9px;
+    height: 24px;
+    width: 20px;              
+}
+
+@media all and (max-width: 1600px) {
+    .header-bottom-btns__apple-logo {
+        height: 20px;
+        width: 15px;
+        
+    }    
+}

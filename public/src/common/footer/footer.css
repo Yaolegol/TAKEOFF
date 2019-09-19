@@ -1,0 +1,26 @@
+.footer {
+    min-height: 626px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fbfbfb;    
+}
+
+
+@media all and (max-width: 1024px) {
+    .footer {
+    min-height: initial;
+    margin: 0 auto;
+    padding: 100px 0 0;
+    background-color: hsl(0, 0%, 98%);  
+      
+    }
+}    
+
+
+@media all and (max-width: 768px) {
+    .footer {
+    
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 98%);    
+    }
+}    

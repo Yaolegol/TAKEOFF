@@ -1,0 +1,27 @@
+.second-img__second-el {    
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 330px;
+    height: 655px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    box-shadow: 16.383px 11.472px 25px 0px rgba(0, 0, 0, 0.05);
+    z-index: 108;
+  }
+
+  @media all and (max-width: 1600px) {
+    .second-img__second-el {
+        width: 280px;
+        height: 605px;
+        
+    }
+  }   
+
+  @media all and (max-width: 1210px) {
+    .second-img__second-el {
+      width: 245px;
+      height: 480px;
+      
+    }
+  }
