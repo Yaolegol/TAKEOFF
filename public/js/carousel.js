@@ -5,13 +5,12 @@ $(document).ready(function () {
         nav: true,
         responsive: {
             0: {
-                items: 1,
-                margin: 5
+                items: 1                           
             },
             976: {
                 items: 2
             },
-            1025: {
+            1350: {
                 items: 3
             }
         }
@@ -44,6 +43,10 @@ $(document).ready(function () {
         if (currentActiveElements[0]) {
             currentActiveElements[0].removeClass('fifth-block-container-bottom-item__a_activ');
             currentActiveElements[1].removeClass('fifth-block-container-bottom-item-read-more_activ');
+         
+            if(currentActiveElements[0].parent().parent().hasClass('shadow-middle-el')) {
+                currentActiveElements[0].parent().parent().removeClass('shadow-middle-el').addClass('shadow');  
+            }
         }
     };
 
@@ -73,8 +76,8 @@ $(document).ready(function () {
         }
     };
 
-    //обработчик на свайп
-    if ($(window).width() > 1024) {
+    //3 item
+    if ($(window).width() >= 1350) {
 
         currentActive_a = $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item__a');
         currentActive_readMore = $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item-read-more');
@@ -83,10 +86,9 @@ $(document).ready(function () {
 
         currentActiveElements[0].addClass('fifth-block-container-bottom-item__a_activ');
         currentActiveElements[1].addClass('fifth-block-container-bottom-item-read-more_activ');
-        $('.owl-stage').children('.active').eq(0).addClass('shadow');
-        $('.owl-stage').children('.active').eq(1).addClass('shadow-middle-el');
-        $('.owl-stage').children('.active').eq(2).addClass('shadow');
-
+        
+        $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');  
+        
         owl.on('translated.owl.carousel', function (e) {
             nextIndex = $('.owl-stage').children('.active').eq(2).index();
             prevIndex = $('.owl-stage').children('.active').eq(0).index();
@@ -101,6 +103,8 @@ $(document).ready(function () {
             }
             removeActiveClass();
             addActiveClass(1);
+            $('.owl-stage').children('.active').eq(1).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');  
+
         });
 
         //обработчики на кнопки
@@ -141,8 +145,8 @@ $(document).ready(function () {
                 addActiveClass(1);
             }
         })
-
-    } else if ($(window).width() > 768) {
+    //2 item
+    } else if ($(window).width() >= 976) {
 
         currentActive_a = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a');
         currentActive_readMore = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more');
@@ -151,8 +155,6 @@ $(document).ready(function () {
 
         currentActiveElements[0].addClass('fifth-block-container-bottom-item__a_activ');
         currentActiveElements[1].addClass('fifth-block-container-bottom-item-read-more_activ');
-        $('.owl-stage').children('.active').eq(0).addClass('shadow');
-        $('.owl-stage').children('.active').eq(1).addClass('shadow');
 
         owl.on('translated.owl.carousel', function (e) {
             nextIndex = $('.owl-stage').children('.active').eq(1).index();
@@ -210,9 +212,8 @@ $(document).ready(function () {
             }
         })
 
-    } else {
-        //if $(window).width() < 768
-
+    //1 item
+    } else { 
         currentActive_a = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item__a');
         currentActive_readMore = $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item-read-more');
         currentActiveElements[0] = currentActive_a;
@@ -220,7 +221,8 @@ $(document).ready(function () {
 
         currentActiveElements[0].addClass('fifth-block-container-bottom-item__a_activ');
         currentActiveElements[1].addClass('fifth-block-container-bottom-item-read-more_activ');
-        $('.owl-stage').children('.active').eq(0).addClass('shadow');        
+
+        $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');  
 
         owl.on('translated.owl.carousel', function (e) {
             nextIndex = $('.owl-stage').children('.active').eq(0).index();
@@ -236,6 +238,7 @@ $(document).ready(function () {
             }
             removeActiveClass();
             addActiveClass(0);
+            $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');
         });
 
         //обработчики на кнопки
