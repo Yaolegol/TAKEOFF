@@ -16,24 +16,17 @@
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom {
         width: 66%;        
-        margin: 0 auto; 
+         
     
     }
 }
 
 @media all and (max-width: 975px) {
     .fifth-block-container-bottom {
-        width: 50%;
+        width: 90%;
+        text-align: center;
         
         
     
     }
 }
-
-@media all and (max-width: 615px) {
-    .fifth-block-container-bottom {
-        width: 280px;
-               
-    }    
-}
-
