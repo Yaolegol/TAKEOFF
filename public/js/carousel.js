@@ -222,7 +222,7 @@ $(document).ready(function () {
         currentActiveElements[0].addClass('fifth-block-container-bottom-item__a_activ');
         currentActiveElements[1].addClass('fifth-block-container-bottom-item-read-more_activ');
 
-        $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');  
+        // $('.owl-stage').children('.active').eq(0).find('.fifth-block-container-bottom-item').removeClass('shadow').addClass('shadow-middle-el');  
 
         owl.on('translated.owl.carousel', function (e) {
             nextIndex = $('.owl-stage').children('.active').eq(0).index();
