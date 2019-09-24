@@ -1,8 +1,7 @@
 .fifth-block-container-bottom {
     width: 75%;
     height: 100%;
-    margin: 0 auto; 
-        
+    margin: 0 auto;
 }
 
 /* @media all and (max-width: 1400px) {
@@ -15,9 +14,7 @@
 
 @media all and (max-width: 1024px) {
     .fifth-block-container-bottom {
-        width: 66%;        
-         
-    
+        width: 66%;
     }
 }
 
@@ -25,8 +22,5 @@
     .fifth-block-container-bottom {
         width: 90%;
         text-align: center;
-        
-        
-    
     }
 }
