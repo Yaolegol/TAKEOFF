@@ -7,5 +7,4 @@ app.use(express.static('./public'));
 
 app.use(router);
 
-
-app.listen(process.env.PORT || 3000, () => console.log('Server start'));
+app.listen(process.env.PORT || 8080, () => console.log('!!!!!!!!!!!Server start at localhost:8080!!!!!!!!!!!'));
