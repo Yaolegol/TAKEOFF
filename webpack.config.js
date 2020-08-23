@@ -26,11 +26,6 @@ module.exports = {
                     },
                 },
             },
-            //handlebars
-            {
-                test: /\.handlebars$/,
-                loader: "handlebars-loader",
-            },
             //css
             {
                 test: /\.less$/,
@@ -48,21 +43,14 @@ module.exports = {
             ],
         }),
         new HtmlWebpackPlugin({
-            template: "hbs.index.html",
+            template: "index-hbs.html",
             title: "My app",
         }),
         new HandlebarsPlugin({
             entry: path.resolve(__dirname, "src", "*", "*.handlebars"),
-            output: path.resolve(__dirname, "hbs.[name].html"),
+            output: path.resolve(__dirname, "[name]-hbs.html"),
             partials: [
-                path.resolve(
-                    __dirname,
-                    "src",
-                    "views",
-                    "partials",
-                    "*",
-                    "*.handlebars"
-                ),
+                path.resolve(__dirname, "src", "views", "partials", "*", "*.handlebars"),
             ],
         }),
         new MiniCssExtractPlugin(),
