@@ -1,8 +1,10 @@
 const express = require('express');
+const path = require('path');
+
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
-    res.sendFile('dist/index.html');
+router.get('/signin', (req, res, next) => {
+    res.send('<h1>SignIn</h1>');
 });
 
 router.get('/contacts', (req, res, next) => {

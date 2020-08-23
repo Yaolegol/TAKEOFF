@@ -47,7 +47,7 @@ module.exports = {
             title: "My app",
         }),
         new HandlebarsPlugin({
-            entry: path.resolve(__dirname, "src", "*", "*.handlebars"),
+            entry: path.resolve(__dirname, "src", "views", "index.handlebars"),
             output: path.resolve(__dirname, "[name]-hbs.html"),
             partials: [
                 path.resolve(__dirname, "src", "views", "partials", "*", "*.handlebars"),

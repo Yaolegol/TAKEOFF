@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const router = require('./server/routes/router');
+const router = require('./router');
 
 app.use(express.static('./dist'));
 app.use(router);
