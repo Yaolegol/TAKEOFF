@@ -13,6 +13,11 @@ module.exports = {
         filename: "[name].[contenthash].bundle.js",
         path: path.resolve(__dirname, "dist"),
     },
+    resolve: {
+        roots: [
+            path.resolve(__dirname, 'src', 'components'),
+        ],
+    },
     module: {
         rules: [
             //babel
@@ -43,14 +48,14 @@ module.exports = {
             ],
         }),
         new HtmlWebpackPlugin({
-            template: "index-hbs.html",
+            template: "index-hbs-compiled.html",
             title: "My app",
         }),
         new HandlebarsPlugin({
-            entry: path.resolve(__dirname, "src", "views", "index.handlebars"),
-            output: path.resolve(__dirname, "[name]-hbs.html"),
+            entry: path.resolve(__dirname, "src", "components", "index.handlebars"),
+            output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
             partials: [
-                path.resolve(__dirname, "src", "views", "partials", "*", "*.handlebars"),
+                path.resolve(__dirname, "src", "components", "*", "*.handlebars"),
             ],
         }),
         new MiniCssExtractPlugin(),
