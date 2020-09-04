@@ -1,6 +1,6 @@
 <header class="header">
-    <div class="header-top" id="main">
-        <nav class="menu-mobile">
+    <div class="header__top" id="main">
+        <nav class="menu-mobile hidden">
             <ul class="menu-mobile__list">
                 <li class="nav__item"><a href="#" class="nav__a">OVERVIEW</a></li>
                 <li class="nav__item"><a href="#how-it-works" class="nav__a">HOW IT WORKS</a></li>
@@ -19,40 +19,28 @@
                 </div>
             </div>
         </nav>
-        <div class="header-top__wrap">
-            <div class="logo">
-                <a href="#main"><img src="img/logo.jpg.png" alt="TAKEOFF"></a>
-            </div>
-            <nav class="nav">
-                <ul class="nav__ul">
-                    <li class="nav__item"><a href="#" class="nav__a">OVERVIEW</a></li>
-                    <li class="nav__item"><a href="#how-it-works" class="nav__a">HOW IT WORKS</a></li>
-                    <li class="nav__item"><a href="#features" class="nav__a">FEATURES</a></li>
-                    <li class="nav__item"><a href="#app" class="nav__a">APP</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__a">CONTACT</a></li>
-                </ul>
-            </nav>
-            <div class="header-top__wrapMenuToggle">
-                <div class="menuToggle">
-                    <input type="checkbox" />
-                    <span class="span1"></span>
-                    <span class="span2"></span>
-                    <span class="span3"></span>
-                </div>
-            </div>
-            <div class="header-top__bts-wrap">
-                <div class="btns">
-                    <button class="btn-sing-in" type="button" onclick="window.location.href='signin'">
-                        SIGN IN
-                    </button>
-                    <button class="btn-contact" type="button" onclick="window.location.href='contacts'">
-                        CONTACT
-                    </button>
-                </div>
-            </div>
+        <a href="#main">
+            <img src="img/logo.jpg.png" alt="Logo">
+        </a>
+        <ul class="header__nav">
+            <a href="#" class="link header__nav-item">OVERVIEW</a>
+            <a href="#how-it-works" class="link header__nav-item">HOW IT WORKS</a>
+            <a href="#features" class="link header__nav-item">FEATURES</a>
+            <a href="#app" class="link header__nav-item">APP</a>
+            <a href="#contact" class="link header__nav-item">CONTACT</a>
+        </ul>
+        <div class="header__buttons">
+            {{> button/index
+                    class="button_light"
+                    text="SIGN IN"
+            }}
+            {{> button/index
+                    class="button_dark header__button_margin"
+                    text="CONTACT"
+            }}
         </div>
     </div>
-    <div class="header-bottom">
+    <div class="header-bottom hidden">
         <div class="header-bottom-wrap">
             <div class="header-bottom-wrap__overlay"></div>
             <img class="header-bottom-wrap__img" src="img/Main-img/pexels-photo-615060.png.jpg" alt="Airplane">
@@ -69,8 +57,8 @@
                     perfect app to flight<br>ticket booking
                 </h1>
                 <p class="header-bottom-wrap__text-secondary">
-                    There are many variations of passeges of Lorem Ipsum available, but the majority have<br />
-                    blanditiis consequuntur repellat repellendus ipsum necessitatibus dolor,<br />
+                    There are many variations of passeges of Lorem Ipsum available, but the majority have<br/>
+                    blanditiis consequuntur repellat repellendus ipsum necessitatibus dolor,<br/>
                     suscipit earum praesentium magnam.
                 </p>
                 <div class="header-bottom-wrap__btns-wrap">
@@ -79,13 +67,13 @@
                             <button class="header-bottom-btns__apple-btn" type="button">
                                 <img src="img/Apple-logo.png" alt="Apple logo" class="header-bottom-btns__apple-logo">
                                 <img src="img/DownloadFromAppleStore.png" alt="Download From Apple Store"
-                                    class="header-bottom-btns__apple-text">
+                                     class="header-bottom-btns__apple-text">
                             </button>
                             <button class="header-bottom-btns__gplay-btn" type="button">
                                 <img src="img/google-play-logo.png" alt="Google Play logo"
-                                    class="header-bottom-btns__gplay-logo">
+                                     class="header-bottom-btns__gplay-logo">
                                 <img src="img/DownloadFromPlayStore.png" alt="Download From Play Store"
-                                    class="header-bottom-btns__gplay-text">
+                                     class="header-bottom-btns__gplay-text">
                             </button>
                         </div>
                     </div>

@@ -1,0 +1,32 @@
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/fonts';
+@import (reference) 'src/styles/shadows';
+
+.button {
+    .f_btn();
+    .shadow-1();
+
+    border-radius: 5px;
+    color: @white;
+    padding: 15px 32px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &_light {
+        background-color: @yellow;
+
+        &:hover {
+            background-color: @yellow_hover;
+        }
+    }
+
+    &_dark {
+        background-color: @green_dark;
+
+        &:hover {
+            background-color: @green_hover;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const {CleanWebpackPlugin} = require("clean-webpack-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
 const HandlebarsPlugin = require("handlebars-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -15,7 +15,9 @@ module.exports = {
     },
     resolve: {
         roots: [
+            path.resolve(__dirname, 'src'),
             path.resolve(__dirname, 'src', 'components'),
+            path.resolve(__dirname, 'src', 'styles'),
         ],
     },
     module: {
@@ -36,6 +38,10 @@ module.exports = {
                 test: /\.less$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "less-loader"],
             },
+            {
+                test: /\.handlebars$/,
+                loader: "handlebars-loader"
+            }
         ],
     },
     plugins: [
@@ -52,11 +58,20 @@ module.exports = {
             title: "My app",
         }),
         new HandlebarsPlugin({
-            entry: path.resolve(__dirname, "src", "components", "index.handlebars"),
+            entry: path.resolve(__dirname, "src", "index.handlebars"),
             output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
             partials: [
-                path.resolve(__dirname, "src", "components", "*", "*.handlebars"),
+                path.resolve(__dirname, "src", "components", "**", "*.handlebars"),
             ],
+            getPartialId: function (filePath) {
+                const relativePath = filePath
+                    .split("components/")[1]
+                    .split(".handlebars")[0];
+                const pathsArray = relativePath.split('/');
+                const id = pathsArray.slice(-2).join('/');
+
+                return id;
+            }
         }),
         new MiniCssExtractPlugin(),
         new CleanWebpackPlugin(),
