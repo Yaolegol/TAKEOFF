@@ -60,35 +60,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-top/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/lato/Lato-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/raleway/Raleway-ExtraBold.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_full.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/src/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/src/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/button/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Main-img/Overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Main-img/pexels-photo-615060.png.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/airplane.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/TiketDetails.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/app-screen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/fonts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/button/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/button/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Apple-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/apple/apple-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/DownloadFromAppleStore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/apple/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/DownloadFromPlayStore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/google/download.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/google-play-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/google/google-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,15 +98,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1h0aqgWwCwFZft78UVRAQGGA90u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts/raleway" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/buttons/google" />
     <property name="list.type.of.created.stylesheet" value="XHTML" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -128,16 +119,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/buttons/google" />
+      <recent name="$PROJECT_DIR$/src/components/common/buttons/google-button" />
+      <recent name="$PROJECT_DIR$/src/components/common/buttons/apple-button" />
       <recent name="$PROJECT_DIR$/src/fonts/raleway" />
       <recent name="$PROJECT_DIR$/src/fonts/lato" />
-      <recent name="$PROJECT_DIR$/src/components/header" />
-      <recent name="$PROJECT_DIR$/src/components/header/header-bottom" />
-      <recent name="$PROJECT_DIR$/src/components/header/header-top" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/buttons/google" />
+      <recent name="$PROJECT_DIR$/src/img/buttons/apple" />
+      <recent name="$PROJECT_DIR$/src/components/common/buttons" />
       <recent name="$PROJECT_DIR$/src/fonts/raleway" />
       <recent name="$PROJECT_DIR$/src/img/header-img" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -150,7 +143,7 @@
       <updated>1599150657488</updated>
       <workItem from="1599150660024" duration="401000" />
       <workItem from="1599151351076" duration="556000" />
-      <workItem from="1599223886096" duration="40593000" />
+      <workItem from="1599223886096" duration="44151000" />
     </task>
     <servers />
   </component>
@@ -168,6 +161,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1599311654211">
@@ -202,10 +198,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599322954367">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599324127859">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599322954367" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599324127859" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599234256893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -1,27 +1,16 @@
 <div class="header-bottom">
     <div class="header-bottom__content">
-        <div class="header-bottom__title">
-            <h1>perfect app to flight ticket booking</h1>
-        </div>
-        <div class="header-bottom__description">
-            <p>
-                There are many variations of passeges of Lorem Ipsum available, but the majority have<br/>
-                blanditiis consequuntur repellat repellendus ipsum necessitatibus dolor,<br/>
-                suscipit earum praesentium magnam.
-            </p>
-        </div>
-        <div class="header-bottom__buttons hidden">
-            <button class="header-bottom-btns__apple-btn" type="button">
-                <img src="img/Apple-logo.png" alt="Apple logo" class="header-bottom-btns__apple-logo">
-                <img src="img/DownloadFromAppleStore.png" alt="Download From Apple Store"
-                     class="header-bottom-btns__apple-text">
-            </button>
-            <button class="header-bottom-btns__gplay-btn" type="button">
-                <img src="img/google-play-logo.png" alt="Google Play logo"
-                     class="header-bottom-btns__gplay-logo">
-                <img src="img/DownloadFromPlayStore.png" alt="Download From Play Store"
-                     class="header-bottom-btns__gplay-text">
-            </button>
+        <h1>perfect app to flight ticket booking</h1>
+        <p class="italic header-bottom__description">
+            There are many variations of passeges of Lorem Ipsum available, but the majority have<br/>
+            blanditiis consequuntur repellat repellendus ipsum necessitatibus dolor,<br/>
+            suscipit earum praesentium magnam.
+        </p>
+        <div class="header-bottom__buttons">
+            {{> apple-button/index}}
+            {{> google-button/index
+                class="header-bottom__button_margin"
+            }}
         </div>
     </div>
     <div class="header-bottom__image-container">

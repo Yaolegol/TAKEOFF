@@ -80,6 +80,8 @@ module.exports = {
                     .split(".handlebars")[0];
                 const pathsArray = relativePath.split('/');
                 const id = pathsArray.slice(-2).join('/');
+                console.log('id')
+                console.log(id)
 
                 return id;
             }
