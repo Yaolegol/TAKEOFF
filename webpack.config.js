@@ -17,6 +17,7 @@ module.exports = {
         roots: [
             path.resolve(__dirname, 'src'),
             path.resolve(__dirname, 'src', 'components'),
+            path.resolve(__dirname, 'src', 'img'),
             path.resolve(__dirname, 'src', 'styles'),
         ],
     },
@@ -38,10 +39,20 @@ module.exports = {
                 test: /\.less$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "less-loader"],
             },
+            //images
             {
-                test: /\.handlebars$/,
-                loader: "handlebars-loader"
-            }
+                test: /\.(png|svg|jpg)$/,
+                use: [
+                    'file-loader',
+                ],
+            },
+            //fonts
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: [
+                    'file-loader',
+                ],
+            },
         ],
     },
     plugins: [

@@ -628,7 +628,7 @@ li:nth-child(even) .third-block-content {
 .fourth-block__container { 
     padding: 179px 130px 130px 0;    
     height: 100%;
-    background-image: url(src/img/fourth-block-img.jpg); 
+    background-image: url(src/img/fourth-block-img.jpg);
     background-origin: content-box;
     background-repeat: no-repeat;
 }
@@ -868,7 +868,7 @@ li:nth-child(even) .third-block-content {
     background-repeat: no-repeat;    
 }
 .fifth-block-container-bottom-item-read-more:hover .fifth-block-container-bottom-item-read-more__arrow {      
-    background-image: url(src/img/fifth-block-read-more-arrow.png);    
+    background-image: url(src/img/fifth-block-read-more-arrow.png);
 }
 .fifth-block-container-bottom-item-read-more:hover p {      
     color: #f9ba48;    

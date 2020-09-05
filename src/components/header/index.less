@@ -1,40 +1,9 @@
 @import (reference) 'src/styles/flex';
 
 .header {
-    .f_c();
-
+    align-items: center;
+    display: flex;
     flex-direction: column;
-    height: 130px;
+    justify-content: flex-start;
     padding-left: 130px;
-
-    &__buttons {
-        display: flex;
-        margin-left: 144px;
-        white-space: nowrap;
-    }
-
-    &__button {
-        &_margin {
-            margin-left: 30px;
-        }
-    }
-
-    &__nav {
-        .f_c();
-
-        margin-left: 84px;
-        white-space: nowrap;
-    }
-
-    &__nav-item {
-        margin-left: 30px;
-
-        &:first-child {
-            margin-left: 0;
-        }
-    }
-
-    &__top {
-        .f_c();
-    }
 }

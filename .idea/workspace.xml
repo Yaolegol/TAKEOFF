@@ -60,24 +60,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/button/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/button/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/adaptive.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/display.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/flex.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/fonts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/links.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/shadows.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header-top/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/lato/Lato-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/text.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_full.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_full.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/src/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/OwlCarousel2-2.3.4/src/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/button/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Main-img/Overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/overlay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Main-img/pexels-photo-615060.png.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/airplane.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/TiketDetails.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header-img/app-screen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/fonts.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +102,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Less File" />
       </list>
     </option>
@@ -107,20 +119,24 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common" />
-    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts/raleway" />
+    <property name="list.type.of.created.stylesheet" value="XHTML" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/common" />
-      <recent name="$PROJECT_DIR$/src/components/common/button" />
-      <recent name="$PROJECT_DIR$/src/styles" />
-      <recent name="$PROJECT_DIR$/src/components/layout" />
+      <recent name="$PROJECT_DIR$/src/fonts/raleway" />
+      <recent name="$PROJECT_DIR$/src/fonts/lato" />
+      <recent name="$PROJECT_DIR$/src/components/header" />
+      <recent name="$PROJECT_DIR$/src/components/header/header-bottom" />
+      <recent name="$PROJECT_DIR$/src/components/header/header-top" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts/raleway" />
+      <recent name="$PROJECT_DIR$/src/img/header-img" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -134,7 +150,7 @@
       <updated>1599150657488</updated>
       <workItem from="1599150660024" duration="401000" />
       <workItem from="1599151351076" duration="556000" />
-      <workItem from="1599223886096" duration="20209000" />
+      <workItem from="1599223886096" duration="40593000" />
     </task>
     <servers />
   </component>
@@ -154,26 +170,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1599311654211">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="622" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1599311654211" />
     <state x="817" y="237" key="#Less" timestamp="1599228696289">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="817" y="237" key="#Less/67.27.1853.1053@67.27.1853.1053" timestamp="1599228696289" />
+    <state x="705" y="354" width="714" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599314537620">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="705" y="354" width="714" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599314537620" />
+    <state x="729" y="405" width="519" height="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599310708032">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="729" y="405" width="519" height="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1599310708032" />
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog" timestamp="1599225545701">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599225545701" />
-    <state x="516" y="217" key="SettingsEditor" timestamp="1599232625494">
+    <state x="516" y="217" key="SettingsEditor" timestamp="1599320098568">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599232625494" />
+    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599320098568" />
     <state x="477" y="113" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599234181062">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="477" y="113" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599234181062" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599234192695">
+    <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599319889625">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599234192695" />
+    <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599322954367">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599322954367" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599234256893">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
