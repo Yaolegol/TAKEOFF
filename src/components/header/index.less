@@ -1,3 +1,4 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
 
 .header {
@@ -6,4 +7,8 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 130px;
+
+    @media @laptop {
+        padding-left: 0;
+    }
 }

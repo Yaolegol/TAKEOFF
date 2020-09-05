@@ -60,23 +60,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/raleway/Raleway-ExtraBold.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/button/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/button/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Apple-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/apple/apple-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/DownloadFromAppleStore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/apple/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/DownloadFromPlayStore.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/google/download.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/google-play-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/buttons/google/google-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-top/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/adaptive.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/adaptive.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +133,7 @@
       <updated>1599150657488</updated>
       <workItem from="1599150660024" duration="401000" />
       <workItem from="1599151351076" duration="556000" />
-      <workItem from="1599223886096" duration="44151000" />
+      <workItem from="1599223886096" duration="47125000" />
     </task>
     <servers />
   </component>
@@ -186,10 +176,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599225545701" />
-    <state x="516" y="217" key="SettingsEditor" timestamp="1599320098568">
+    <state x="516" y="217" key="SettingsEditor" timestamp="1599328887091">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599320098568" />
+    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599328887091" />
     <state x="477" y="113" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599234181062">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

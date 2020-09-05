@@ -1,3 +1,4 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
 
 .header-top {
@@ -9,6 +10,10 @@
         display: flex;
         margin-left: 144px;
         white-space: nowrap;
+
+        @media @laptop {
+            margin-left: 35px;
+        }
     }
 
     &__button {
@@ -22,6 +27,10 @@
 
         margin-left: 84px;
         white-space: nowrap;
+
+        @media @laptop {
+            margin-left: 50px;
+        }
     }
 
     &__nav-item {

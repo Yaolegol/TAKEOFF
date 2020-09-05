@@ -1,13 +1,11 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/flex';
 
 .header-bottom {
     background-image: url('/src/img/header-img/overlay.png'), url('/src/img/header-img/airplane.jpg');
     background-size: cover;
-    display: flex;
     height: 910px;
-    justify-content: space-between;
-    padding: 100px 360px 100px 250px;
     width: 100%;
 
     &__button {
@@ -19,6 +17,22 @@
     &__buttons {
         display: flex;
         margin-top: 32px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        padding: 100px 360px 100px 250px;
+        width: 100%;
+
+        @media @desktop {
+            padding: 100px 120px 100px 180px;
+        }
+
+        @media @laptop {
+            padding: 100px 70px 100px 80px;
+        }
     }
 
     &__content {
