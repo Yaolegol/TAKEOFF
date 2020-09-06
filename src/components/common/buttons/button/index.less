@@ -1,3 +1,4 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/font';
 @import (reference) 'src/styles/shadows';
@@ -10,6 +11,10 @@
     color: @white;
     padding: 15px 32px;
     text-transform: uppercase;
+
+    @media @mobile {
+        padding: 10px;
+    }
 
     &:hover {
         cursor: pointer;

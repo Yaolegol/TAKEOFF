@@ -1,9 +1,7 @@
 const path = require("path");
 
 // setup import from all folders in project
-var req = require.context("/", true, /\.(js|less)$/);
-req.keys().forEach(function(key){
-    req(key);
-});
+var commonStyles = require.context("/styles", true, /\.(js|less)$/);
+var components = require.context("/components", true, /\.(js|less)$/);
 
 import '/header/menu-toggle';

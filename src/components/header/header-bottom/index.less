@@ -8,40 +8,85 @@
     height: 910px;
     width: 100%;
 
+    @media @mobile {
+        height: 500px;
+    }
+
     &__button {
         &_margin {
             margin-left: 30px;
+
+            @media @mobile {
+                margin-left: 0;
+                margin-top: 10px;
+            }
         }
     }
 
     &__buttons {
         display: flex;
         margin-top: 32px;
+
+        @media @mobile {
+            .f_c();
+
+            flex-direction: column;
+        }
     }
 
     &__container {
         display: flex;
         justify-content: space-between;
         height: 100%;
-        padding: 100px 360px 100px 250px;
+        padding: 100px 7% 100px 5%;
         width: 100%;
 
-        @media @desktop {
-            padding: 100px 120px 100px 180px;
+        @media @laptop {
+            padding: 100px 3% 100px 5%;
         }
 
-        @media @laptop {
-            padding: 100px 70px 100px 80px;
+        @media @tablet {
+            padding: 0;
         }
     }
 
     &__content {
         margin-top: 250px;
         width: 610px;
+
+        @media @tablet {
+            .f_c();
+
+            flex-direction: column;
+            height: 100%;
+            margin-top: 0;
+            padding: 0 10%;
+            width: 100%;
+        }
+
+        @media @mobile {
+            .f_c();
+
+            flex-direction: column;
+            height: 100%;
+            margin-top: 0;
+            padding: 0 5%;
+            width: 100%;
+        }
     }
 
     &__description {
         margin-top: 46px;
+
+        @media @tablet {
+            text-align: center;
+        }
+
+        @media @mobile {
+            .f_c();
+
+            margin-top: 0;
+        }
     }
 
     &__image-back-1 {
@@ -77,6 +122,10 @@
     &__image-container {
         position: relative;
         width: 370px;
+
+        @media @tablet {
+            display: none;
+        }
     }
 
     &__image {
@@ -84,5 +133,12 @@
         position: relative;
         width: 100%;
         z-index: 9;
+    }
+
+    &__title {
+        @media @tablet {
+            font-style: normal;
+            text-align: center;
+        }
     }
 }

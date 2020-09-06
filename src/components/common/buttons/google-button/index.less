@@ -1,3 +1,4 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
 
 .google-button {
@@ -7,10 +8,19 @@
         height: 28px;
         margin-left: 10px;
         width: 100px;
+
+        @media @mobile {
+            margin-left: 0;
+            transform: scale(0.7);
+        }
     }
 
     &__logo {
         height: 25px;
         width: 20px;
+
+        @media @mobile {
+            transform: scale(0.7);
+        }
     }
 }
