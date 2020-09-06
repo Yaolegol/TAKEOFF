@@ -54,6 +54,10 @@
         margin-top: 250px;
         width: 610px;
 
+        @media @laptop {
+            margin: auto;
+        }
+
         @media @tablet {
             .f_c();
 
@@ -67,11 +71,7 @@
         @media @mobile {
             .f_c();
 
-            flex-direction: column;
-            height: 100%;
-            margin-top: 0;
             padding: 0 5%;
-            width: 100%;
         }
     }
 

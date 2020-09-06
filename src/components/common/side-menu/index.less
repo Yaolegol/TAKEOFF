@@ -1,0 +1,28 @@
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+
+.side-menu {
+    background-color: @black_50;
+    height: 100vh;
+    position: absolute;
+    transition: visibility 500ms ease-in;
+    visibility: hidden;
+    width: 100vw;
+    z-index: 999;
+
+    &_active {
+        visibility: visible;
+
+        .side-menu__content {
+            width: 60%;
+        }
+    }
+
+    &__content {
+        background-color: @white;
+        height: 100%;
+        transition: width 500ms ease-in;
+        width: 0;
+        z-index: 9999;
+    }
+}

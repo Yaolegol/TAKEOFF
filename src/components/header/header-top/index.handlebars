@@ -1,41 +1,25 @@
 <div class="header-top" id="main">
-    <nav class="menu-mobile hidden">
-        <ul class="menu-mobile__list">
-            <li class="nav__item"><a href="#" class="nav__a">OVERVIEW</a></li>
-            <li class="nav__item"><a href="#how-it-works" class="nav__a">HOW IT WORKS</a></li>
-            <li class="nav__item"><a href="#features" class="nav__a">FEATURES</a></li>
-            <li class="nav__item"><a href="#app" class="nav__a">APP</a></li>
-            <li class="nav__item"><a href="#contact" class="nav__a">CONTACT</a></li>
+    <div class="header-top__desktop">
+        <a href="#main">
+            <img src="img/logo.jpg.png" alt="Logo">
+        </a>
+        <ul class="header-top__nav">
+            <a href="#" class="link header-top__nav-item">OVERVIEW</a>
+            <a href="#how-it-works" class="link header-top__nav-item">HOW IT WORKS</a>
+            <a href="#features" class="link header-top__nav-item">FEATURES</a>
+            <a href="#app" class="link header-top__nav-item">APP</a>
+            <a href="#contact" class="link header-top__nav-item">CONTACT</a>
         </ul>
-        <div class="header-top__bts-mobile-wrap">
-            <div class="btns">
-                <button class="btn-sing-in" type="button" onclick="window.location.href='signin'">
-                    SIGN IN
-                </button>
-                <button class="btn-contact" type="button" onclick="window.location.href='contacts'">
-                    CONTACT
-                </button>
-            </div>
+        <div class="header-top__buttons">
+            {{> button/index
+                    class="button_light"
+                    text="sign in"
+            }}
+            {{> button/index
+                    class="button_dark header-top__button_margin"
+                    text="contact"
+            }}
         </div>
-    </nav>
-    <a href="#main">
-        <img src="img/logo.jpg.png" alt="Logo">
-    </a>
-    <ul class="header-top__nav">
-        <a href="#" class="link header-top__nav-item">OVERVIEW</a>
-        <a href="#how-it-works" class="link header-top__nav-item">HOW IT WORKS</a>
-        <a href="#features" class="link header-top__nav-item">FEATURES</a>
-        <a href="#app" class="link header-top__nav-item">APP</a>
-        <a href="#contact" class="link header-top__nav-item">CONTACT</a>
-    </ul>
-    <div class="header-top__buttons">
-        {{> button/index
-                class="button_light"
-                text="sign in"
-        }}
-        {{> button/index
-                class="button_dark header-top__button_margin"
-                text="contact"
-        }}
     </div>
+    {{> header-top-mobile/index}}
 </div>

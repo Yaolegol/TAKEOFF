@@ -1,0 +1,21 @@
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+
+.burger {
+    .f_c();
+
+    cursor: pointer;
+    flex-direction: column;
+    width: 48px;
+
+    &__line {
+        background-color: @blue_dark;
+        height: 5px;
+        margin-top: 5px;
+        width: 100%;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}

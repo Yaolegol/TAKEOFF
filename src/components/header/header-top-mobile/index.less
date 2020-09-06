@@ -1,0 +1,35 @@
+@import (reference) 'src/styles/adaptive';
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+
+.mobile-menu {
+    align-items: center;
+    display: none;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 50px;
+    width: 100%;
+
+    @media @tablet {
+        display: flex;
+    }
+}
+
+.burger {
+    .f_c();
+
+    cursor: pointer;
+    flex-direction: column;
+    width: 48px;
+
+    &__line {
+        background-color: @blue_dark;
+        height: 5px;
+        margin-top: 5px;
+        width: 100%;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}

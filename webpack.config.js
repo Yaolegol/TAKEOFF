@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 
 module.exports = {
-    //mode: 'development',
+    mode: 'development',
     //devtool: 'none',
     entry: "./src/index.js",
     output: {
@@ -30,7 +30,8 @@ module.exports = {
                 use: {
                     loader: "babel-loader",
                     options: {
-                        presets: ["@babel/preset-env"],
+                        plugins: ["@babel/plugin-proposal-class-properties"],
+                        presets: ["@babel/preset-env"]
                     },
                 },
             },
