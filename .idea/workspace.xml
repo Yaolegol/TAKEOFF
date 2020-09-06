@@ -60,25 +60,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-divider/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-divider/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/description-short/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-airplane.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/airplane.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-circle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/circle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-clock.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/clock.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-house.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/light-house.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-line1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/divider-up.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/first-block-line2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description-short/divider-down.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/normalize.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/text.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/text.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/side-menu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/side-menu/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/description-short/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +131,7 @@
       <updated>1599150657488</updated>
       <workItem from="1599150660024" duration="401000" />
       <workItem from="1599151351076" duration="556000" />
-      <workItem from="1599223886096" duration="68734000" />
+      <workItem from="1599223886096" duration="70044000" />
     </task>
     <servers />
   </component>
