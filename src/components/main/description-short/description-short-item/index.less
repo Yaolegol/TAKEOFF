@@ -1,0 +1,35 @@
+@import (reference) 'src/styles/flex';
+
+.description-short-item {
+    .f_c();
+
+    flex-direction: column;
+    text-align: center;
+    width: 291px;
+
+    &__circle {
+        height: 100%;
+        width: 100%;
+    }
+
+    &__description {
+        margin-top: 20px;
+    }
+
+    &__image-container {
+        .f_c();
+
+        background-image: url('/src/img/main/description-short/circle.jpg');
+        height: 170px;
+        width: 170px;
+    }
+
+    &__image {
+        height: 80px;
+        width: 80px;
+    }
+
+    &__title {
+        margin-top: 60px;
+    }
+}

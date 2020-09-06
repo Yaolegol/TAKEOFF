@@ -1,0 +1,33 @@
+<div class="description-short">
+    <h2>How does it work</h2>
+    <p class="description-short__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aut
+        dolores harum sunt vel</p>
+    <div class="description-short__items-container">
+        {{> description-short-item/index
+                alt='Clock'
+                description='Lorem ipsum dolor sit amet consectetur, adipisicing elit'
+                src='src/img/main/description-short/clock.jpg'
+                title='Search destination'
+        }}
+        <div class="description-short__divider_up">
+            {{> description-short-divider/index
+                    up=true
+            }}
+        </div>
+        {{> description-short-item/index
+                alt='Airplane'
+                description='Lorem ipsum dolor sit amet consectetur, adipisicing elit'
+                src='src/img/main/description-short/airplane.jpg'
+                title='Book flight'
+        }}
+        <div class="description-short__divider_down">
+            {{> description-short-divider/index}}
+        </div>
+        {{> description-short-item/index
+                alt='Light house'
+                description='Lorem ipsum dolor sit amet consectetur, adipisicing elit'
+                src='src/img/main/description-short/light-house.jpg'
+                title='Enjoy You Journey'
+        }}
+    </div>
+</div>

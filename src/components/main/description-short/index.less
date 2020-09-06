@@ -1,0 +1,29 @@
+@import (reference) 'src/styles/flex';
+
+.description-short {
+    .f_c();
+
+    flex-direction: column;
+    margin-top: 180px;
+
+    &__description {
+        margin-top: 20px;
+    }
+
+    &__divider {
+        &_up {
+            margin-top: 60px;
+        }
+
+        &_down {
+            margin-top: 80px;
+        }
+    }
+
+    &__items-container {
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+}
