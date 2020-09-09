@@ -60,10 +60,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/tags.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/side-menu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/side-menu/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/description-short-item/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/description-short/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/description-short/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/text.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/text.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +81,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Less File" />
         <option value="JavaScript File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -98,27 +102,27 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/main/description-short/description-short-divider" />
-    <property name="list.type.of.created.stylesheet" value="XHTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/main/description-short/description-short-column" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-divider" />
-      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-item" />
-      <recent name="$PROJECT_DIR$/src/components/main/description" />
-      <recent name="$PROJECT_DIR$/src/components/common/burger" />
-      <recent name="$PROJECT_DIR$/src/components/common/side-menu" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main/description-short" />
       <recent name="$PROJECT_DIR$/src/img/main/description-short" />
       <recent name="$PROJECT_DIR$/src/img/buttons/google" />
       <recent name="$PROJECT_DIR$/src/img/buttons/apple" />
       <recent name="$PROJECT_DIR$/src/components/common/buttons" />
-      <recent name="$PROJECT_DIR$/src/fonts/raleway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-column" />
+      <recent name="$PROJECT_DIR$/src/components/common/flex-grid" />
+      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-divider" />
+      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-item" />
+      <recent name="$PROJECT_DIR$/src/components/main/description" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,7 +135,8 @@
       <updated>1599150657488</updated>
       <workItem from="1599150660024" duration="401000" />
       <workItem from="1599151351076" duration="556000" />
-      <workItem from="1599223886096" duration="70044000" />
+      <workItem from="1599223886096" duration="71288000" />
+      <workItem from="1599654160424" duration="8199000" />
     </task>
     <servers />
   </component>
@@ -154,6 +159,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables" timestamp="1599654172432">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables/67.27.1853.1053@67.27.1853.1053" timestamp="1599654172432" />
     <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1599311654211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -174,10 +183,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599225545701" />
-    <state x="516" y="217" key="SettingsEditor" timestamp="1599328887091">
+    <state x="372" y="210" width="1219" height="800" key="Registry" timestamp="1599657971523">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599328887091" />
+    <state x="372" y="210" width="1219" height="800" key="Registry/67.27.1853.1053@67.27.1853.1053" timestamp="1599657971523" />
+    <state x="516" y="217" key="SettingsEditor" timestamp="1599664526277">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="516" y="217" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1599664526277" />
     <state x="477" y="113" width="1031" height="824" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599234181062">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -186,13 +199,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599405556096">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599658656959">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599405556096" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599234256893">
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599658656959" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599234256893" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599657897577" />
   </component>
 </project>

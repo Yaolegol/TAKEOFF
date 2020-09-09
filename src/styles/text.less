@@ -1,22 +1,7 @@
-@import (reference) 'src/styles/colors';
-@import (reference) 'src/styles/font';
-
-h1 {
-    .f_h1();
-}
-
-h2 {
-    .f_h2();
-}
-
-h3 {
-    .f_h3();
-}
-
-p {
-    .f_p();
-}
-
-.white {
-    color: @white;
+.ellipsis(@max-lines) {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: @max-lines;
+    -webkit-box-orient: vertical;
 }

@@ -1,4 +1,6 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/text';
 
 .description-short-item {
     .f_c();
@@ -6,6 +8,10 @@
     flex-direction: column;
     text-align: center;
     width: 200px;
+
+    @media @tablet {
+        margin-top: 50px;
+    }
 
     &__circle {
         height: 100%;
@@ -30,6 +36,15 @@
     }
 
     &__title {
+        .ellipsis(2);
+
+        height: 80px;
         margin-top: 60px;
+        max-width: 100%;
+
+        @media @tablet {
+            height: auto;
+            margin-top: 30px;
+        }
     }
 }

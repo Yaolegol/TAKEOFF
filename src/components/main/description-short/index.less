@@ -1,3 +1,4 @@
+@import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
 
 .description-short {
@@ -5,12 +6,25 @@
 
     flex-direction: column;
     margin-top: 180px;
+    text-align: center;
+
+    @media @tablet {
+        padding: 0 20px;
+    }
+
+    @media @mobile {
+        margin-top: 90px;
+    }
 
     &__description {
         margin-top: 20px;
     }
 
     &__divider {
+        @media @tablet {
+            display: none;
+        }
+
         &_up {
             margin: 60px 20px 0;
         }
@@ -27,5 +41,16 @@
         margin-top: 100px;
         padding: 0 15%;
         width: 100%;
+
+        @media @laptop {
+            padding: 0;
+        }
+
+        @media @tablet {
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 50px;
+        }
     }
 }
