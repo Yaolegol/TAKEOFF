@@ -60,22 +60,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/download-app/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/download-app/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_full.css" beforeDir="false" afterPath="$PROJECT_DIR$/main_full.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/description-short/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description-short/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Y!.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/download-app/y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/second-block-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/download-app/train.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/download-app/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/download-app/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +132,7 @@
       <workItem from="1599151351076" duration="556000" />
       <workItem from="1599223886096" duration="71288000" />
       <workItem from="1599654160424" duration="8835000" />
-      <workItem from="1599744967378" duration="7220000" />
+      <workItem from="1599744967378" duration="7471000" />
     </task>
     <servers />
   </component>
