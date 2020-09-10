@@ -5,15 +5,15 @@
     .f_c();
 
     flex-direction: column;
-    margin-top: 180px;
+    padding: 180px 0;
     text-align: center;
 
     @media @tablet {
-        padding: 0 20px;
+        padding: 120px 20px;
     }
 
     @media @mobile {
-        margin-top: 90px;
+        padding: 60px 20px;
     }
 
     &__description {
@@ -51,6 +51,10 @@
             flex-direction: column;
             justify-content: center;
             margin-top: 50px;
+        }
+
+        @media @mobile {
+            margin-top: 0;
         }
     }
 }

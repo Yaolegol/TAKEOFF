@@ -485,7 +485,7 @@ html, body {
     width: 715px;
     height: 100%;
     display: inline-block;    
-    background-image: url(src/img/second-block-img.jpg);
+    background-image: url(src/img/main/download-app/train.jpg);
     background-repeat: no-repeat;        
 }
 .second-block-img-container__overlay {

@@ -1,0 +1,95 @@
+@import (reference) 'src/styles/adaptive';
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+
+.download-app {
+    display: flex;
+
+    @media @tablet {
+        .f_c();
+
+        flex-direction: column-reverse;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-top: 35px;
+
+        @media @tablet {
+            justify-content: center;
+        }
+    }
+
+    &__circle {
+        background: fade(@white, 15%) url('/src/img/main/download-app/y.png') center no-repeat;
+        background-size: 45px 40px;
+        border-radius: 50%;
+        height: 100px;
+        position: relative;
+        width: 100px;
+        z-index: 2;
+    }
+
+    &__content {
+        width: 476px;
+
+        @media @laptop {
+            .f_c();
+
+            flex-direction: column;
+            text-align: center;
+        }
+
+        @media @mobile {
+            padding: 0 20px;
+            width: 100%;
+        }
+    }
+
+    &__content-container {
+        .f_c();
+
+        flex: 1;
+
+        @media @tablet {
+            margin-top: 50px;
+            text-align: center;
+        }
+    }
+
+    &__content-description {
+        margin-top: 35px;
+    }
+
+    &__image {
+        .f_c();
+
+        background: url('/src/img/main/download-app/train.jpg') center no-repeat;
+        background-size: cover;
+        flex: 1;
+        height: 450px;
+        max-width: 624px;
+        position: relative;
+
+        &:before {
+            background-color: fade(@blue, 70%);
+            bottom: 0;
+            content: '';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+
+        @media @tablet {
+            min-height: 450px;
+            width: 100%;
+        }
+
+        @media @mobile {
+            min-height: 80vw;
+            max-width: 80vw;
+        }
+    }
+}
