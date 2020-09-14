@@ -60,8 +60,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/main/description/description-item/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/description/description-item/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/description/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/description/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/first-item/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/first-item/second.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/icon/third-block-book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/second-item/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/second-item/second.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/third-item/icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/third-item/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main/description/third-item/second.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/normalize.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/third-block-book.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/third-block-book.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/third-block-globe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description/first-item/icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/third-block-house.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/description/second-item/icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/third-block-main-img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/third-block-main-img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/third-block-main-img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/third-block-main-img3.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +114,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/buttons/buttons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/main/description/third-item" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -104,19 +122,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/common/buttons/buttons" />
-      <recent name="$PROJECT_DIR$/src/components/main" />
-      <recent name="$PROJECT_DIR$/src/components/main/download-app" />
-      <recent name="$PROJECT_DIR$/src/components/main/description-short/description-short-column" />
-      <recent name="$PROJECT_DIR$/src/components/common/flex-grid" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/img/main/download-app" />
-      <recent name="$PROJECT_DIR$/src/components/main/description-short" />
-      <recent name="$PROJECT_DIR$/src/img/main/description-short" />
-      <recent name="$PROJECT_DIR$/src/img/buttons/google" />
-      <recent name="$PROJECT_DIR$/src/img/buttons/apple" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/icon" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/third-item" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/second-item" />
+      <recent name="$PROJECT_DIR$/src/components/main/description" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/first-item" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/main/description/third-item" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/second-item" />
+      <recent name="$PROJECT_DIR$/src/components/main/description/description-right-item" />
+      <recent name="$PROJECT_DIR$/src/components/main/description" />
+      <recent name="$PROJECT_DIR$/src/img/main/description/first" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,7 +149,8 @@
       <workItem from="1599151351076" duration="556000" />
       <workItem from="1599223886096" duration="71288000" />
       <workItem from="1599654160424" duration="8835000" />
-      <workItem from="1599744967378" duration="7699000" />
+      <workItem from="1599744967378" duration="8352000" />
+      <workItem from="1600097882975" duration="7551000" />
     </task>
     <servers />
   </component>
@@ -194,10 +213,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1599749923623">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1600101065448">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599749923623" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600101065448" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
