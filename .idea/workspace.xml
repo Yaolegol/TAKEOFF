@@ -56,15 +56,18 @@
         <item name="GROUP_NODE:OwlCarousel2-2.3.4" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/description/description-item/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description/description-item/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/description/description-item/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description/description-item/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/description/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +139,7 @@
       <workItem from="1599654160424" duration="8835000" />
       <workItem from="1599744967378" duration="8352000" />
       <workItem from="1600097882975" duration="7711000" />
-      <workItem from="1600179592595" duration="2131000" />
+      <workItem from="1600179592595" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -148,7 +151,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -179,6 +194,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="729" y="405" width="519" height="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1599310708032" />
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog" timestamp="1600185722745">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="167" y="125" width="1653" height="855" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1600185722745" />
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog" timestamp="1599225545701">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

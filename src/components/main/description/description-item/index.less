@@ -126,16 +126,14 @@
     }
 
     &__second-image {
-        @normal-height: 590px;
-        @normal-width: 341px;
+        @normal-height: 457px;
+        @normal-width: 257px;
 
-        height: @normal-height;
         object-fit: fill;
         position: absolute;
         right: 50%;
         top: 50%;
         transform: translateY(-50%);
-        width: @normal-width;
         z-index: 1;
 
         &_right-images {
@@ -144,13 +142,15 @@
         }
 
         @media @tablet {
+            height: @normal-height;
             left: 50%;
             right: auto;
+            width: @normal-width;
         }
 
         @media @mobile {
-            height: @normal-height / 3;
-            width: @normal-width / 3;
+            height: @normal-height / 2;
+            width: @normal-width / 2;
         }
     }
 }
