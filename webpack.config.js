@@ -35,10 +35,15 @@ module.exports = {
                     },
                 },
             },
-            //css
+            //less
             {
                 test: /\.less$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "less-loader"],
+            },
+            //css
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
             },
             //images
             {
