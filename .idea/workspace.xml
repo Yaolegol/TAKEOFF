@@ -66,28 +66,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/separate-line/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/separate-line/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/summary-item/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/summary/summary-item/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main/summary/line-bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main/summary/line-top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main/summary/main.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-top-mobile/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top-mobile/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/description/description-item/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/description/description-item/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/first-item/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/first-item/bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/second-item/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/second-item/bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/third-item/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/third-item/bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/fourth-item/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/fourth-block-item-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main/summary/fourth-item/bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +144,8 @@
       <workItem from="1599654160424" duration="8835000" />
       <workItem from="1599744967378" duration="8352000" />
       <workItem from="1600097882975" duration="7711000" />
-      <workItem from="1600179592595" duration="6790000" />
+      <workItem from="1600179592595" duration="7885000" />
+      <workItem from="1600441642359" duration="2801000" />
     </task>
     <servers />
   </component>
@@ -238,10 +224,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1600187496708">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1600444793225">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600187496708" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600444793225" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

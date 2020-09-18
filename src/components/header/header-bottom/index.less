@@ -1,6 +1,7 @@
 @import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/font';
 
 .header-bottom {
     background-image: url('/src/img/header-img/overlay.png'), url('/src/img/header-img/airplane.jpg');
@@ -21,7 +22,7 @@
         display: flex;
         justify-content: space-between;
         height: 100%;
-        padding: 100px 7% 100px 5%;
+        padding: 100px 7% 100px 10%;
         width: 100%;
 
         @media @laptop {
@@ -39,6 +40,7 @@
 
         @media @laptop {
             margin: auto;
+            width: 580px;
         }
 
         @media @tablet {
@@ -59,6 +61,9 @@
     }
 
     &__description {
+        .f_badge();
+
+        color: @white;
         margin-top: 46px;
 
         @media @tablet {
