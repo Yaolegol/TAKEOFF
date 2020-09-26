@@ -75,11 +75,7 @@ module.exports = {
             title: "My app",
         }),
         new HandlebarsPlugin({
-            entry: path.resolve(__dirname, "src", "index.handlebars"),
-            output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
-            partials: [
-                path.resolve(__dirname, "src", "components", "**", "*.handlebars"),
-            ],
+            data: require('./src/data/data.json'),
             getPartialId: function (filePath) {
                 const relativePath = filePath
                     .split("components/")[1]
@@ -90,7 +86,12 @@ module.exports = {
                 console.log(id)
 
                 return id;
-            }
+            },
+            entry: path.resolve(__dirname, "src", "index.handlebars"),
+            output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
+            partials: [
+                path.resolve(__dirname, "src", "components", "**", "*.handlebars"),
+            ],
         }),
         new MiniCssExtractPlugin(),
         new CleanWebpackPlugin(),
