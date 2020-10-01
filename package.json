@@ -9,7 +9,7 @@
     "handlebars": "^4.7.6",
     "jquery": "^3.5.1",
     "less": "^3.12.2",
-    "swiper": "^6.2.0"
+    "swiper": "^6.3.2"
   },
   "description": "",
   "devDependencies": {
@@ -34,7 +34,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "homepage": "https://github.com/Yaolegol/TAKEOFF#readme",
-  "license": "ISC",
   "main": "server/index.js",
   "name": "takeoff",
   "repository": {

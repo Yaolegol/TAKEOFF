@@ -2,7 +2,9 @@
     {{#with slider}}
         {{#> slider/index}}
             {{#each products}}
-                {{> product-card/index}}
+                {{#> slider-item/index}}
+                    {{> product-card/index}}
+                {{/slider-item/index}}
             {{/each}}
         {{/slider/index}}
     {{/with}}
