@@ -1,3 +1,9 @@
 <div class="products">
-    {{> slider/index}}
+    {{#with slider}}
+        {{#> slider/index}}
+            {{#each products}}
+                {{> product-card/index}}
+            {{/each}}
+        {{/slider/index}}
+    {{/with}}
 </div>

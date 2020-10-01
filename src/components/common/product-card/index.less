@@ -1,0 +1,33 @@
+@import (reference) 'src/styles/adaptive';
+@import (reference) 'src/styles/font';
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    height: 578px;
+    overflow: hidden;
+    text-align: center;
+    width: 371px;
+
+    &__content {
+        padding: 35px 35px 22px;
+    }
+
+    &__data {
+        margin-top: 10px;
+        opacity: 0.5;
+    }
+
+    &__description {
+        margin-top: 8px;
+        word-break: break-word;
+    }
+
+    &__link {
+        .f_p();
+
+        display: inline-block;
+        font-weight: 900;
+        margin-top: 15px;
+    }
+}

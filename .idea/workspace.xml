@@ -66,15 +66,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/slider/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/slider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/product-card/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/product-card/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/helpers.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/slider/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/slider/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/download-app/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/download-app/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/download-app/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/download-app/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/products/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/products/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tags.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tags.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +92,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Less File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -111,7 +115,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/slider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/main/products/product-card" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -119,19 +123,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/common/slider" />
-      <recent name="$PROJECT_DIR$/src/components/main/products" />
-      <recent name="$PROJECT_DIR$/src/components/main/summary/separate-line" />
-      <recent name="$PROJECT_DIR$/src/img/main/summary" />
-      <recent name="$PROJECT_DIR$/src/components/main/summary/summary-item" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/fourth-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/third-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/second-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/first-item" />
-      <recent name="$PROJECT_DIR$/src/img/main/description/icon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main/products/product-card" />
+      <recent name="$PROJECT_DIR$/src/components/common/slider" />
+      <recent name="$PROJECT_DIR$/src/components/main/products" />
+      <recent name="$PROJECT_DIR$/src/components/main/summary/separate-line" />
+      <recent name="$PROJECT_DIR$/src/img/main/summary" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +156,11 @@
       <workItem from="1600441642359" duration="7396000" />
       <workItem from="1600499402772" duration="7602000" />
       <workItem from="1600710042074" duration="3842000" />
-      <workItem from="1601109529754" duration="707000" />
+      <workItem from="1601109529754" duration="5899000" />
+      <workItem from="1601390676041" duration="7153000" />
+      <workItem from="1601564722218" duration="436000" />
+      <workItem from="1601565186144" duration="252000" />
+      <workItem from="1601565483857" duration="37000" />
     </task>
     <servers />
   </component>
@@ -187,10 +195,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables" timestamp="1599654172432">
+    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables" timestamp="1601565192841">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables/67.27.1853.1053@67.27.1853.1053" timestamp="1599654172432" />
+    <state x="746" y="401" width="484" height="303" key="#Configure_Path_Variables/67.27.1853.1053@67.27.1853.1053" timestamp="1601565192841" />
     <state x="622" y="234" width="732" height="637" key="#Inspections" timestamp="1599311654211">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -203,6 +211,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="705" y="354" width="714" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1599396735342" />
+    <state x="729" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601565337919">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="729" y="390" width="518" height="325" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601565337919" />
     <state x="729" y="405" width="519" height="294" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599310708032">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -215,6 +227,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="631" y="140" width="721" height="689" key="EditFileWatcherDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1599225545701" />
+    <state x="761" y="296" width="444" height="513" key="FileChooserDialogImpl" timestamp="1601565288334">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="761" y="296" width="444" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1601565288334" />
     <state x="372" y="210" width="1219" height="800" key="Registry" timestamp="1599657971523">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -231,10 +247,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1600528953331">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1601395366397">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1600528953331" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1601395366397" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
