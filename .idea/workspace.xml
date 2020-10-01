@@ -66,13 +66,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/slider-item/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/product-card/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/product-card/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/products/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/products/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +154,7 @@
       <workItem from="1601565483857" duration="37000" />
       <workItem from="1601565829417" duration="56000" />
       <workItem from="1601566906251" duration="15000" />
-      <workItem from="1601566980349" duration="2346000" />
+      <workItem from="1601566980349" duration="2911000" />
     </task>
     <servers />
   </component>

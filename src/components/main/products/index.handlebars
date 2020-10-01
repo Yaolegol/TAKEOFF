@@ -1,11 +1,22 @@
 <div class="products">
-    {{#with slider}}
-        {{#> slider/index}}
-            {{#each products}}
-                {{#> slider-item/index}}
-                    {{> product-card/index}}
-                {{/slider-item/index}}
-            {{/each}}
-        {{/slider/index}}
-    {{/with}}
+    <div class="products__header">
+        <div class="products__header-content">
+            <h2>Resent News</h2>
+            <p class="products__header-description">Lorem ipsum dolor sit amet. Accusantium facilis ipsa numquam officia omnis perferendis saepe unde vero.</p>
+        </div>
+        <div class="products__slider-controls">
+
+        </div>
+    </div>
+    <div class="products__slider">
+        {{#with slider}}
+            {{#> slider/index}}
+                {{#each products}}
+                    {{#> slider-item/index}}
+                        {{> product-card/index}}
+                    {{/slider-item/index}}
+                {{/each}}
+            {{/slider/index}}
+        {{/with}}
+    </div>
 </div>
