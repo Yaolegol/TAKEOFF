@@ -10,9 +10,35 @@ class Slider {
         this.init();
     }
 
+    bind = () => {
+        this.swiper.on('slideChange', this.checkArrowsEnabled);
+    }
+
+    checkArrowsEnabled = () => {
+        this.checkIsBeginning();
+        this.checkIsEnd();
+    }
+
+    checkIsBeginning = () => {
+        if(this.swiper.isBeginning) {
+            this.leftArrow.classList.add('slider-controls__arrow-container_disabled');
+        } else {
+            this.leftArrow.classList.remove('slider-controls__arrow-container_disabled');
+        }
+    }
+
+    checkIsEnd = () => {
+        if(this.swiper.isEnd) {
+            this.rightArrow.classList.add('slider-controls__arrow-container_disabled');
+        } else {
+            this.rightArrow.classList.remove('slider-controls__arrow-container_disabled');
+        }
+    }
+
     init = () => {
         this.swiper = createSwiper();
 
+        this.bind();
         this.initArrows();
     }
 
@@ -32,33 +58,14 @@ class Slider {
 
     handleLeftArrowClick = () => {
         this.swiper.slidePrev();
-        console.log('isBeginning');
-        console.log(this.swiper.isBeginning);
 
-        if(this.swiper.isBeginning) {
-            this.leftArrow.classList.add('slider-controls__arrow-container_disabled');
-        } else {
-            this.rightArrow.classList.remove('slider-controls__arrow-container_disabled');
-        }
+        this.checkArrowsEnabled();
     }
 
     handleRightArrowClick = () => {
         this.swiper.slideNext();
-        console.log('isEnd');
-        console.log(this.swiper.isEnd);
-        if(this.swiper.isEnd) {
-            this.rightArrow.classList.add('slider-controls__arrow-container_disabled');
-        } else {
-            this.leftArrow.classList.remove('slider-controls__arrow-container_disabled');
-        }
-    }
 
-    checkArrowsEnabled = () => {
-        if(this.swiper.isBeginning) {
-            this.leftArrow.classList.add('slider-controls__arrow-container_disabled');
-        } else if(this.swiper.isEnd) {
-            this.rightArrow.classList.add('slider-controls__arrow-container_disabled');
-        }
+        this.checkArrowsEnabled();
     }
 }
 
