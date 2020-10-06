@@ -66,12 +66,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/helpers/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/slider/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/slider/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/slider/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/products/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +158,7 @@
       <workItem from="1601566906251" duration="15000" />
       <workItem from="1601566980349" duration="3212000" />
       <workItem from="1601651394552" duration="2632000" />
+      <workItem from="1601995884542" duration="1706000" />
     </task>
     <servers />
   </component>
@@ -200,6 +201,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="622" y="234" width="732" height="637" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1599311654211" />
+    <state x="752" y="241" key="#JSON" timestamp="1601996346314">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="752" y="241" key="#JSON/67.27.1853.1053@67.27.1853.1053" timestamp="1601996346314" />
     <state x="817" y="237" key="#Less" timestamp="1599403583963">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -244,10 +249,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1601656086203">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1601997361970">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1601656086203" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1601997361970" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
