@@ -5,8 +5,7 @@ import {createSwiper} from "/common/helpers/slider";
 class Slider {
     constructor(slider) {
         this.swiperId = slider.dataset.swiperId;
-        this.leftArrow = document.querySelector(`.j-swiper-left-arrow[data-swiper-id=${this.swiperId}]`);
-        this.rightArrow = document.querySelector(`.j-swiper-right-arrow[data-swiper-id=${this.swiperId}]`);
+        this.cliderControls = document.querySelector(`.j-swiper-controls[data-swiper-id=${this.swiperId}]`);
 
         this.init();
     }
@@ -18,9 +17,14 @@ class Slider {
     }
 
     initArrows = () => {
-        if(this.leftArrow && this.rightArrow) {
-            addEventListener(this.leftArrow, 'click', this.handleLeftArrowClick);
-            addEventListener(this.rightArrow, 'click', this.handleRightArrowClick);
+        if(this.cliderControls) {
+            this.leftArrow = this.cliderControls.querySelector('.j-swiper-left-arrow');
+            this.rightArrow = this.cliderControls.querySelector('.j-swiper-right-arrow');
+
+            if(this.leftArrow && this.rightArrow) {
+                addEventListener(this.leftArrow, 'click', this.handleLeftArrowClick);
+                addEventListener(this.rightArrow, 'click', this.handleRightArrowClick);
+            }
         }
     }
 

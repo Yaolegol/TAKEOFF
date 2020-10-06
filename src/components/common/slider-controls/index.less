@@ -1,0 +1,27 @@
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/helpers';
+
+.slider-controls {
+    .f_c();
+
+    &__arrow {
+        border-color: @white;
+        border-width: 0 4px 4px 0;
+        padding: 6px;
+    }
+
+    &__arrow-container {
+        .f_c();
+
+        background-color: @yellow;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 70px;
+        width: 70px;
+
+        &_right {
+            margin-left: 30px;
+        }
+    }
+}
