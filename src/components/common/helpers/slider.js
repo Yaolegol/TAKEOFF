@@ -5,7 +5,8 @@ export const createSwiper = () => {
     return new Swiper('.swiper-container', {
         breakpoints: {
             768: {
-                slidesPerView: 2
+                slidesPerView: 2,
+                spaceBetween: 50,
             },
             1440: {
                 slidesPerView: 3,
@@ -13,6 +14,6 @@ export const createSwiper = () => {
             },
         },
         slidesPerView: 1.1,
-        spaceBetween: 10
+        spaceBetween: 10,
     });
 }
