@@ -3,6 +3,14 @@
 .products {
     padding: 130px 0 300px;
 
+    @media @desktop {
+        padding: 130px 50px 300px;
+    }
+
+    @media @mobile {
+        padding: 130px 5vw 300px;
+    }
+
     &__header {
         display: flex;
     }
@@ -18,5 +26,11 @@
 
     &__slider {
         margin-top: 50px;
+    }
+
+    &__slider-controls {
+        @media @mobile {
+            display: none;
+        }
     }
 }

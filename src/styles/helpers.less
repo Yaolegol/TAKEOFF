@@ -1,3 +1,5 @@
+@import (reference) 'src/styles/colors';
+
 .arrow {
     border: solid;
     border-width: 0 2px 2px 0;
@@ -10,5 +12,11 @@
 
     &__right {
         transform: rotate(-45deg);
+    }
+}
+
+.link {
+    &:hover {
+        color: @yellow_hover;
     }
 }
