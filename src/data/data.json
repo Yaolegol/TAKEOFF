@@ -1,5 +1,34 @@
 {
     "footer": {
+        "links": {
+            "items": [
+                {
+                    "name": "Live channel",
+                    "url": "#"
+                },
+                {
+                    "name": "Latest project",
+                    "url": "#"
+                },
+                {
+                    "name": "Manage work",
+                    "url": "#"
+                },
+                {
+                    "name": "quick start guide",
+                    "url": "#"
+                },
+                {
+                    "name": "feedback",
+                    "url": "#"
+                },
+                {
+                    "name": "support center",
+                    "url": "#"
+                }
+            ],
+            "title": "other links"
+        },
         "recommendations": {
             "items": [
                 {

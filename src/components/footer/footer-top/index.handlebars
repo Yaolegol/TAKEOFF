@@ -8,6 +8,13 @@
             }}
         {{/with}}
     </div>
-    <div>test</div>
+    <div>
+        {{#with links}}
+            {{> list/index
+                    items=items
+                    title=title
+            }}
+        {{/with}}
+    </div>
     <div>test</div>
 </div>
