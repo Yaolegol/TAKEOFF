@@ -66,11 +66,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/follow/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/follow/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/list/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/list/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Follow/Facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/follow/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Follow/Instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/follow/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Follow/Linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/follow/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Follow/Twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/follow/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header-img/airplane.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header/airplane.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header-img/app-screen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header/app-screen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/header-img/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/header/overlay.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +119,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/list" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/follow" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -116,11 +128,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/common/follow" />
       <recent name="$PROJECT_DIR$/src/components/common/list" />
       <recent name="$PROJECT_DIR$/src/components/common/logo" />
       <recent name="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main" />
       <recent name="$PROJECT_DIR$/src/components/footer/bottom" />
-      <recent name="$PROJECT_DIR$/src/components/footer/top" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/common" />
@@ -158,7 +170,7 @@
       <workItem from="1601566980349" duration="3212000" />
       <workItem from="1601651394552" duration="2632000" />
       <workItem from="1601995884542" duration="7945000" />
-      <workItem from="1602257871967" duration="11897000" />
+      <workItem from="1602257871967" duration="13737000" />
     </task>
     <servers />
   </component>
@@ -249,10 +261,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1602330503079">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1602334417104">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602330503079" />
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602334417104" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1602329745529">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
