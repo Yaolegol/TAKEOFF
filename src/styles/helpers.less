@@ -1,4 +1,5 @@
 @import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/font';
 
 .arrow {
     border: solid;
@@ -16,7 +17,15 @@
 }
 
 .link {
+    .f_p();
+
     &:hover {
-        color: @yellow_hover;
+        color: @grey-6;
+    }
+
+    &_yellow {
+        &:hover {
+            color: @yellow_hover;
+        }
     }
 }

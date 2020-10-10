@@ -1,4 +1,35 @@
 {
+    "footer": {
+        "recommendations": {
+            "items": [
+                {
+                    "name": "Watch Demo Video",
+                    "url": "#"
+                },
+                {
+                    "name": "Documents",
+                    "url": "#"
+                },
+                {
+                    "name": "Integrations",
+                    "url": "#"
+                },
+                {
+                    "name": "Creating Tasks",
+                    "url": "#"
+                },
+                {
+                    "name": "Themes",
+                    "url": "#"
+                },
+                {
+                    "name": "Plugin",
+                    "url": "#"
+                }
+            ],
+            "title": "recomended"
+        }
+    },
     "slider": {
         "products": [
             {

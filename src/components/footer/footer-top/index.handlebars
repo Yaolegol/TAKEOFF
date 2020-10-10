@@ -1,0 +1,13 @@
+<div class="footer-top">
+    {{> footer-top-main/index}}
+    <div>
+        {{#with recommendations}}
+            {{> list/index
+                    items=items
+                    title=title
+            }}
+        {{/with}}
+    </div>
+    <div>test</div>
+    <div>test</div>
+</div>

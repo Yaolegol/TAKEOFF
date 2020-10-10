@@ -66,9 +66,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/list/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/list/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/logo/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-bottom/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-bottom/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.handlebars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/helpers/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/helpers/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/products/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/product-card/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/product-card/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/product-card/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/product-card/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/slider-item/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/colors.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/helpers.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/helpers.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/tags.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tags.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +125,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/slider-item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/list" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -113,19 +133,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/common/list" />
+      <recent name="$PROJECT_DIR$/src/components/common/logo" />
+      <recent name="$PROJECT_DIR$/src/components/footer/footer-top/footer-top-main" />
+      <recent name="$PROJECT_DIR$/src/components/footer/bottom" />
+      <recent name="$PROJECT_DIR$/src/components/footer/top" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/fourth-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/third-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/second-item" />
       <recent name="$PROJECT_DIR$/src/img/main/summary/first-item" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/common/slider-item" />
-      <recent name="$PROJECT_DIR$/src/components/common" />
-      <recent name="$PROJECT_DIR$/src/components/common/slider-controls" />
-      <recent name="$PROJECT_DIR$/src/components/main/products/product-card" />
-      <recent name="$PROJECT_DIR$/src/components/common/slider" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -156,7 +176,7 @@
       <workItem from="1601566980349" duration="3212000" />
       <workItem from="1601651394552" duration="2632000" />
       <workItem from="1601995884542" duration="7945000" />
-      <workItem from="1602257871967" duration="6012000" />
+      <workItem from="1602257871967" duration="11517000" />
     </task>
     <servers />
   </component>
@@ -247,13 +267,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="775" y="467" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1599319889625" />
-    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1602262590231">
+    <state x="346" y="71" width="1304" height="908" key="find.popup" timestamp="1602330503079">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602262590231" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1599657897577">
+    <state x="346" y="71" width="1304" height="908" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602330503079" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1602329745529">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1599657897577" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1602329745529" />
   </component>
 </project>
