@@ -1,23 +1,4 @@
 <div class="header-top" id="main">
-    <div class="header-top__desktop">
-        {{> logo/index}}
-        <ul class="header-top__nav">
-            <a href="#" class="link header-top__nav-item">OVERVIEW</a>
-            <a href="#how-it-works" class="link header-top__nav-item">HOW IT WORKS</a>
-            <a href="#features" class="link header-top__nav-item">FEATURES</a>
-            <a href="#app" class="link header-top__nav-item">APP</a>
-            <a href="#contact" class="link header-top__nav-item">CONTACT</a>
-        </ul>
-        <div class="header-top__buttons">
-            {{> button/index
-                    class="button_light"
-                    text="sign in"
-            }}
-            {{> button/index
-                    class="button_dark header-top__button_margin"
-                    text="contact"
-            }}
-        </div>
-    </div>
+    {{> header-top-main/index}}
     {{> header-top-mobile/index}}
 </div>
