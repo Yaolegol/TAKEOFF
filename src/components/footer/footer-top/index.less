@@ -1,17 +1,60 @@
+@import (reference) 'src/styles/adaptive';
+
 .footer-top {
     display: flex;
     justify-content: space-between;
     padding: 100px 20px 0;
 
+    @media @laptop {
+        justify-content: space-around;
+    }
+
+    @media @tablet {
+        flex-direction: column-reverse;
+    }
+
     &__buttons {
+        display: flex;
         margin-top: 40px;
+
+        @media @tablet {
+            justify-content: center;
+        }
+    }
+
+    &__links {
+        @media @tablet {
+            margin-top: 50px;
+            order: 2;
+            text-align: center;
+        }
+
+        &_top {
+            @media @tablet {
+                order: 3;
+            }
+        }
     }
 
     &__subscribe {
+        display: flex;
+        flex-direction: column;
         margin-top: 50px;
+
+        @media @tablet {
+            align-items: center;
+        }
+    }
+
+    &__subscribe-container {
+        @media @tablet {
+            order: 4;
+            text-align: center;
+        }
     }
 
     &__subscribe-input-container {
         margin-top: 25px;
+        max-width: 100%;
     }
 }

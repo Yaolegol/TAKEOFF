@@ -1,6 +1,6 @@
 <div class="footer-top">
     {{> footer-top-main/index}}
-    <div>
+    <div class="footer-top__links footer-top__links_top">
         {{#with recommendations}}
             {{> list/index
                     items=items
@@ -8,7 +8,7 @@
             }}
         {{/with}}
     </div>
-    <div>
+    <div class="footer-top__links">
         {{#with links}}
             {{> list/index
                     items=items
@@ -16,7 +16,7 @@
             }}
         {{/with}}
     </div>
-    <div>
+    <div class="footer-top__subscribe-container">
         <h6>Subscribe & download</h6>
         <div class="footer-top__subscribe">
             <p>Subscribe to our newsletter for latest update</p>
