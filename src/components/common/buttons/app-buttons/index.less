@@ -4,6 +4,17 @@
 .app-buttons {
     display: flex;
     flex: 1;
+    height: 55px;
+    max-width: 400px;
+
+    &_small {
+        height: 45px;
+        max-width: 300px;
+
+        .app-buttons_margin {
+            margin-left: 20px;
+        }
+    }
 
     @media @mobile {
         .f_c();
