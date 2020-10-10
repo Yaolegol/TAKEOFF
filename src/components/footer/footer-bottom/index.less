@@ -1,3 +1,18 @@
-.footer-bottom {
+@import (reference) 'src/styles/colors';
+@import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/font';
 
+.footer-bottom {
+    .f_c();
+
+    background-color: @green_dark;
+    height: 81px;
+    text-align: center;
+
+    &__text {
+        .f_p-small();
+
+        color: @white;
+        text-transform: uppercase;
+    }
 }

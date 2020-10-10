@@ -74,10 +74,10 @@
 .f_h1 {
     .create-font(
             @default_h;
-            @color: @white;
-            @font-family: 'Raleway-ExtraBold', sans-serif;
-            @font-size: 46px;
-            @line-height: 60px;
+        @color: @white;
+        @font-family: 'Raleway-ExtraBold', sans-serif;
+        @font-size: 46px;
+        @line-height: 60px;
     );
 
     text-transform: uppercase;
@@ -122,4 +122,13 @@
 
 .f_p {
     .create-font(@default);
+}
+
+.f_p-small {
+    .f_p();
+
+    @media @tablet {
+        font-size: 10px;
+        line-height: 15px;
+    }
 }
