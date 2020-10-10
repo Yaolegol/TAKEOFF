@@ -66,17 +66,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-top-main/index.handlebars" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header-top-main/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/side-menu/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/side-menu/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/side-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/side-menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/side-menu/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/side-menu/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header-top/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/products/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/products/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-top-main/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-top-main/index.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +156,7 @@
       <workItem from="1601566980349" duration="3212000" />
       <workItem from="1601651394552" duration="2632000" />
       <workItem from="1601995884542" duration="7945000" />
-      <workItem from="1602257871967" duration="31646000" />
+      <workItem from="1602257871967" duration="31886000" />
     </task>
     <servers />
   </component>

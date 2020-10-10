@@ -15,12 +15,10 @@ class SideMenu {
     }
 
     handleUpdateVisibility = () => {
-        console.log('click');
         this.sideMenu.classList.toggle('side-menu_active');
     }
 
     init = () => {
-        console.log('init');
         this.burger = document.querySelector('.j-burger');
         this.sideMenu = document.querySelector('.j-side-menu');
         this.sideMenuContent = document.querySelector('.j-content');
