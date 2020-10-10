@@ -1,9 +1,0 @@
-.recomended-block__a {
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;      
-    color: hsl(0, 0%, 47%);
-}
-.recomended-block__a:hover {     
-    color: hsl(0, 0%, 20%);
-}

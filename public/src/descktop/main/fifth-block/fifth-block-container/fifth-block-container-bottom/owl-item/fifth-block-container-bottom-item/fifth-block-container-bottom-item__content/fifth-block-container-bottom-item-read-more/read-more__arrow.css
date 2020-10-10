@@ -1,9 +1,0 @@
-.fifth-block-container-bottom-item-read-more__arrow {  
-    height: 15px;
-    width: 10px;  
-    background-image: url(arrow-not-activ.png);
-    background-repeat: no-repeat;    
-}
-.fifth-block-container-bottom-item-read-more:hover .fifth-block-container-bottom-item-read-more__arrow {      
-    background-image: url(arrow.png);    
-}
