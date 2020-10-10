@@ -67,13 +67,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9110bf43-932c-469c-bc5b-8ba1853c6d13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-hbs-compiled.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-hbs-compiled.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/app-buttons/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/apple-button/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/buttons/button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/button/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/buttons/google-button/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer-top/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer-top/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header-bottom/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/font.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/font.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <workItem from="1601566980349" duration="3212000" />
       <workItem from="1601651394552" duration="2632000" />
       <workItem from="1601995884542" duration="7945000" />
-      <workItem from="1602257871967" duration="22808000" />
+      <workItem from="1602257871967" duration="23838000" />
     </task>
     <servers />
   </component>
