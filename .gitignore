@@ -1,4 +1,5 @@
-﻿psd
-node_modules
-trash
+﻿.idea
 dist
+node_modules
+psd
+trash
