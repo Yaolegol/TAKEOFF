@@ -7,18 +7,6 @@ const path = require("path");
 
 module.exports = {
     entry: "./src/index.js",
-    output: {
-        filename: "[name].[contenthash].bundle.js",
-        path: path.resolve(__dirname, "dist"),
-    },
-    resolve: {
-        roots: [
-            path.resolve(__dirname, 'src'),
-            path.resolve(__dirname, 'src', 'components'),
-            path.resolve(__dirname, 'src', 'img'),
-            path.resolve(__dirname, 'src', 'styles'),
-        ],
-    },
     module: {
         rules: [
             //babel
@@ -59,6 +47,10 @@ module.exports = {
             },
         ],
     },
+    output: {
+        filename: "[name].[contenthash].bundle.js",
+        path: path.resolve(__dirname, "dist"),
+    },
     plugins: [
         new CopyPlugin({
             patterns: [
@@ -94,4 +86,10 @@ module.exports = {
         new MiniCssExtractPlugin(),
         new CleanWebpackPlugin(),
     ],
+    resolve: {
+        modules: [
+            path.resolve(__dirname, "src"),
+            "node_modules"
+        ],
+    },
 };

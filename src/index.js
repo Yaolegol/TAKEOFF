@@ -1,4 +1,4 @@
-import {handleLoad} from '/common/helpers/load';
+import {handleLoad} from 'components/common/helpers/load';
 
 // default webpack import function
 function importAll (r) {
@@ -6,8 +6,8 @@ function importAll (r) {
 }
 
 // setup import from all folders in project
-var commonStyles = require.context("/styles", true, /\.less$/);
-var components = require.context("/components", true, /\.(js|less)$/);
+var commonStyles = require.context("styles", true, /\.less$/);
+var components = require.context("/", true, /\.(js|less)$/);
 
 importAll(commonStyles);
 importAll(components);

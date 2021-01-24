@@ -1,4 +1,4 @@
-import {addEventListener} from '/common/helpers/events';
+import {addEventListener} from 'components/common/helpers/events';
 
 export const handleLoad = () => {
     document.addEventListener("DOMContentLoaded", function (event) {

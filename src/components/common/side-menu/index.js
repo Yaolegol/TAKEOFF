@@ -1,5 +1,5 @@
-import {addEventListener} from '/common/helpers/events';
-import {addOnLoadListener} from '/common/helpers/load';
+import {addEventListener} from 'components/common/helpers/events';
+import {addOnLoadListener} from 'components/common/helpers/load';
 
 class SideMenu {
     constructor() {
