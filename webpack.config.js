@@ -66,17 +66,6 @@ module.exports = {
         }),
         new HandlebarsPlugin({
             data: require('./src/data/data.json'),
-            getPartialId: function (filePath) {
-                const relativePath = filePath
-                    .split("components/")[1]
-                    .split(".handlebars")[0];
-                const pathsArray = relativePath.split('/');
-                const id = pathsArray.slice(-2).join('/');
-                console.log('id')
-                console.log(id)
-
-                return id;
-            },
             entry: path.resolve(__dirname, "src", "index.handlebars"),
             output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
             partials: [
