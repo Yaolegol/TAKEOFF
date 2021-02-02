@@ -6,6 +6,10 @@ const projectRootPath = path.resolve(__dirname, '../')
 const app = express();
 app.use(express.static(path.resolve(projectRootPath, 'dist')))
 
+app.get('/second', (req, res) => {
+    res.sendFile(path.resolve('dist','index.html'))
+})
+
 app.get('*', (req, res) => {
     res.sendFile(path.resolve('dist','index.html'))
 })

@@ -1,4 +1,4 @@
-import {handleLoad} from 'components/common/helpers/load';
+import {handleLoad} from 'helpers/load';
 
 // default webpack import function
 function importAll (r) {

@@ -1,5 +1,5 @@
-import {addEventListener} from 'components/common/helpers/events';
-import {addOnLoadListener} from 'components/common/helpers/load';
+import {addEventListener} from 'helpers/events';
+import {addOnLoadListener} from 'helpers/load';
 
 class Burger {
     constructor() {

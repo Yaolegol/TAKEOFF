@@ -1,6 +1,6 @@
-import {addEventListener} from 'components/common/helpers/events';
-import {addOnLoadListener} from 'components/common/helpers/load';
-import {createSwiper} from "components/common/helpers/slider";
+import {addEventListener} from 'helpers/events';
+import {addOnLoadListener} from 'helpers/load';
+import {createSwiper} from "helpers/slider";
 
 class Slider {
     constructor(slider) {

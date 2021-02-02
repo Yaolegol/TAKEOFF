@@ -47,6 +47,11 @@ module.exports = {
             },
         ],
     },
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        },
+    },
     output: {
         filename: "[name].[contenthash].bundle.js",
         path: path.resolve(__dirname, "dist"),
@@ -69,7 +74,7 @@ module.exports = {
             entry: path.resolve(__dirname, "src", "index.handlebars"),
             output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
             partials: [
-                path.resolve(__dirname, "src", "components", "**", "*.handlebars"),
+                path.resolve(__dirname, "src", "**", "*.handlebars"),
             ],
         }),
         new MiniCssExtractPlugin(),
