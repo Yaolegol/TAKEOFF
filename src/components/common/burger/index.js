@@ -1,5 +1,6 @@
 import {addEventListener} from 'helpers/events';
 import {addOnLoadListener} from 'helpers/load';
+import './index.less';
 
 class Burger {
     constructor() {
