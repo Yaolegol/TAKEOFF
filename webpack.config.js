@@ -12,7 +12,7 @@ module.exports = {
     },
     module: {
         rules: [
-            //babel
+            // babel
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules|bower_components)/,
@@ -24,30 +24,35 @@ module.exports = {
                     },
                 },
             },
-            //less
+            // less
             {
                 test: /\.less$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "less-loader"],
             },
-            //css
+            // css
             {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader'],
             },
-            //images
+            // images
             {
                 test: /\.(png|svg|jpg)$/,
                 use: [
                     'file-loader',
                 ],
             },
-            //fonts
+            // fonts
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
                     'file-loader',
                 ],
             },
+            // handlebars
+            {
+                test: /\.handlebars$/,
+                loader: "handlebars-loader"
+            }
         ],
     },
     optimization: {
@@ -75,6 +80,12 @@ module.exports = {
         new HandlebarsPlugin({
             data: require('./src/data/data.json'),
             entry: path.resolve(__dirname, "src", "index.handlebars"),
+            getPartialId: function (filePath) {
+                console.log('filePath')
+                console.log(filePath)
+                console.log(filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1))
+                return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
+            },
             output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
             partials: [
                 path.resolve(__dirname, "src", "**", "*.handlebars"),

@@ -6,23 +6,23 @@
                 omnis perferendis saepe unde vero.</p>
         </div>
         <div class="products__slider-controls">
-            {{> slider-controls/index
+            {{> components/common/slider/slider-controls
                     swiper-id="products"
             }}
         </div>
     </div>
     <div class="products__slider">
         {{#with slider}}
-            {{#> slider/index
+            {{#> components/common/slider
                     swiper-container-class="products__slider-container-class"
                     swiper-id="products"
             }}
                 {{#each products}}
-                    {{#> slider-item/index}}
-                        {{> product-card/index}}
-                    {{/slider-item/index}}
+                    {{#> components/common/slider/slider-item }}
+                        {{> components/common/product-card }}
+                    {{/components/common/slider/slider-item }}
                 {{/each}}
-            {{/slider/index}}
+            {{/components/common/slider }}
         {{/with}}
     </div>
 </div>

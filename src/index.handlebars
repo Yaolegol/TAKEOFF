@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    {{#> layout/index}}
-        {{> header/index}}
-        {{> main/index}}
-        {{> footer/index}}
-    {{/layout/index}}
+    {{#> modules/layout/components/layout }}
+        {{> modules/layout/components/header }}
+        {{> pages/main }}
+        {{> modules/layout/components/footer }}
+    {{/modules/layout/components/layout }}
 </body>
 
 </html>

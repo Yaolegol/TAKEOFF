@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
     "less": "^3.12.2",
     "swiper": "^6.3.2"
   },

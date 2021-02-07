@@ -1,5 +1,5 @@
 <div class="header-top-main {{#if mobile-hidden}}header-top-main_mobile-hidden{{/if}}">
-    {{> logo/index}}
+    {{> components/common/logo }}
     <ul class="header-top-main__nav">
         <a href="#" class="link header-top-main__nav-item">OVERVIEW</a>
         <a href="#how-it-works" class="link header-top-main__nav-item">HOW IT WORKS</a>
@@ -8,11 +8,11 @@
         <a href="#contact" class="link header-top-main__nav-item">CONTACT</a>
     </ul>
     <div class="header-top-main__buttons">
-        {{> button/index
+        {{> components/common/buttons/button
                 class="button_light"
                 text="sign in"
         }}
-        {{> button/index
+        {{> components/common/buttons/button
                 class="button_dark header-top-main__button_margin"
                 text="contact"
         }}

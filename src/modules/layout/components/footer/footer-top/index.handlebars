@@ -1,8 +1,8 @@
 <div class="footer-top">
-    {{> footer-top-main/index}}
+    {{> modules/layout/components/footer/footer-top/footer-top-main }}
     <div class="footer-top__links footer-top__links_top">
         {{#with recommendations}}
-            {{> list/index
+            {{> components/common/list
                     items=items
                     title=title
             }}
@@ -10,7 +10,7 @@
     </div>
     <div class="footer-top__links">
         {{#with links}}
-            {{> list/index
+            {{> components/common/list
                     items=items
                     title=title
             }}
@@ -21,11 +21,11 @@
         <div class="footer-top__subscribe">
             <p>Subscribe to our newsletter for latest update</p>
             <div class="footer-top__subscribe-input-container">
-                {{> input-subscribe/index}}
+                {{> components/common/input-subscribe }}
             </div>
         </div>
         <div class="footer-top__buttons">
-            {{> app-buttons/index
+            {{> components/common/buttons/app-buttons
                     app-buttons-class="app-buttons_small"
             }}
         </div>
