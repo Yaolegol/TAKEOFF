@@ -81,9 +81,6 @@ module.exports = {
             data: require('./src/data/data.json'),
             entry: path.resolve(__dirname, "src", "index.handlebars"),
             getPartialId: function (filePath) {
-                console.log('filePath')
-                console.log(filePath)
-                console.log(filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1))
                 return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
             },
             output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
