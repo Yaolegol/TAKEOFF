@@ -74,11 +74,13 @@ module.exports = {
             ],
         }),
         new HtmlWebpackPlugin({
+            chunks: ['index'],
             filename: "index.html",
             template: path.resolve(__dirname, "src", "app", "main-hbs-compiled.html"),
             title: "Takeoff",
         }),
         new HtmlWebpackPlugin({
+            chunks: ['second'],
             filename: "second.html",
             template: path.resolve(__dirname, "src", "app", "second-hbs-compiled.html"),
             title: "Takeoff",

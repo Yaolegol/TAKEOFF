@@ -7,5 +7,6 @@ import 'pages/main/description-short';
 import 'pages/main/download-app';
 import 'pages/main/products';
 import 'pages/main/summary';
+import './index.less';
 
 handleLoad();
