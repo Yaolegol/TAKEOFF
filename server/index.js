@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.resolve(projectRootPath, 'dist')))
 
 app.get('/second', (req, res) => {
-    res.sendFile(path.resolve('dist','index.html'))
+    res.sendFile(path.resolve('dist','second.html'))
 })
 
 app.get('*', (req, res) => {

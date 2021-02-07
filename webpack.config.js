@@ -7,7 +7,7 @@ const path = require("path");
 
 module.exports = {
     entry: {
-        home: "./src/pages/main/index.js",
+        index: "./src/pages/main/index.js",
         second: "./src/pages/second/index.js",
     },
     module: {
@@ -74,16 +74,22 @@ module.exports = {
             ],
         }),
         new HtmlWebpackPlugin({
-            template: "index-hbs-compiled.html",
+            filename: "index.html",
+            template: path.resolve(__dirname, "src", "app", "main-hbs-compiled.html"),
+            title: "Takeoff",
+        }),
+        new HtmlWebpackPlugin({
+            filename: "second.html",
+            template: path.resolve(__dirname, "src", "app", "second-hbs-compiled.html"),
             title: "Takeoff",
         }),
         new HandlebarsPlugin({
             data: require('./src/data/data.json'),
-            entry: path.resolve(__dirname, "src", "index.handlebars"),
+            entry: path.resolve(__dirname, "src", "pages", "*.handlebars"),
             getPartialId: function (filePath) {
                 return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
             },
-            output: path.resolve(__dirname, "[name]-hbs-compiled.html"),
+            output: path.resolve(__dirname, "src", "app", "[name]-hbs-compiled.html"),
             partials: [
                 path.resolve(__dirname, "src", "**", "*.handlebars"),
             ],
