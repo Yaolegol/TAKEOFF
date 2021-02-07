@@ -1,10 +1,10 @@
 # Start project
 
-# 1. Install dependencies
+## 1. Install dependencies
 
 > npm i
 
-# 2. Start project
+## 2. Start project
 
 > npm run server
 
@@ -12,7 +12,7 @@ Server starts on **8000** port
 
 **You can go to / or /second to test code splitting**
 
-# 3. Enjoy!
+## 3. Enjoy!
 
 # About project
 
