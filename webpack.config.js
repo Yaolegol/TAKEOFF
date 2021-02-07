@@ -75,7 +75,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: "index-hbs-compiled.html",
-            title: "My app",
+            title: "Takeoff",
         }),
         new HandlebarsPlugin({
             data: require('./src/data/data.json'),
