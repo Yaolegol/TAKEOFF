@@ -6,7 +6,10 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: {
+        home: "./src/pages/main/index.js",
+        second: "./src/pages/second/index.js",
+    },
     module: {
         rules: [
             //babel
@@ -60,8 +63,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 {
-                    from: 'src/img',
-                    to: 'img'
+                    from: 'src/images',
+                    to: 'images'
                 },
             ],
         }),
