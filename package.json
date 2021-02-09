@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/Yaolegol/TAKEOFF",
   "license": "ISC",
-  "main": "server/index.js",
+  "main": "./src/pages/main/index.js",
   "name": "takeoff",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm run build",
+    "heroku-prebuild": "cd ./server && npm i",
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

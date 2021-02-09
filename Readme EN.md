@@ -7,7 +7,11 @@
 > npm run build
 
 ## 3. Start project
-> npm run server
+> cd ./server
+
+> npm i
+
+> npm start
 
 Server starts on **8000** port
 
