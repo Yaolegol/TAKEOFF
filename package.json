@@ -4,10 +4,6 @@
     "url": "https://github.com/Yaolegol/TAKEOFF/issues"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "handlebars": "^4.7.6",
-    "handlebars-loader": "^1.7.1",
-    "less": "^3.12.2",
     "swiper": "^6.3.2"
   },
   "description": "",
@@ -20,9 +16,12 @@
     "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.2.1",
     "file-loader": "^6.1.0",
+    "handlebars": "^4.7.6",
+    "handlebars-loader": "^1.7.1",
     "handlebars-webpack-plugin": "^1.8.1",
     "html-loader": "^1.2.1",
     "html-webpack-plugin": "^4.3.0",
+    "less": "^3.12.2",
     "less-loader": "^6.2.0",
     "mini-css-extract-plugin": "^0.10.0",
     "nodemon": "^2.0.4",
@@ -32,7 +31,7 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "homepage": "https://github.com/Yaolegol/TAKEOFF#readme",
+  "homepage": "https://github.com/Yaolegol/TAKEOFF",
   "license": "ISC",
   "main": "server/index.js",
   "name": "takeoff",
@@ -43,7 +42,6 @@
   "scripts": {
     "build": "webpack --mode production",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true npm run build",
-    "server": "nodemon ./server/index.js",
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

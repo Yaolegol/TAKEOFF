@@ -1,0 +1,23 @@
+{
+  "author": "Oleg",
+  "bugs": {
+    "url": "https://github.com/Yaolegol/TAKEOFF/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "description": "",
+  "homepage": "https://github.com/Yaolegol/TAKEOFF",
+  "license": "ISC",
+  "main": "server/index.js",
+  "name": "takeoff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yaolegol/TAKEOFF.git"
+  },
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
