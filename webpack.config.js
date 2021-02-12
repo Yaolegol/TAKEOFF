@@ -38,14 +38,27 @@ module.exports = {
             {
                 test: /\.(png|svg|jpg)$/,
                 use: [
-                    'file-loader',
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            context: 'src',
+                            name: '[path][name].[ext]',
+                            emitFile: false,
+                        }
+                    }
                 ],
             },
             // fonts
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
-                    'file-loader',
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'fonts',
+                        }
+                    }
                 ],
             },
             // handlebars
