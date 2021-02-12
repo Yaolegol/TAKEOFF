@@ -100,7 +100,18 @@ module.exports = {
         }),
         new HandlebarsPlugin({
             data: require('./src/data/data.json'),
-            entry: path.resolve(__dirname, "src", "pages", "*.handlebars"),
+            entry: path.resolve(__dirname, "src", "pages", "main", "*.handlebars"),
+            getPartialId: function (filePath) {
+                return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
+            },
+            output: path.resolve(__dirname, "src", "app", "[name]-hbs-compiled.html"),
+            partials: [
+                path.resolve(__dirname, "src", "**", "*.handlebars"),
+            ],
+        }),
+        new HandlebarsPlugin({
+            data: require('./src/data/data.json'),
+            entry: path.resolve(__dirname, "src", "pages", "second", "*.handlebars"),
             getPartialId: function (filePath) {
                 return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
             },
