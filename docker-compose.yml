@@ -16,7 +16,7 @@ services:
         networks:
             - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
         ports:
-            - 8000:80
+            - ${DOCKER_COMPOSE__HOST_PORT}:80
         restart: always
         volumes:
             - ./:/var/www
