@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+    app:
+        command: sh -c "npm ci && npm run build && sleep infinity"
+        container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-app
+        image: node:16
+        networks:
+            - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
+        volumes:
+            - .:/app
+        working_dir: /app
+    nginx:
+        container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-nginx
+        image: nginx:1.23.1
+        networks:
+            - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
+        ports:
+            - 8000:80
+        restart: always
+        volumes:
+            - ./:/var/www
+            - ${DOCKER_COMPOSE__SERVICES_PATH}/nginx:/etc/nginx/conf.d
+        working_dir: /var/www
+networks:
+    takeoff-network:
+        driver: bridge
