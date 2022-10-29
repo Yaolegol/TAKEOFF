@@ -94,7 +94,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             chunks: ['second'],
-            filename: "second.html",
+            filename: "second/index.html",
             template: path.resolve(__dirname, "src", "app", "second-hbs-compiled.html"),
             title: "Takeoff",
         }),
