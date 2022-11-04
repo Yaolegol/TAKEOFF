@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/Yaolegol/TAKEOFF",
   "license": "ISC",
-  "main": "./src/pages/main/index.js",
+  "main": "./src/pages/home/index.js",
   "name": "takeoff",
   "repository": {
     "type": "git",

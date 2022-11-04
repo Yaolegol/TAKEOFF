@@ -1,13 +1,15 @@
+const getHandlebarsPlugin = require("./webpack/helpers/HandlebarsPlugin");
+const getHtmlWebpackPlugin = require("./webpack/helpers/HtmlWebpackPlugin");
 const {CleanWebpackPlugin} = require("clean-webpack-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
-const HandlebarsPlugin = require("handlebars-webpack-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 
+const pages = ['home', 'second'];
+
 module.exports = {
     entry: {
-        index: "./src/pages/main/index.js",
+        home: "./src/pages/home/index.js",
         second: "./src/pages/second/index.js",
     },
     module: {
@@ -27,7 +29,16 @@ module.exports = {
             // less
             {
                 test: /\.less$/,
-                use: [MiniCssExtractPlugin.loader, "css-loader", "less-loader"],
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: "css-loader",
+                        options: {
+                            url: false,
+                        }
+                    },
+                    "less-loader"
+                ],
             },
             // css
             {
@@ -86,40 +97,8 @@ module.exports = {
                 },
             ],
         }),
-        new HtmlWebpackPlugin({
-            chunks: ['index'],
-            filename: "index.html",
-            template: path.resolve(__dirname, "src", "app", "main-hbs-compiled.html"),
-            title: "Takeoff",
-        }),
-        new HtmlWebpackPlugin({
-            chunks: ['second'],
-            filename: "second/index.html",
-            template: path.resolve(__dirname, "src", "app", "second-hbs-compiled.html"),
-            title: "Takeoff",
-        }),
-        new HandlebarsPlugin({
-            data: require('./src/data/data.json'),
-            entry: path.resolve(__dirname, "src", "pages", "main", "*.handlebars"),
-            getPartialId: function (filePath) {
-                return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
-            },
-            output: path.resolve(__dirname, "src", "app", "[name]-hbs-compiled.html"),
-            partials: [
-                path.resolve(__dirname, "src", "**", "*.handlebars"),
-            ],
-        }),
-        new HandlebarsPlugin({
-            data: require('./src/data/data.json'),
-            entry: path.resolve(__dirname, "src", "pages", "second", "*.handlebars"),
-            getPartialId: function (filePath) {
-                return filePath.split(path.resolve(__dirname, "src"))[1].replace('index.handlebars', '').slice(1,-1);
-            },
-            output: path.resolve(__dirname, "src", "app", "[name]-hbs-compiled.html"),
-            partials: [
-                path.resolve(__dirname, "src", "**", "*.handlebars"),
-            ],
-        }),
+        ...getHtmlWebpackPlugin(pages),
+        ...getHandlebarsPlugin(pages),
         new MiniCssExtractPlugin(),
         new CleanWebpackPlugin(),
     ],
