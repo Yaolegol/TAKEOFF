@@ -1,10 +1,9 @@
-import {addEventListener} from 'helpers/events';
-import {addOnLoadListener} from 'helpers/load';
+import {bindEvent} from 'helpers/events';
 import './index.less';
 
 class Burger {
     constructor() {
-        addOnLoadListener(this.init);
+        this.init();
     }
 
     handleClick = (e) => {
@@ -13,7 +12,7 @@ class Burger {
 
     init = () => {
         this.burger = document.querySelector('.j-burger');
-        addEventListener(this.burger, 'click', this.handleClick);
+        bindEvent(this.burger, 'click', this.handleClick);
     }
 }
 

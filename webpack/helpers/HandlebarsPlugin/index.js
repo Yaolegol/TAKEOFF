@@ -1,7 +1,7 @@
 const projectRootPath = require("../path");
 const HandlebarsPlugin = require("handlebars-webpack-plugin");
 const path = require("path");
-const data = require(path.resolve(projectRootPath, "src", "data", "data.json"));
+const data = require(path.resolve(projectRootPath, "src", "data", "index.json"));
 
 const getHandlebarsPlugin = (names) => {
     return names.map((name) => {

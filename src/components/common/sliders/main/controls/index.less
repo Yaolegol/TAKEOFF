@@ -2,7 +2,7 @@
 @import (reference) 'src/styles/flex';
 @import (reference) 'src/styles/helpers';
 
-.slider-controls {
+.components-common-slider-main-controls {
     .f_c();
 
     &__arrow {
@@ -20,13 +20,13 @@
         height: 70px;
         width: 70px;
 
-        &_disabled {
-            background-color: @grey-4;
-            pointer-events: none;
-        }
-
         &_right {
             margin-left: 30px;
+        }
+
+        &.swiper-button-disabled {
+            background-color: @grey-4;
+            pointer-events: none;
         }
     }
 }

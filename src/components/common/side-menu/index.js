@@ -1,10 +1,9 @@
-import {addEventListener} from 'helpers/events';
-import {addOnLoadListener} from 'helpers/load';
+import {bindEvent} from 'helpers/events';
 import './index.less';
 
 class SideMenu {
     constructor() {
-        addOnLoadListener(this.init);
+        this.init();
     }
 
     handleBackDropClick = () => {
@@ -23,9 +22,9 @@ class SideMenu {
         this.burger = document.querySelector('.j-burger');
         this.sideMenu = document.querySelector('.j-side-menu');
         this.sideMenuContent = document.querySelector('.j-content');
-        addEventListener(this.burger, 'j-click', this.handleUpdateVisibility);
-        addEventListener(this.sideMenu, 'click', this.handleBackDropClick);
-        addEventListener(this.sideMenuContent, 'click', this.handleContentClick);
+        bindEvent(this.burger, 'j-click', this.handleUpdateVisibility);
+        bindEvent(this.sideMenu, 'click', this.handleBackDropClick);
+        bindEvent(this.sideMenuContent, 'click', this.handleContentClick);
     }
 }
 
