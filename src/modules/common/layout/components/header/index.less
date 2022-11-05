@@ -2,8 +2,12 @@
 @import (reference) 'src/styles/constants';
 
 .modules-common-layout-components-header {
-    height: @header_desktop;
+    height: @header-height_desktop;
     padding: 20px;
+
+    @media @tablet {
+        height: @header-height_mobile;
+    }
 
     &__buttons-container {
         @media @tablet {
@@ -47,8 +51,8 @@
     &__navigation-container {
         align-items: center;
         display: flex;
-        justify-content: center;
         flex: 1 1 auto;
+        justify-content: center;
 
         @media @tablet {
             display: none;
@@ -57,6 +61,7 @@
 
     &__navigation-item {
         margin-right: 15px;
+        white-space: nowrap;
 
         &:last-child {
             margin-right: 0;
