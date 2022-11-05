@@ -1,6 +1,6 @@
-import 'modules/layout/components/footer';
-import 'modules/layout/components/header';
-import 'modules/layout/components/layout';
+import 'modules/common/layout/components/footer';
+import 'modules/common/layout/components/header';
+import 'modules/common/layout/components/layout';
 import 'modules/pages/home/description';
 import 'modules/pages/home/description-short';
 import 'modules/pages/home/download-app';
