@@ -1,63 +1,37 @@
 @import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
-@import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/constants';
 @import (reference) 'src/styles/font';
 
-.header-bottom {
+.modules-pages-home-hero {
     background-image: url('images/header/overlay.png'), url('images/header/airplane.jpg');
     background-size: cover;
-    height: 910px;
-    width: 100%;
+    height: calc(100vh - @header_desktop);
+    max-height: 1080px;
 
-    @media @mobile {
-        height: 500px;
-    }
-
-    &__buttons {
+    &__buttons-container {
         display: flex;
         margin-top: 32px;
+
+        @media @laptop {
+            justify-content: center;
+        }
     }
 
-    &__container {
+    &__content-block {
+        align-items: center;
         display: flex;
         justify-content: space-between;
         height: 100%;
-        padding: 100px 7% 100px 10%;
-        width: 100%;
+        padding: 10%;
 
         @media @laptop {
-            padding: 100px 3% 100px 5%;
-        }
-
-        @media @tablet {
-            padding: 0;
+            justify-content: center;
         }
     }
 
-    &__content {
-        margin-top: 250px;
-        width: 610px;
-
-        @media @laptop {
-            margin: auto;
-            width: 580px;
-        }
-
-        @media @tablet {
-            .f_c();
-
-            flex-direction: column;
-            height: 100%;
-            margin-top: 0;
-            padding: 0 10%;
-            width: 100%;
-        }
-
-        @media @mobile {
-            .f_c();
-
-            padding: 0 5%;
-        }
+    &__content-container {
+        max-width: 600px;
     }
 
     &__description {
@@ -66,13 +40,11 @@
         color: @white;
         margin-top: 46px;
 
-        @media @tablet {
+        @media @laptop {
             text-align: center;
         }
 
         @media @mobile {
-            .f_c();
-
             margin-top: 20px;
         }
     }
@@ -108,10 +80,11 @@
     }
 
     &__image-container {
+        aspect-ratio: 375 / 667;
+        max-height: 100%;
         position: relative;
-        width: 370px;
 
-        @media @tablet {
+        @media @laptop {
             display: none;
         }
     }
@@ -124,8 +97,7 @@
     }
 
     &__title {
-        @media @tablet {
-            font-style: normal;
+        @media @laptop {
             text-align: center;
         }
     }
