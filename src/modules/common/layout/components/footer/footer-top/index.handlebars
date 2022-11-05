@@ -25,9 +25,14 @@
             </div>
         </div>
         <div class="footer-top__buttons">
-            {{> components/common/buttons/app-buttons
-                    app-buttons-class="app-buttons_small"
-            }}
+            <div class="footer-top__buttons-container">
+                <div class="footer-top__button">
+                    {{> components/common/buttons/store/apple }}
+                </div>
+                <div class="footer-top__button">
+                    {{> components/common/buttons/store/google }}
+                </div>
+            </div>
         </div>
     </div>
 </div>
