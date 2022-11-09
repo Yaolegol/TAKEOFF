@@ -1,12 +1,18 @@
 {{#> app }}
     {{#> modules/common/layout/components/layout }}
-        {{> modules/common/layout/components/header }}
-        {{> modules/pages/home/hero }}
-        {{> modules/pages/home/description-short }}
-        {{> modules/pages/home/download-app }}
-        {{> modules/pages/home/description }}
-        {{> modules/pages/home/summary }}
-        {{> modules/pages/home/products }}
-        {{> modules/common/layout/components/footer }}
+        <div class="pages-home">
+            {{> modules/pages/home/hero }}
+            <div class="page__content-area">
+                <div class="pages-home__container">
+                    {{> modules/pages/home/description-short }}
+                </div>
+                <div class="pages-home__container">
+                    {{> modules/pages/home/download-app }}
+                </div>
+                {{> modules/pages/home/description }}
+                {{> modules/pages/home/summary }}
+                {{> modules/pages/home/products }}
+            </div>
+        </div>
     {{/modules/common/layout/components/layout }}
 {{/app }}

@@ -1,5 +1,3 @@
-import 'modules/common/layout/components/footer';
-import 'modules/common/layout/components/header';
 import 'modules/common/layout/components/layout';
 import 'modules/pages/home/description';
 import 'modules/pages/home/description-short';
