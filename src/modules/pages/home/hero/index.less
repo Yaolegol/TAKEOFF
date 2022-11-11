@@ -2,12 +2,16 @@
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/constants';
 @import (reference) 'src/styles/font';
+@import (reference) 'src/styles/overlay';
 
 .modules-pages-home-hero {
-    background-image: url('images/header/overlay.png'), url('images/header/airplane.jpg');
+    .overlay();
+
+    background-image: url('images/header/airplane.jpg');
     background-size: cover;
     height: calc(100vh - @header-height_desktop);
     max-height: 1080px;
+    position: relative;
 
     @media @tablet {
         height: calc(100vh - @header-height_mobile);
@@ -28,6 +32,7 @@
         justify-content: space-between;
         height: 100%;
         padding: 10%;
+        position: relative;
 
         @media @laptop {
             justify-content: center;

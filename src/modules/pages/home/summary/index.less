@@ -1,36 +1,25 @@
 @import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/flex';
+@import (reference) 'src/styles/overlay';
 
-.summary {
+.modules-pages-home-summary {
     .f_c();
+    .overlay();
 
     background: url('images/home/summary/main.jpg') center no-repeat;
     background-size: cover;
-    flex: 1;
+    flex: 1 1 auto;
     height: 465px;
     justify-content: space-around;
-    margin-right: 200px;
     padding: 0 100px;
     position: relative;
 
     @media @laptop {
-        margin-right: 0;
         padding: 0;
     }
 
     @media @tablet {
         flex-wrap: wrap;
-    }
-
-    &:before {
-        background-color: fade(@blue, 70%);
-        bottom: 0;
-        content: '';
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
     }
 }

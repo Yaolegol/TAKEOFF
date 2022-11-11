@@ -1,0 +1,13 @@
+@import (reference) 'src/styles/colors';
+
+.overlay {
+    &::before {
+        background-color: fade(@blue, 70%);
+        bottom: 0;
+        content: '';
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
