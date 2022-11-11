@@ -1,3 +1,3 @@
-import 'modules/pages/home/summary/separate-line';
-import 'modules/pages/home/summary/summary-item';
+import 'modules/common/divider';
+import 'modules/pages/home/summary/item';
 import './index.less';

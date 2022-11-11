@@ -1,3 +1,3 @@
-import 'modules/pages/home/description-short/divider';
+import 'modules/common/divider';
 import 'modules/pages/home/description-short/item';
 import './index.less';

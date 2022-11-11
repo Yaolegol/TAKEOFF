@@ -1,0 +1,38 @@
+@import (reference) 'src/styles/adaptive';
+
+.modules-pages-home-summary-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 9;
+
+    @media @tablet {
+        margin: 0 20px;
+    }
+
+    @media @mobile {
+        flex-basis: 50%;
+        margin: 0;
+    }
+
+    &__header-icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    &__image {
+        height: 42px;
+        margin-top: 20px;
+
+        @media @mobile {
+            margin-top: 10px;
+        }
+    }
+
+    &__title {
+        font-style: italic;
+        margin-top: 5px;
+        text-transform: capitalize;
+    }
+}

@@ -5,20 +5,26 @@
 .modules-pages-home-summary {
     .overlay();
 
-    align-items: center;
     background: url('images/home/summary/main.jpg') center no-repeat;
     background-size: cover;
-    display: flex;
     height: 465px;
-    justify-content: space-around;
-    padding: 0 100px;
     position: relative;
 
-    @media @laptop {
-        padding: 0;
-    }
+    &__content-block {
+        align-items: center;
+        color: @white;
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        padding: 0 100px;
+        position: relative;
 
-    @media @tablet {
-        flex-wrap: wrap;
+        @media @laptop {
+            padding: 0;
+        }
+
+        @media @tablet {
+            flex-wrap: wrap;
+        }
     }
 }
