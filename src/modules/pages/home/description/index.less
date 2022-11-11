@@ -1,13 +1,19 @@
 @import (reference) 'src/styles/adaptive';
 
-.description {
-    padding: 250px 0 150px;
+.modules-pages-home-description {
+    &__container {
+        margin-top: 150px;
 
-    @media @tablet {
-        padding: 150px 0 50px;
-    }
+        &:first-child {
+            margin-top: 0;
+        }
 
-    @media @mobile {
-        padding: 50px 0;
+        @media @tablet {
+            margin-top: 100px;
+        }
+
+        @media @mobile {
+            margin-top: 50px;
+        }
     }
 }

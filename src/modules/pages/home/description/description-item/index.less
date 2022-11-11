@@ -1,30 +1,15 @@
 @import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/flex';
 
-.description-left-item {
+.modules-pages-home-description-item {
     .f_c();
-
-    margin-top: 150px;
-
-    &:first-child {
-        margin-top: 0;
-    }
 
     @media @tablet {
         flex-direction: column;
-        margin-top: 100px;
-    }
-
-    @media @mobile {
-        margin-top: 50px;
     }
 
     &_right-images {
         flex-direction: row-reverse;
-
-        @media @tablet {
-            flex-direction: column;
-        }
     }
 
     &__content {
@@ -32,7 +17,7 @@
         flex-direction: column;
         padding-right: 20px;
 
-        &_right-images {
+        .modules-pages-home-description-item_right-images & {
             padding-right: 0;
             padding-left: 20px;
         }
@@ -45,8 +30,8 @@
         }
     }
 
-    &__content-container {
-        flex: 1;
+    &__content-block {
+        flex: 1 1 50%;
         margin-left: 200px;
 
         @media @laptop {
@@ -57,7 +42,7 @@
             margin: 50px 0 0;
         }
 
-        &_right-images {
+        .modules-pages-home-description-item_right-images & {
             display: flex;
             justify-content: flex-end;
             margin-left: 0;
@@ -86,12 +71,12 @@
         }
     }
 
-    &__images {
+    &__images-block {
         display: flex;
-        flex: 1;
+        flex: 1 1 50%;
         justify-content: flex-end;
 
-        &_right-images {
+        .modules-pages-home-description-item_right-images & {
             justify-content: flex-start;
             margin-left: 200px;
 
@@ -110,10 +95,9 @@
         @normal-width: 341px;
 
         height: @normal-height;
-        object-fit: fill;
         position: relative;
         width: @normal-width;
-        z-index: 2;
+        z-index: 1;
 
         @media @mobile {
             height: @normal-height / 2;
@@ -130,15 +114,13 @@
         @normal-width: 257px;
 
         height: @normal-height;
-        object-fit: fill;
         position: absolute;
         right: 50%;
         top: 50%;
         transform: translateY(-50%);
         width: @normal-width;
-        z-index: 1;
 
-        &_right-images {
+        .modules-pages-home-description-item_right-images & {
             left: 50%;
             right: auto;
         }
