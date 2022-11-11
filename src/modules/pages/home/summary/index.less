@@ -1,15 +1,14 @@
 @import (reference) 'src/styles/adaptive';
 @import (reference) 'src/styles/colors';
-@import (reference) 'src/styles/flex';
 @import (reference) 'src/styles/overlay';
 
 .modules-pages-home-summary {
-    .f_c();
     .overlay();
 
+    align-items: center;
     background: url('images/home/summary/main.jpg') center no-repeat;
     background-size: cover;
-    flex: 1 1 auto;
+    display: flex;
     height: 465px;
     justify-content: space-around;
     padding: 0 100px;
