@@ -5,20 +5,15 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 9;
-
-    @media @tablet {
-        margin: 0 20px;
-    }
-
-    @media @mobile {
-        flex-basis: 50%;
-        margin: 0;
-    }
 
     &__header-icon {
         height: 60px;
         width: 60px;
+
+        @media @mobile {
+            height: 30px;
+            width: 30px;
+        }
     }
 
     &__image {
@@ -26,6 +21,7 @@
         margin-top: 20px;
 
         @media @mobile {
+            height: 22px;
             margin-top: 10px;
         }
     }

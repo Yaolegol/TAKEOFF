@@ -20,11 +20,33 @@
         position: relative;
 
         @media @laptop {
-            padding: 0;
+            padding: 0 50px;
         }
 
         @media @tablet {
             flex-wrap: wrap;
+            padding: 0;
+        }
+    }
+
+    &__content-item-container {
+        @media @tablet {
+            margin: 0 20px;
+        }
+
+        @media @mobile {
+            flex-basis: 50%;
+            margin: 0;
+        }
+    }
+
+    &__divider-container {
+        @media @laptop {
+            display: none;
+        }
+        
+        &_offset-top {
+            margin-top: 100px;
         }
     }
 }

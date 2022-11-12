@@ -1,22 +1,20 @@
 {{#> app }}
-    {{#> modules/common/layout/components/layout }}
+    {{#> modules/common/layout/layout }}
         <div class="pages-home">
             {{> modules/pages/home/hero }}
-            <div class="page__content-area">
-                <div class="pages-home__container">
-                    {{> modules/pages/home/description-short }}
-                </div>
-                <div class="pages-home__container">
-                    {{> modules/pages/home/download-app }}
-                </div>
-                <div class="pages-home__container">
-                    {{> modules/pages/home/description }}
-                </div>
-                <div class="pages-home__container">
-                    {{> modules/pages/home/summary }}
-                </div>
-                {{> modules/pages/home/products }}
+            <div class="modules-common-layout-container pages-home__container">
+                {{> modules/pages/home/description-short }}
             </div>
+            <div class="modules-common-layout-container pages-home__container">
+                {{> modules/pages/home/download-app }}
+            </div>
+            <div class="modules-common-layout-container pages-home__container">
+                {{> modules/pages/home/description }}
+            </div>
+            <div class="pages-home__container">
+                {{> modules/pages/home/summary }}
+            </div>
+            {{> modules/pages/home/products }}
         </div>
-    {{/modules/common/layout/components/layout }}
+    {{/modules/common/layout/layout }}
 {{/app }}

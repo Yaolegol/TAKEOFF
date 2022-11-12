@@ -3,5 +3,5 @@ import 'components/common/buttons/store/apple';
 import 'components/common/buttons/store/google';
 import 'components/common/input-subscribe';
 import 'components/common/list';
-import 'modules/common/layout/components/footer/footer-top/footer-top-main';
+import 'modules/common/layout/footer/footer-top/footer-top-main';
 import './index.less';
