@@ -1,29 +1,27 @@
-<div class="products">
-    <div class="products__header">
-        <div class="products__header-content">
+<div class="modules-pages-home-products">
+    <div class="modules-pages-home-products__header-block">
+        <div class="modules-pages-home-products__header-content">
             <h2>Resent News</h2>
-            <p class="products__header-description">Lorem ipsum dolor sit amet. Accusantium facilis ipsa numquam officia
+            <p class="modules-pages-home-products__header-description">Lorem ipsum dolor sit amet. Accusantium facilis ipsa numquam officia
                 omnis perferendis saepe unde vero.</p>
         </div>
-        <div class="products__slider-controls">
+        <div class="modules-pages-home-products__slider-controls">
             {{> components/common/sliders/main/controls
                     slider-id="products"
             }}
         </div>
     </div>
-    <div class="products__slider">
-        <div class="products__slider-container-class">
-            {{#with slider}}
-                {{#> components/common/sliders/main
-                        slider-id="products"
-                }}
-                    {{#each products}}
-                        {{#> components/common/sliders/main/item }}
-                            {{> components/common/product-card }}
-                        {{/components/common/sliders/main/item }}
-                    {{/each}}
-                {{/components/common/sliders/main }}
-            {{/with}}
-        </div>
+    <div class="modules-pages-home-products__slider-block">
+        {{#with slider}}
+            {{#> components/common/sliders/main
+                    slider-id="products"
+            }}
+                {{#each products}}
+                    {{#> components/common/sliders/main/item }}
+                        {{> components/common/product-card }}
+                    {{/components/common/sliders/main/item }}
+                {{/each}}
+            {{/components/common/sliders/main }}
+        {{/with}}
     </div>
 </div>

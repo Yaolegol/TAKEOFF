@@ -1,26 +1,12 @@
 @import (reference) 'src/styles/adaptive';
 
-.products {
-    padding: 130px 0 300px;
-
-    @media @desktop {
-        padding: 130px 50px 300px;
-    }
-
-    @media @tablet {
-        padding: 130px 50px 150px;
-    }
-
-    @media @mobile {
-        padding: 80px 5vw 80px;
-    }
-
-    &__header {
+.modules-pages-home-products {
+    &__header-block {
         display: flex;
     }
 
     &__header-content {
-        flex: 1;
+        flex: 1 1 auto;
     }
 
     &__header-description {
@@ -28,21 +14,14 @@
         max-width: 600px;
     }
 
-    &__slider {
+    &__slider-block {
         margin-top: 50px;
     }
 
-    &__slider-container-class {
-        margin: 0 -30px -70px!important;
-        padding: 0 30px 70px!important;
-
-        @media @mobile {
-            margin: 0 -15px -70px!important;
-            padding: 0 15px 70px!important;
-        }
-    }
-
     &__slider-controls {
+        align-items: flex-end;
+        display: flex;
+
         @media @mobile {
             display: none;
         }
