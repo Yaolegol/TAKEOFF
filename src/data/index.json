@@ -63,49 +63,55 @@
         "products": [
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             },
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             },
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             },
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             },
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             },
             {
                 "alt": "Product picture",
-                "data": "Posted by admin | 07 Sep 2020",
+                "date": "Posted by admin | 07 Sep 2020",
                 "description": "Loremloremloremloremlorem Loremlorem Loremlor loremlorem Loremloremloremloremlorem",
                 "imageUrl": "https://picsum.photos/400/300",
+                "link": "#",
                 "title": "20 most beautiful places",
                 "url": "/test"
             }
