@@ -1,4 +1,5 @@
 import 'components/common/sliders/main/controls';
+import 'components/common/sliders/main/item';
 import {initModule} from "helpers/module";
 import Swiper, {Navigation} from "swiper";
 import 'swiper/swiper-bundle.css';
@@ -18,22 +19,11 @@ class MainSlider {
 
     init = () => {
         new Swiper(this.module, {
-            breakpoints: {
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 50,
-                },
-                1440: {
-                    slidesPerView: 3,
-                    spaceBetween: 120
-                },
-            },
             navigation: {
                 nextEl: this.controlNext,
                 prevEl: this.controlPrev,
             },
-            slidesPerView: 1.1,
-            spaceBetween: 10,
+            slidesPerView: 'auto',
         });
     }
 }
