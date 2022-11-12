@@ -28,35 +28,21 @@
         background-size: 45px 40px;
         border-radius: 50%;
         height: 100px;
-        position: relative;
+        position: absolute;
         width: 100px;
-        z-index: 2;
-    }
-
-    &__content {
-        width: 476px;
-
-        @media @laptop {
-            .f_c();
-
-            flex-direction: column;
-            text-align: center;
-        }
-
-        @media @mobile {
-            padding: 0 20px;
-            width: 100%;
-        }
     }
 
     &__content-container {
-        .f_c();
-
-        flex: 1;
+        align-items: center;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
 
         @media @tablet {
-            margin-top: 50px;
-            text-align: center;
+            margin-top: 20px;
         }
     }
 
@@ -65,25 +51,16 @@
     }
 
     &__image {
+        aspect-ratio: 715 / 542;
+        width: 100%;
+    }
+
+    &__image-container {
         .f_c();
         .overlay();
 
-        background: url('images/home/download-app/train.jpg') center no-repeat;
-        background-size: cover;
-        flex: 1;
-        height: 450px;
-        max-width: 624px;
+        flex: 0 1 30%;
         position: relative;
-
-        @media @tablet {
-            min-height: 450px;
-            width: 100%;
-        }
-
-        @media @mobile {
-            min-height: 80vw;
-            max-width: 80vw;
-        }
     }
 
     &__title {
