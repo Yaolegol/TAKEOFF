@@ -1,4 +1,6 @@
-import 'modules/common/layout/layout';
+import 'modules/common/layout/body';
+import 'modules/common/layout/footer';
+import 'modules/common/layout/header';
 import 'modules/pages/home/description';
 import 'modules/pages/home/description-short';
 import 'modules/pages/home/download-app';
