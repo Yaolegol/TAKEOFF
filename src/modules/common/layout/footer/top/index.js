@@ -1,6 +1,6 @@
 import 'components/common/buttons/app-buttons';
 import 'components/common/buttons/store/apple';
 import 'components/common/buttons/store/google';
-import 'components/common/input-subscribe';
-import 'components/common/list';
+import 'components/common/inputs/subscribe';
+import 'components/common/list/links';
 import './index.less';

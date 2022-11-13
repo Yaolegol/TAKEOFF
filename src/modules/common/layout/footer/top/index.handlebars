@@ -10,7 +10,7 @@
     </div>
     <div class="modules-common-layout-footer-top__links-container modules-common-layout-footer-top__links-container_top">
         {{#with recommendations}}
-            {{> components/common/list
+            {{> components/common/list/links
                     items=items
                     title=title
             }}
@@ -18,7 +18,7 @@
     </div>
     <div class="modules-common-layout-footer-top__links-container">
         {{#with links}}
-            {{> components/common/list
+            {{> components/common/list/links
                     items=items
                     title=title
             }}
@@ -29,7 +29,7 @@
         <div class="modules-common-layout-footer-top__subscribe-block">
             <p>Subscribe to our newsletter for latest update</p>
             <div class="modules-common-layout-footer-top__subscribe-input-container">
-                {{> components/common/input-subscribe }}
+                {{> components/common/inputs/subscribe }}
             </div>
         </div>
         <div class="modules-common-layout-footer-top__buttons-container">
