@@ -1,6 +1,6 @@
 @import (reference) 'src/styles/adaptive';
 
-.footer-top {
+.modules-common-layout-footer-top {
     display: flex;
     justify-content: space-between;
     padding: 100px 20px 50px;
@@ -30,7 +30,7 @@
         }
     }
 
-    &__links {
+    &__links-container {
         @media @tablet {
             margin-top: 50px;
             order: 2;
@@ -42,6 +42,23 @@
                 order: 3;
             }
         }
+    }
+
+    &__main-section {
+        flex-basis: 25%;
+
+        @media @tablet {
+            margin-top: 80px;
+            text-align: center;
+        }
+    }
+
+    &__main-section-description {
+        margin-top: 60px;
+    }
+
+    &__main-section-social-container {
+        margin-top: 30px;
     }
 
     &__subscribe {

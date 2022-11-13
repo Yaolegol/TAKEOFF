@@ -1,0 +1,50 @@
+<div class="modules-common-layout-footer-top">
+    <div class="modules-common-layout-footer-top__main-section">
+        {{> components/common/logo }}
+        <p class="modules-common-layout-footer-top__main-section-description">
+            Lorem, natus officia accusantium laudantium fugiat nihil nesciunt, voluptatem aliquid laborum voluptate amet. Totam aliquid dolorum aspernatur?
+        </p>
+        <div class="modules-common-layout-footer-top__main-section-social-container">
+            {{> components/common/follow }}
+        </div>
+    </div>
+    <div class="modules-common-layout-footer-top__links-section">
+        <div class="modules-common-layout-footer-top__links-container modules-common-layout-footer-top__links-container_top">
+            {{#with recommendations}}
+                {{> components/common/list
+                        items=items
+                        title=title
+                }}
+            {{/with}}
+        </div>
+        <div class="modules-common-layout-footer-top__links-container">
+            {{#with links}}
+                {{> components/common/list
+                        items=items
+                        title=title
+                }}
+            {{/with}}
+        </div>
+    </div>
+    <div class="modules-common-layout-footer-top__subscribe-section">
+        <div class="modules-common-layout-footer-top__subscribe-container">
+            <h6>Subscribe & download</h6>
+            <div class="modules-common-layout-footer-top__subscribe">
+                <p>Subscribe to our newsletter for latest update</p>
+                <div class="modules-common-layout-footer-top__subscribe-input-container">
+                    {{> components/common/input-subscribe }}
+                </div>
+            </div>
+            <div class="modules-common-layout-footer-top__buttons">
+                <div class="modules-common-layout-footer-top__buttons-container">
+                    <div class="modules-common-layout-footer-top__button">
+                        {{> components/common/buttons/store/apple }}
+                    </div>
+                    <div class="modules-common-layout-footer-top__button">
+                        {{> components/common/buttons/store/google }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
