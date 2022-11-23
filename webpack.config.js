@@ -4,6 +4,7 @@ const {CleanWebpackPlugin} = require("clean-webpack-plugin");
 const CopyPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
 const pages = ['home', 'second'];
 
@@ -49,9 +50,17 @@ module.exports = (env, argv) => {
                     test: /\.css$/,
                     use: ['style-loader', 'css-loader'],
                 },
+                // svg
+                {
+                    test: /\.svg$/,
+                    loader: 'svg-sprite-loader',
+                    options: {
+                        extract: true,
+                    }
+                },
                 // images
                 {
-                    test: /\.(png|svg|jpg)$/,
+                    test: /\.(png|jpg)$/,
                     use: [
                         {
                             loader: 'file-loader',
@@ -104,6 +113,7 @@ module.exports = (env, argv) => {
             ...getHtmlWebpackPlugin(pages),
             ...getHandlebarsPlugin(pages),
             new MiniCssExtractPlugin(),
+            new SpriteLoaderPlugin(),
             new CleanWebpackPlugin(),
         ],
         resolve: {

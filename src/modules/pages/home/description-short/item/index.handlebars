@@ -1,6 +1,13 @@
 <div class="modules-pages-home-description-short-item">
-    <div class="modules-pages-home-description-short-item__image-container">
-        <img alt="" class="modules-pages-home-description-short-item__image" src="{{src}}">
+    <div class="modules-pages-home-description-short-item__icon-container">
+        {{> components/common/svg
+            className='modules-pages-home-description-short-item__icon-decoration'
+            icon='circle'
+        }}
+        {{> components/common/svg
+                className='modules-pages-home-description-short-item__icon'
+                icon=icon
+        }}
     </div>
     <h3 class="modules-pages-home-description-short-item__title">{{title}}</h3>
     <p class="modules-pages-home-description-short-item__description">{{description}}</p>
