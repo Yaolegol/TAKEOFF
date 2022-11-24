@@ -6,20 +6,18 @@
         class="components-common-slider-main-controls__arrow-container j-components-common-slider-main__control-prev"
         type="button"
     >
-        <img
-                alt=""
-                class="components-common-slider-main-controls__arrow components-common-slider-main-controls__arrow_left"
-                src="images/common/arrow.svg"
-        >
+        {{> components/common/svg
+                className="components-common-slider-main-controls__arrow components-common-slider-main-controls__arrow_left"
+                icon='arrow'
+        }}
     </button>
     <button
         class="components-common-slider-main-controls__arrow-container components-common-slider-main-controls__arrow-container_right j-components-common-slider-main__control-next"
         type="button"
     >
-        <img
-                alt=""
-                class="components-common-slider-main-controls__arrow"
-                src="images/common/arrow.svg"
-        >
+        {{> components/common/svg
+                className="components-common-slider-main-controls__arrow"
+                icon='arrow'
+        }}
     </button>
 </div>
