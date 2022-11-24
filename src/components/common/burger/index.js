@@ -1,19 +1,21 @@
 import {bindEvent} from 'helpers/events';
+import {initModule} from 'modules/common/controller';
 import './index.less';
 
 class Burger {
-    constructor() {
-        this.init();
+    constructor(element) {
+        this.module = element;
+
+        this.bind();
     }
 
-    handleClick = (e) => {
-        this.burger.dispatchEvent(new CustomEvent('j-click'));
+    bind = () => {
+        bindEvent(this.module, 'click', this.handleClick);
     }
 
-    init = () => {
-        this.burger = document.querySelector('.j-burger');
-        bindEvent(this.burger, 'click', this.handleClick);
+    handleClick = () => {
+        document.dispatchEvent(new CustomEvent('j-event-components-common-side-menu__open'));
     }
 }
 
-new Burger();
+initModule('j-components-common-burger', Burger);

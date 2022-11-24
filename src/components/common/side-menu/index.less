@@ -1,30 +1,33 @@
 @import (reference) 'src/styles/colors';
 @import (reference) 'src/styles/flex';
 
-.side-menu {
+.components-common-side-menu {
     background-color: @black_50;
+    bottom: 0;
     height: 100%;
+    opacity: 0;
     position: fixed;
-    transition: visibility 500ms ease-in;
-    visibility: hidden;
+    right: 100%;
+    top: 0;
+    transition: opacity 300ms ease-out, right 0ms 300ms;
     width: 100%;
     z-index: 999;
 
-    &_active {
-        visibility: visible;
-
-        .side-menu__content {
-            width: 60%;
-        }
+    &.active {
+        opacity: 1;
+        right: 0;
+        transition: opacity 300ms ease-in;
     }
 
     &__content {
         background-color: @white;
         height: 100%;
-        overflow: hidden;
         padding: 50px 20px;
-        transition: width 500ms ease-in;
+        transition: width 300ms ease-out;
         width: 0;
-        z-index: 9999;
+
+        .components-common-side-menu.active & {
+            width: 80%;
+        }
     }
 }

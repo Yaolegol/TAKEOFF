@@ -1,9 +1,18 @@
 import {bindEvent} from 'helpers/events';
+import {initModule} from 'modules/common/controller';
 import './index.less';
 
 class SideMenu {
-    constructor() {
-        this.init();
+    constructor(element) {
+        this.module = element;
+
+        this.bind();
+        // this.init();
+    }
+
+    bind = () => {
+        bindEvent(document, 'j-event-components-common-side-menu__open', this.handleOpen);
+        bindEvent(this.module, 'click', this.handleModuleClick);
     }
 
     handleBackDropClick = () => {
@@ -12,6 +21,18 @@ class SideMenu {
 
     handleContentClick = (e) => {
         e.stopPropagation();
+    }
+
+    handleModuleClick = (e) => {
+        const {target} = e;
+
+        if(target === this.module) {
+            this.module.classList.remove('active');
+        }
+    }
+
+    handleOpen = () => {
+        this.module.classList.add('active');
     }
 
     handleUpdateVisibility = () => {
@@ -28,4 +49,4 @@ class SideMenu {
     }
 }
 
-new SideMenu;
+initModule('j-components-common-side-menu', SideMenu);
