@@ -1,4 +1,28 @@
 {
+    "header": {
+        "links": [
+            {
+                "link": "#",
+                "title": "overview"
+            },
+            {
+                "link": "#how-it-works",
+                "title": "how it works"
+            },
+            {
+                "link": "#features",
+                "title": "features"
+            },
+            {
+                "link": "#app",
+                "title": "app"
+            },
+            {
+                "link": "#contact",
+                "title": "contact"
+            }
+        ]
+    },
     "footer": {
         "links": {
             "items": [

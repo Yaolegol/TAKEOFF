@@ -1,3 +1,4 @@
+import 'components/common/logo';
 import {bindEvent} from 'helpers/events';
 import {initModule} from 'modules/common/controller';
 import './index.less';

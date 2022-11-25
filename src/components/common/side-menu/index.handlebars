@@ -1,5 +1,16 @@
 <div class="components-common-side-menu j-components-common-side-menu">
-    <div class="components-common-side-menu__content">
-        test content
+    <div class="components-common-side-menu__content-container">
+        <div class="components-common-side-menu__logo-container">
+            {{> components/common/logo }}
+        </div>
+        <div class="components-common-side-menu__links-container">
+            {{#with header}}
+                {{#each links}}
+                    <div class="components-common-side-menu__content-item">
+                        <a class="link" href="{{link}}">{{title}}</a>
+                    </div>
+                {{/each}}
+            {{/with}}
+        </div>
     </div>
 </div>

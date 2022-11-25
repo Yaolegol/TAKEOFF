@@ -19,7 +19,7 @@
         transition: opacity 300ms ease-in;
     }
 
-    &__content {
+    &__content-container {
         background-color: @white;
         height: 100%;
         padding: 50px 20px;
@@ -29,5 +29,18 @@
         .components-common-side-menu.active & {
             width: 80%;
         }
+    }
+
+    &__content-item {
+        margin-top: 20px;
+        text-transform: uppercase;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &__links-container {
+        margin-top: 50px;
     }
 }
