@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 
-const pages = ['home', 'second'];
+const pages = ['home'];
 
 module.exports = (env, argv) => {
     const isProduction = argv.mode === 'production';
@@ -15,7 +15,6 @@ module.exports = (env, argv) => {
         devtool: isProduction ? 'none' : 'source-map',
         entry: {
             home: "./src/pages/home/index.js",
-            second: "./src/pages/second/index.js",
         },
         module: {
             rules: [
