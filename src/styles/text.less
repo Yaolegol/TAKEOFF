@@ -1,7 +1,97 @@
-.ellipsis(@max-lines) {
-    display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: @max-lines;
-    -webkit-box-orient: vertical;
+@import (reference) 'src/styles/adaptive';
+@import (reference) 'src/styles/colors';
+
+.f_badge {
+    color: @grey-1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: italic;
+
+    @media @mobile {
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
+
+.f_btn {
+    color: @grey-1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.f_h1 {
+    color: @grey-3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    @media @mobile {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+.f_h2 {
+    color: @grey-3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.f_h3 {
+    color: @grey-3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+
+.f_h4 {
+    color: @grey-3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.f_h5 {
+    color: @grey-3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.f_h6 {
+    color: @grey-6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.f_input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.f_p {
+    color: @grey-1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.f_p-small {
+    .f_p();
+
+    @media @tablet {
+        font-size: 10px;
+        line-height: 16px;
+    }
 }

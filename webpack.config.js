@@ -105,6 +105,10 @@ module.exports = (env, argv) => {
             new CopyPlugin({
                 patterns: [
                     {
+                        from: 'src/fonts',
+                        to: 'fonts'
+                    },
+                    {
                         from: 'src/icons',
                         to: 'icons'
                     },
