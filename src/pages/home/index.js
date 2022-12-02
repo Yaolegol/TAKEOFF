@@ -1,4 +1,4 @@
-import 'icons';
+import 'icons/sprite';
 import 'modules/common/layout/body';
 import 'modules/common/layout/footer';
 import 'modules/common/layout/header';
