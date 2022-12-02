@@ -1,13 +1,28 @@
 <div class="modules-pages-home-description-item {{#if right-images}}modules-pages-home-description-item_right-images{{/if}}">
     <div class="modules-pages-home-description-item__images-block">
         <div class="modules-pages-home-description-item__main-image-container">
-            <img class="modules-pages-home-description-item__main-image" src="{{main-image}}" alt="Mobile app screen shot">
-            <img class="modules-pages-home-description-item__second-image" src="{{second-image}}" alt="">
+            <img
+                    alt=""
+                    class="modules-pages-home-description-item__main-image"
+                    loading="lazy"
+                    src="{{main-image}}"
+            >
+            <img
+                    alt=""
+                    class="modules-pages-home-description-item__second-image"
+                    loading="lazy"
+                    src="{{second-image}}"
+            >
         </div>
     </div>
     <div class="modules-pages-home-description-item__content-block">
         <div class="modules-pages-home-description-item__content-container">
-            <img class="modules-pages-home-description-item__content-icon" src="{{icon}}" alt="">
+            <img
+                    alt=""
+                    class="modules-pages-home-description-item__content-icon"
+                    loading="lazy"
+                    src="{{icon}}"
+            >
             <h2 class="modules-pages-home-description-item__content-header">{{{header-text}}}</h2>
             <p class="modules-pages-home-description-item__content-text">{{first-text}}</p>
             <p class="modules-pages-home-description-item__content-text">{{second-text}}</p>
