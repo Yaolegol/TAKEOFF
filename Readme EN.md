@@ -1,38 +1,29 @@
 # Start project
+> docker-compose up -d
 
-## 1. Install dependencies
-> npm i
+After executing this command, the application will be available at:
+>http://localhost:8000/
 
-## 2. Build project
-> npm run build
+<strong>Port</strong> can be set in the ```.env``` file at the root of the project: ```DOCKER_COMPOSE__HOST_PORT```
 
-## 3. Start project
-> cd ./server
+### Available routes
+- home page
+>http://localhost:8000/
 
-> npm i
+# About
 
-> npm start
-
-Server starts on **8000** port
-
-**You can go to / or /second to test code splitting**
-
-## 4. Enjoy!
-
-# About project
-
-### Description
+#### Description
 Landing page
 
-### Client
-- created with handlebars, less, swiper
-- the ability to integrate with any backend because the project uses handlebars
-- mobile menu with vanilla js based on classes and events
+#### Project structure
+
+#### Client
+- created with handlebars, less, js
 - responsive layout
-- separated with webpack js and css code for each page for optimization reasons (**try it by go to page /second**)
+- code splitting
 - custom webpack build
 
-### Server
-- created with node, express
+#### Web server
+- nginx
 
 
