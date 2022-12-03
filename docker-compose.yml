@@ -1,11 +1,8 @@
 version: '3.8'
 
-# app:
-# command: sh -c "npm ci && npm run build && sleep infinity"
-
 services:
     app:
-        command: sh -c "npm run build && sleep infinity"
+        command: sh -c "npm ci && npm run build && sleep infinity"
         container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-app
         image: node:16
         networks:
