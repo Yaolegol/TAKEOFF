@@ -21,6 +21,8 @@ services:
         volumes:
             - ./:/var/www
             - ${DOCKER_COMPOSE__SERVICES_PATH}/nginx:/etc/nginx/conf.d
+            - ./data/certbot/conf:/etc/letsencrypt
+            - ./data/certbot/www:/var/www/certbot
         working_dir: /var/www
 networks:
     takeoff-network:
