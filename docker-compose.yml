@@ -17,13 +17,34 @@ services:
             - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
         ports:
             - ${DOCKER_COMPOSE__HOST_PORT}:80
+            - 443:443
         restart: always
         volumes:
             - ./:/var/www
             - ${DOCKER_COMPOSE__SERVICES_PATH}/nginx:/etc/nginx/conf.d
-            - ./data/certbot/conf:/etc/letsencrypt
-            - ./data/certbot/www:/var/www/certbot
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
         working_dir: /var/www
+    certbot:
+        image: certbot/certbot
+        container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-certbot
+        volumes:
+            - certbot-etc:/etc/letsencrypt
+            - certbot-var:/var/lib/letsencrypt
+            - ./:/var/www
+        depends_on:
+            - nginx
+        command: certonly --webroot --webroot-path=/var/www/public --email m160160@yandex.ru --agree-tos --no-eff-email --staging -d oleg-oleinik.com -d www.oleg-oleinik.com
+volumes:
+    certbot-etc:
+    certbot-var:
+    web-root:
+        driver: local
+        driver_opts:
+            device: /home/oleg/PhpstormProjects/TAKEOFF/public/
+            o: bind
+            type: none
+
 networks:
     takeoff-network:
         driver: bridge
