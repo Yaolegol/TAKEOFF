@@ -29,6 +29,7 @@ services:
         working_dir: /var/www/test
     certbot:
         image: certbot/certbot
+        command: sh -c "certbot certonly"
         volumes:
             - ./certbot/letsencrypt:/etc/letsencrypt
             - ./certbot/www/certbot:/var/www/certbot
