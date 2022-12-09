@@ -19,12 +19,19 @@ services:
         networks:
             - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
         ports:
-            - 127.0.0.2:80:80
+            - 80:80
             - 443:443
         volumes:
             - ./test:/var/www/test
-            - ./logs/nginx:/var/log/nginx/
+            - ./logs/nginx:/var/log/nginx
+            - ./certbot/letsencrypt:/etc/letsencrypt
+            - ./certbot/www/certbot:/var/www/certbot
         working_dir: /var/www/test
+    certbot:
+        image: certbot/certbot
+        volumes:
+            - ./certbot/letsencrypt:/etc/letsencrypt
+            - ./certbot/www/certbot:/var/www/certbot
 networks:
     takeoff-network:
         driver: bridge
