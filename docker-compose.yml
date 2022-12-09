@@ -29,7 +29,7 @@ services:
         working_dir: /var/www/test
     certbot:
         image: certbot/certbot
-        command: certonly --webroot -w /var/www/test -d oleg-oleinik.com -d www.oleg-oleinik.com --non-interactive --agree-tos -m m160160@yandex.ru
+        command: certonly --webroot -w /var/www/certbot -d oleg-oleinik.com -d www.oleg-oleinik.com --non-interactive --agree-tos -m m160160@yandex.ru
         volumes:
             - ./test:/var/www/test
             - ./certbot/letsencrypt:/etc/letsencrypt
