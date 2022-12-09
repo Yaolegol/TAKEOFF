@@ -11,18 +11,20 @@ services:
             - .:/app
         working_dir: /app
     nginx:
+        build:
+            context: .
+            dockerfile: ${DOCKER_COMPOSE__SERVICES_PATH}/nginx/Dockerfile
+        command: sh -c "service nginx restart && sleep infinity"
         container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-nginx
-        image: nginx:1.23.1
         networks:
             - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
         ports:
-            - ${DOCKER_COMPOSE__HOST_PORT}:80
+            - 127.0.0.2:80:80
             - 443:443
-        restart: always
         volumes:
-            - ./:/var/www
-            - ${DOCKER_COMPOSE__SERVICES_PATH}/nginx:/etc/nginx/conf.d
-        working_dir: /var/www
+            - ./test:/var/www/test
+            - ./logs/nginx:/var/log/nginx/
+        working_dir: /var/www/test
 networks:
     takeoff-network:
         driver: bridge
