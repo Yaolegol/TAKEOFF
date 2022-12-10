@@ -12,7 +12,7 @@ services:
         working_dir: /app
     nginx:
         args:
-            - NGINX_CONFIG_PATH=./configs/dev/nginx
+            - NGINX_CONFIG_PATH=./configs/prod/nginx
         build:
             context: .
             dockerfile: ${DOCKER_COMPOSE__SERVICES_PATH}/nginx/Dockerfile
@@ -22,9 +22,20 @@ services:
             - ${DOCKER_COMPOSE__NETWORK_BASE_NAME}
         ports:
             - 80:80
+            - 443:443
         volumes:
             - ./public:${DOCKER_COMPOSE__VOLUME_NGINX_PROJECT_CONTAINER}/public
+            - ./logs/nginx:/var/log/nginx
+            - ${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_LOCAL}:${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_CONTAINER}
+            - ${DOCKER_COMPOSE__VOLUME_CERTBOT_LOCAL}:${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER}
         working_dir: /var/www
+    certbot:
+        image: certbot/certbot
+        command: certonly --webroot -w ${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER} -d oleg-oleinik.com -d www.oleg-oleinik.com --non-interactive --agree-tos -m m160160@yandex.ru
+        volumes:
+            - ./public:${DOCKER_COMPOSE__VOLUME_NGINX_PROJECT_CONTAINER}/public
+            - ${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_LOCAL}:${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_CONTAINER}
+            - ${DOCKER_COMPOSE__VOLUME_CERTBOT_LOCAL}:${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER}
 networks:
     takeoff-network:
         driver: bridge
