@@ -1,5 +1,4 @@
 ﻿.idea
 node_modules
-psd
 public
-trash
+logs/nginx/**/*
