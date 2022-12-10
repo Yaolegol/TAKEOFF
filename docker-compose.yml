@@ -11,9 +11,9 @@ services:
             - .:/app
         working_dir: /app
     nginx:
-        args:
-            - NGINX_CONFIG_PATH=./configs/dev/nginx
         build:
+            args:
+                - NGINX_CONFIG_PATH=./configs/dev/nginx
             context: .
             dockerfile: ${DOCKER_COMPOSE__SERVICES_PATH}/nginx/Dockerfile
         command: sh -c "service nginx restart && sleep infinity"
