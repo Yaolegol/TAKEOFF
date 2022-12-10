@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     app:
-        command: sh -c "npm ci && npm run build && sleep infinity"
+        command: sh -c "npm ci && npm run build"
         container_name: ${DOCKER_COMPOSE__CONTAINERS_BASE_NAME}-app
         image: node:16
         networks:
@@ -22,18 +22,18 @@ services:
             - 80:80
             - 443:443
         volumes:
-            - ./test:/var/www/test
+            - ./public:${DOCKER_COMPOSE__VOLUME_NGINX_PROJECT_CONTAINER}/public
             - ./logs/nginx:/var/log/nginx
-            - ./certbot/letsencrypt:/etc/letsencrypt
-            - ./certbot/www/certbot:/var/www/certbot
-        working_dir: /var/www/test
+            - ${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_LOCAL}:${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_CONTAINER}
+            - ${DOCKER_COMPOSE__VOLUME_CERTBOT_LOCAL}:${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER}
+        working_dir: /var/www
     certbot:
         image: certbot/certbot
-        command: certonly --webroot -w /var/www/certbot -d oleg-oleinik.com -d www.oleg-oleinik.com --non-interactive --agree-tos -m m160160@yandex.ru
+        command: certonly --webroot -w ${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER} -d oleg-oleinik.com -d www.oleg-oleinik.com --non-interactive --agree-tos -m m160160@yandex.ru
         volumes:
-            - ./test:/var/www/test
-            - ./certbot/letsencrypt:/etc/letsencrypt
-            - ./certbot/www/certbot:/var/www/certbot
+            - ./public:${DOCKER_COMPOSE__VOLUME_NGINX_PROJECT_CONTAINER}/public
+            - ${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_LOCAL}:${DOCKER_COMPOSE__VOLUME_LETSENCRYPT_CONTAINER}
+            - ${DOCKER_COMPOSE__VOLUME_CERTBOT_LOCAL}:${DOCKER_COMPOSE__VOLUME_CERTBOT_CONTAINER}
 networks:
     takeoff-network:
         driver: bridge
