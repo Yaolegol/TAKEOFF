@@ -15,14 +15,19 @@ class SideMenu {
         bindEvent(this.module, 'click', this.handleModuleClick);
     }
 
+    close = () => {
+        this.module.classList.remove('active');
+    }
+
     handleModuleClick = (e) => {
         const {target} = e;
 
-        if(target !== this.module) {
-            return;
-        }
+        const isLink = target.classList.contains('j-components-common-side-menu__link');
+        const isBackdrop = target === this.module;
 
-        this.module.classList.remove('active');
+        if(isBackdrop || isLink) {
+            this.close();
+        }
     }
 
     handleOpen = () => {
