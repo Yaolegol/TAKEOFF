@@ -12,6 +12,9 @@ module.exports = (env, argv) => {
     const isProduction = argv.mode === 'production';
 
     return {
+        devServer: {
+            port: 8000,
+        },
         devtool: isProduction ? 'none' : 'source-map',
         entry: {
             home: "./src/pages/home/index.js",

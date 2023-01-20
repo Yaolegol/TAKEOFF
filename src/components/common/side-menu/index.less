@@ -24,11 +24,12 @@
         background-color: @white;
         height: 100%;
         padding: 50px 20px;
-        transition: width 300ms ease-out;
-        width: 0;
+        transform: translateX(-100%);
+        transition: transform 300ms ease-out;
+        width: 80%;
 
         .components-common-side-menu.active & {
-            width: 80%;
+            transform: translateX(0);
         }
     }
 
