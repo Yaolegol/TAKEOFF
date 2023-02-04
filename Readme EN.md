@@ -1,29 +1,14 @@
 # Start project
-> docker-compose up -d
 
-After executing this command, the application will be available at:
->http://localhost:8000/
+## 1. Install dependencies
+> npm ci
 
-<strong>Port</strong> can be set in the ```.env``` file at the root of the project: ```DOCKER_COMPOSE__HOST_PORT```
+## 2. Start dev server
+> npm start
 
-### Available routes
-- home page
->http://localhost:8000/
+Dev server use **8000** port
 
 # About
 
 #### Description
 Landing page
-
-#### Project structure
-
-#### Client
-- created with handlebars, less, js
-- responsive layout
-- code splitting
-- custom webpack build
-
-#### Web server
-- nginx
-
-

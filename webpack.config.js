@@ -13,6 +13,8 @@ module.exports = (env, argv) => {
 
     return {
         devServer: {
+            historyApiFallback: true,
+            hot: true,
             port: 8000,
         },
         devtool: isProduction ? 'none' : 'source-map',
