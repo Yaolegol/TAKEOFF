@@ -102,7 +102,9 @@ module.exports = (env, argv) => {
             },
         },
         output: {
-            filename: "[name].[contenthash].bundle.js",
+            filename: isProduction
+                ? "[name].[contenthash].js"
+                : "[name].[hash].js",
             path: path.resolve(__dirname, "public"),
         },
         plugins: [
